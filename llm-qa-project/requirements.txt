@@ -1,0 +1,18 @@
+# Install on Colab/Kaggle with: pip install -r requirements.txt
+# After the first working install, run `pip freeze > requirements.lock.txt`
+# and commit it so both teammates use identical versions.
+torch
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+trl
+sentence-transformers
+faiss-cpu
+langchain
+rouge_score
+sacrebleu
+pandas
+matplotlib
+gradio
