@@ -1,67 +1,68 @@
-# Fine-Tuning LLMs vs. Prompt Engineering and RAG (SQuAD 2.0)
+# Fine-Tuning Large Language Models: Evaluating Prompt Engineering and Retrieval-Augmented Generation as Baseline Techniques
 
 COMP 4990 group project. Team: Aymen Elhamamy, Ekemini John. Supervisor: Dr. Lu.
 
-Compares four ways of improving an LLM at question answering, all scored on the
-same test set with the same script:
+This project investigates how fine-tuning improves a large language model on question
+answering (SQuAD 2.0). Prompt engineering and retrieval-augmented generation (RAG) serve
+as baseline techniques for comparison. All methods are scored on the same test set with
+the same evaluation script:
 
-1. Baseline (zero-shot)
-2. Prompt engineering (instructions, few-shot, structured output)
-3. Retrieval-Augmented Generation (FAISS + sentence-transformers)
-4. Fine-tuning (QLoRA / PEFT)
+1. Baseline model (zero-shot)
+2. Prompt engineering (instructions, few-shot, structured prompts)
+3. RAG (FAISS vector store + sentence-transformers)
+4. Fine-tuning (parameter-efficient fine-tuning with QLoRA / PEFT), the core of the project
 
 ## Locked project decisions
 
 | Decision | Choice |
 |---|---|
-| Model | `microsoft/Phi-3-mini-4k-instruct` (Mistral-7B-Instruct as a stretch goal) |
-| Test set | 1,000 questions from SQuAD 2.0 validation, seed 42, used by every method |
-| No-answer rule | Model must reply exactly `unanswerable`; common variants also count |
-| Metrics | EM, F1, lenient accuracy, answerable/unanswerable breakdown, BLEU and ROUGE-L (answerable only) |
-| RAG setting | Gold passage is hidden; system must retrieve from all 1,204 validation passages |
-| Few-shot examples | Drawn from the train split only, never from the test set |
+| Model | `microsoft/Phi-3-mini-4k-instruct`, loaded in 4-bit for every method (Mistral-7B as a stretch goal) |
+| Test set | 1,000 questions from SQuAD 2.0 validation (493 answerable, 507 unanswerable), seed 42 |
+| No-answer rule | Model must reply `unanswerable`; common variants also count |
+| Metrics | Accuracy, F1, BLEU, ROUGE (required), plus Exact Match and answerable/unanswerable breakdown |
+| RAG setting | Correct passage hidden; system retrieves from all 1,204 validation passages |
+| Few-shot examples | Drawn from the training split only, never from the test set |
 
 ## Repo layout
 
 ```
-src/evaluate_qa.py   shared scoring script (every method uses this)
-src/data_prep.py     builds test, train, few-shot and RAG corpus files
-data/                generated data (not committed, keep a copy on Drive)
-results/             predictions and scores per method
-notebooks/           Colab/Kaggle notebooks per phase
-docs/                report drafts, figures, slides
+src/data_prep.py       builds test, train, few-shot and RAG corpus files
+src/evaluate_qa.py     shared scoring script (every method uses this)
+src/model_utils.py     loads the model and generates answers
+src/prompts.py         prompt templates for each method
+src/run_inference.py   runs a method on the test set and scores it
+data/                  generated data (not committed; rebuilt in under a minute)
+results/               predictions and scores per method
+notebooks/             Colab notebooks per phase
+docs/                  report drafts, figures, slides
 ```
 
-## Setup on Colab or Kaggle
+## Starting a Colab session (VS Code Colab extension, T4 GPU)
 
-Run in the first notebook cell:
+Run this cell at the start of every session. It asks for a GitHub token in a popup:
 
 ```python
-!git clone https://github.com/<your-username>/<repo-name>.git
-%cd <repo-name>
+import os
+from getpass import getpass
+token = getpass("Paste GitHub token: ")
+
+if not os.path.exists("/content/llm-qa-project"):
+    !git clone https://{token}@github.com/Kairos-025/llm-qa-project.git
+%cd /content/llm-qa-project
+!git remote set-url origin https://{token}@github.com/Kairos-025/llm-qa-project.git
+!git pull
 !pip install -q -r requirements.txt
 
-import torch
-print("GPU:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "NONE, switch runtime to GPU")
-
-from google.colab import drive      # Colab only
-drive.mount('/content/drive')
+if not os.path.exists("data/test.jsonl"):
+    !python -m src.data_prep --test_size 1000
 ```
 
-Then build the data once:
-
-```python
-!python -m src.data_prep --test_size 1000
-!cp -r data /content/drive/MyDrive/llm-qa-data   # back it up
-```
-
-## Scoring a method
-
-Each method writes `results/<method>_preds.jsonl` with lines like
-`{"id": "...", "prediction": "raw model output"}`, then:
+## Running a method
 
 ```bash
-python -m src.evaluate_qa --preds results/baseline_preds.jsonl --out results/baseline_scores.json
+python -m src.run_inference --method baseline --limit 20   # quick test
+python -m src.run_inference --method baseline              # full run
 ```
 
-This saves the scores plus a per-question file for error analysis.
+This saves `results/<method>_preds.jsonl` and `results/<method>_scores.json`, and resumes
+automatically if the session disconnects.
