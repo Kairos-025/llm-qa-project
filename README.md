@@ -1,6 +1,6 @@
 # Fine-Tuning LLMs vs. Prompt Engineering and RAG (SQuAD 2.0)
 
-COMP 3710 group project. Team: Aymen Elhamamy, Ekemini John. Supervisor: Dr. Lu.
+COMP 4990 group project. Team: Aymen Elhamamy, Ekemini John. Supervisor: Dr. Lu.
 
 Compares four ways of improving an LLM at question answering, all scored on the
 same test set with the same script:
