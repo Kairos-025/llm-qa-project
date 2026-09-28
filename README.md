@@ -1,6 +1,8 @@
 # Fine-Tuning Large Language Models: Evaluating Prompt Engineering and Retrieval-Augmented Generation as Baseline Techniques
 
-COMP 4990 group project. Team: Aymen Elhamamy, Ekemini John. Supervisor: Dr. Lu.
+COMP 4990 group project
+Team: Aymen Elhamamy, Ekemini John
+Supervisor: Dr. Lu
 
 This project investigates how fine-tuning improves a large language model on question
 answering (SQuAD 2.0). Prompt engineering and retrieval-augmented generation (RAG) serve
