@@ -1,15 +1,14 @@
-# Install on Colab/Kaggle with: pip install -r requirements.txt
-# After the first working install, run `pip freeze > requirements.lock.txt`
-# and commit it so both teammates use identical versions.
+# Versions confirmed working on Colab T4 (September 2026).
+# torch is left unpinned: Colab and Kaggle ship a GPU build preinstalled.
 torch
-transformers
-datasets
-accelerate
-peft
-bitsandbytes
-trl
-sentence-transformers
-faiss-cpu
+transformers==5.16.1
+datasets==4.8.5
+accelerate==1.14.0
+peft==0.20.0
+bitsandbytes==0.50.2
+trl==1.14.0
+sentence-transformers==5.7.0
+faiss-cpu==1.15.1
 langchain
 rouge_score
 sacrebleu
