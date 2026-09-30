@@ -1,0 +1,1000 @@
+{"id": "5ad5501f5b96ef001a10ac90", "prediction": "Complexity classes that fit the framework described in the context are those with definitions that can be expressed in terms of resource bounds, such as time or space complexity. Examples include P (problems solvable in polynomial time), NP"}
+{"id": "570614ff52bb89140068988b", "prediction": "The Bruins belong to UCLA (University of California, Los Angeles)."}
+{"id": "5ad0461477cf76001a686f7a", "prediction": "CDB stands for Central Business District."}
+{"id": "5ad02ee077cf76001a686d58", "prediction": "The Los Angeles Times defined southern California in 1909 as including the seven counties of Los Angeles, San Bernardino, Orange, Riverside, San Diego, Ventura, and Santa Barbara."}
+{"id": "5706111a52bb89140068984f", "prediction": "A single line connects San Bernardino, Riverside, and Orange counties."}
+{"id": "5ad56d3e5b96ef001a10ae85", "prediction": "The least commonly ascribed attributes of L in relation to P are that L is a subset of P and that there are complexity classes between L and P, such as NL and NC. It is not known if L is strictly contained in"}
+{"id": "5706149552bb891400689881", "prediction": "Los Angeles used to have two Major League Soccer teams."}
+{"id": "5ad54f775b96ef001a10ac8a", "prediction": "The bounds are dependent on the specific details of the computational model because they take into account constant factors and smaller terms, which can vary based on the model used. In the given context, the big O notation hides these constant factors and smaller"}
+{"id": "5706143575f01819005e7952", "prediction": "The Los Angeles Angels of Anaheim are from the sport of Major League Baseball (MLB)."}
+{"id": "5ad04f7977cf76001a686fbb", "prediction": "The NHL teams from Southern California are the Los Angeles Kings and the Anaheim Ducks."}
+{"id": "56de1563cffd8e1900b4b5c3", "prediction": "The naval base was called Dyrrachium."}
+{"id": "5ad04f7977cf76001a686fba", "prediction": "The MLB (Major League Baseball) teams from Southern California mentioned in the context are the Los Angeles Dodgers and the Los Angeles Angels of Anaheim."}
+{"id": "5ad04f7977cf76001a686fb9", "prediction": "The NAB (National Association of Basketball Coaches) teams from Southern California are the Los Angeles Lakers and the Los Angeles Clippers."}
+{"id": "5ad53e615b96ef001a10abdb", "prediction": "A computational problem that offers multiple outputs for every input is known as a function problem. In function problems, the output is more complex than a simple yes or no answer, and the goal is to find a specific solution or value for each input"}
+{"id": "5ad53e615b96ef001a10abdc", "prediction": "A function solution is an example of a computational problem where a single output (of a total function) is expected for every input, but the output is more complex than that of a decision problem. Notable examples include the traveling salesman problem"}
+{"id": "5ad3fb01604f3c001a3ffb35", "prediction": "The Normans came into contact with Wales after the conquest of England."}
+{"id": "5ad3fe91604f3c001a3ffc48", "prediction": "Odo, the Bishop of Bayeux and first Earl of Kent, commissioned the Bayeux Tapestry."}
+{"id": "56e1efa0e3433e140042321c", "prediction": "It is commonly believed that P is not equal to co-NP."}
+{"id": "5ad400b0604f3c001a3ffcdf", "prediction": "The Norman architecture immediately succeeds the Anglo-Saxon architecture in England."}
+{"id": "56de4b074396321400ee2794", "prediction": "The architecture type that came before Norman in England was Anglo-Saxon architecture."}
+{"id": "56e1ded7cd28a01900c67bd4", "prediction": "No one demonstrated that P=NP implies problems not present in P or NP-complete. The context provided states that Ladner showed if P ≠ NP, then there exist problems in NP that are neither in P nor N"}
+{"id": "5705e63175f01819005e7720", "prediction": "The cities of Los Angeles and San Diego are a part of the state of California."}
+{"id": "5705e63175f01819005e7724", "prediction": "San Diego is to the south of Los Angeles."}
+{"id": "56e1b169cd28a01900c67a72", "prediction": "An example of a machine model that deviates from a generally accepted multi-tape Turing machine is the Random Access Machine (RAM)."}
+{"id": "5705fd8475f01819005e7841", "prediction": "The region spans starting at islands found in the Pacific Ocean."}
+{"id": "56e1c4fce3433e140042314f", "prediction": "AC and NC are complexity classes typically associated with Boolean circuits."}
+{"id": "5ad5719f5b96ef001a10aef0", "prediction": "There seems to be a mistake in the context provided. Boris Trakhtenbrot is mentioned as a pioneer in the field from the USSR, but his work on a specific complexity measure is dated to 195"}
+{"id": "5ad570b25b96ef001a10aede", "prediction": "There seems to be a mistake in the context provided. The seminal paper \"On the Computational Complexity of Algorithms\" by Juris Hartmanis and Richard Stearns was actually written in 1965, not"}
+{"id": "5ad3ff1b604f3c001a3ffc74", "prediction": "There seems to be a mistake in the context provided. The French Revolution occurred in the 18th century, not the 19th or 1899. The French Revolution took place from 1789 to"}
+{"id": "5ad0410977cf76001a686eff", "prediction": "The globally recognized anchor cities in Southern California are known for their cultural, political, and economic significance. These cities, such as Los Angeles, San Diego, and San Francisco, serve as the hubs of economic activity for their respective regions"}
+{"id": "5ad5316b5b96ef001a10ab75", "prediction": "Computational problems that are undecidable cannot be solved by mechanical application of mathematical steps. These problems are those for which no algorithm can be constructed that will always lead to a correct yes/no answer."}
+{"id": "5705fec152bb89140068977d", "prediction": "The 1994 Northridge earthquake caused the most property damage of any earthquake in U.S. history, estimated at over $20 billion."}
+{"id": "570607f575f01819005e78b8", "prediction": "Riverside is the other developed southern Californian city that is not in close proximity to the coast."}
+{"id": "5ad0440877cf76001a686f41", "prediction": "Based on the context provided, Los Angeles has a population of 3.7 million people."}
+{"id": "5ad3d689604f3c001a3ff311", "prediction": "In closed space engines, such as those found in model or toy steam engines, an electric heating element is often used as the heat source."}
+{"id": "570d30fdfed7b91900d45ce3", "prediction": "The weather type of Mallee and upper Wimmera is hot and dry, with hot winds blowing from nearby semi-deserts. These regions experience high temperatures during summer, exceeding 32 °C ("}
+{"id": "5ad4ca605b96ef001a10a0cd", "prediction": "The Royal University of Prussia was established in 1786."}
+{"id": "5ad4ca605b96ef001a10a0ce", "prediction": "Warsaw was the capital of the Polish–Lithuanian Commonwealth until 1796. It was then annexed by the Kingdom of Prussia and became the capital of the province of South Prussia. Wars"}
+{"id": "5ad4ca605b96ef001a10a0cc", "prediction": "Prussia became the center of the Congress Poland after the Congress of Vienna in 1815."}
+{"id": "57332a734776f41900660727", "prediction": "The Kingdom of Prussia annexed Warsaw in 1796."}
+{"id": "57263dcd89a1e219009ac5a3", "prediction": "The CYCLADES packet switching network was the first network to make the hosts responsible for reliable delivery of data, rather than the network itself, using unreliable datagrams and associated end-to-end protocol mechanisms"}
+{"id": "57263dcd89a1e219009ac5a2", "prediction": "The CYCLADES packet switching network was designed by the French."}
+{"id": "572f7b33947a6a140053c9a3", "prediction": "The Rhine redistributes into the IJssel and the Nederrijn."}
+{"id": "5a581bda770dc0001aef0000", "prediction": "James Hutton was born on December 3, 1726."}
+{"id": "57106644b654c5140001f8e9", "prediction": "Jean De Rely's illustrated French-language scriptures were first published in Paris."}
+{"id": "572665ff708984140094c4c5", "prediction": "Finding the key bed helps to determine if a fault is a normal fault or a thrust fault."}
+{"id": "5a665338846392001a1e1aca", "prediction": "Disobedience can be applied to international organizations and governments by challenging their decisions or actions that are perceived as unjust, oppressive, or harmful to human rights and dignity. This can be done through"}
+{"id": "5a7b05cd21c2de001afe9cdc", "prediction": "Fresno residents moved to the new community of Fresno Station, later called Fresno, during the flooding."}
+{"id": "5a2c08aebfd06b001a5ae98a", "prediction": "The context provided does not mention the name of the UK's smallest digital subscription television company."}
+{"id": "5ad4e56d5b96ef001a10a59a", "prediction": "The context provided does not mention any substance released by tumor cells that strengthens the immune response. Instead, it states that tumor cells release products that inhibit the immune response, such as the cytokine T"}
+{"id": "5ad4acbd5b96ef001a109d7c", "prediction": "The chemical protection to pathogens is provided by antimicrobial peptides such as the β-defensins, enzymes like lysozyme and phospholipase A2, and substances"}
+{"id": "5737a4511c456719005744df", "prediction": "The force equivalent of torque compared to angular momentum is force. In the context of rotational motion, torque is the rotational equivalent of force, while angular momentum is the rotational equivalent of linear momentum."}
+{"id": "5ad28846d7d075001a429930", "prediction": "The rotational equivalent of velocity is angular velocity."}
+{"id": "5a668b1df038b7001ab0bf88", "prediction": "AppleTalk was developed in 1985 for Apple Inc."}
+{"id": "5ad4017a604f3c001a3ffd20", "prediction": "The name of Tancred's nephew was Bohemond."}
+{"id": "56de3ebc4396321400ee26e7", "prediction": "Tancred was Bohemond's nephew."}
+{"id": "5a638bf768151a001a922368", "prediction": "A quarter of Victorian farmland is used to grow consumable crops."}
+{"id": "5737a25ac3c5551400e51f51", "prediction": "Strain in structures is caused by forces that result in deformations, including tensile stresses (which stretch or elongate the material) and compressions (which shorten or compress the material). The stress tensor, which includes"}
+{"id": "5ad28098d7d075001a4297b8", "prediction": "The context provided does not mention any other economic sectors besides viniculture (wine production) and tourism as the dominant sectors in the Middle Rhine area. Therefore, it can be inferred that there are no other economic"}
+{"id": "57300c67947a6a140053cff2", "prediction": "In 1932, the generally accepted length of the Rhine was changed to 1,320 kilometres (820 miles)."}
+{"id": "57300c67947a6a140053cff0", "prediction": "The accepted length of the Rhine prior to 1932 was 1,230 kilometres (764 miles)."}
+{"id": "57300c68947a6a140053cff4", "prediction": "The Rhine measurement was corrected back to the original in 2010."}
+{"id": "5ad280d4d7d075001a4297d6", "prediction": "Lorenzo's Law does not exist in the context of physics or electromagnetism. The law you are referring to is likely Lorentz's Law, which describes the force on a charge moving in a magnetic field."}
+{"id": "5ad278add7d075001a429575", "prediction": "In the 19th Century."}
+{"id": "5a38bd58a4b263001a8c18ed", "prediction": "The context provided does not specify the percentage of American gas stations that were out of fuel in 1973. It only mentions that in the last week of February 1974, 20% of American gasoline"}
+{"id": "57264d9edd62a815002e8101", "prediction": "According to the AAA, the percentage of gas stations that ran out of gasoline is 20%."}
+{"id": "572feddda23a5019007fcb5f", "prediction": "The Grand Canal d'Alsace carries a significant amount of the Rhine flow through France."}
+{"id": "57378c9b1c456719005744a7", "prediction": "The law named that defines a charge moving through a magnetic field is Lorentz's Law."}
+{"id": "572940973f37b319004781a8", "prediction": "The report that had the correct date is the ICSI (International Council for Science) report."}
+{"id": "5ad26797d7d075001a429236", "prediction": "Laboratory measurements of forces are fully inconsistent with the conceptual definition of force offered by Newtonian mechanics."}
+{"id": "5a7b0ec521c2de001afe9d20", "prediction": "Kings Canyon Avenue is to the west of the golf course."}
+{"id": "5ad26797d7d075001a429239", "prediction": "A metaphysical concept refers to an idea or theory that deals with the fundamental nature of reality, existence, and the relationship between mind and matter, beyond what can be observed or measured. An example of a metaphysical"}
+{"id": "5726f0e35951b619008f82fa", "prediction": "Based on the context provided, there has not been any known case of U.S. citizens being charged with importing drugs from Canada for personal medicinal use."}
+{"id": "573003dd947a6a140053cf46", "prediction": "The sea level is rising at a rate of about 1–3 cm (0 equivalents to 0.39–1.18 inches) per century in the southern North Sea."}
+{"id": "57280f974b864d1900164370", "prediction": "If the head of government refuses to enforce a decision of the highest court, the terminology that could be used is \"executive noncompliance\" or \"governmental noncompliance.\" This refers to the head of"}
+{"id": "5a665002846392001a1e1ab5", "prediction": "In a constitutional impasse, it is not the citizens themselves that conflict, but rather two or more public agencies or branches of government that are in disagreement or conflict. The number of citizens involved in such a situation can vary"}
+{"id": "5ad26a5fd7d075001a42931b", "prediction": "In response to static friction, the applied force increases or decreases until it reaches an upper limit. This upper limit is determined by the characteristics of the contact between the surface and the object."}
+{"id": "5a669a2cf038b7001ab0c046", "prediction": "Academic and research institutions needed the National Science Foundation's (NSF) help connecting to ARPANET due to funding or authorization limitations. CSNET was established to extend networking benefits to these institutions that were unable to directly connect"}
+{"id": "5ad03e5077cf76001a686ed4", "prediction": "Presidents in the governing party introduce government bills, which are draft laws introduced by ministers in the governing party."}
+{"id": "5733a5f54776f41900660f48", "prediction": "Casimir Pulaski was born in 1745 in Warsaw."}
+{"id": "5ad4c94f5b96ef001a10a09c", "prediction": "Based on the context provided, the least important mediators in the activation of the adaptive immune system would be the innate leukocytes (white blood cells) that are not directly involved in the activation process. These would include"}
+{"id": "572908c13f37b31900477fc0", "prediction": "Three kinds of phagocytes are macrophages, neutrophils, and dendritic cells."}
+{"id": "5ad4c94f5b96ef001a10a09a", "prediction": "A cell that is not an innate leukocyte would be a cell from the adaptive immune system, such as a T cell or B cell."}
+{"id": "5729d44b1d04691400779613", "prediction": "According to the context provided, inherited wealth may explain why some Americans who've become rich may have had a head start. This is because over 60 percent of the Forbes richest 400 Americans grew up in substantial"}
+{"id": "5ad2434fd7d075001a4289d8", "prediction": "A potential disadvantage for wealth for some Americans is that they may have had a \"substantial head start\" due to inherited wealth. This can create an uneven playing field, as those who inherit wealth may have access to better"}
+{"id": "5725c071271a42140099d12b", "prediction": "The accumulating water broke through the Purus Arch and joined the easterly flow toward the Atlantic."}
+{"id": "5725d42a89a1e219009abf5c", "prediction": "Bill Aiken's adopted mother was Mexican movie actress Lupe Mayorga."}
+{"id": "57264fe65951b619008f6fa1", "prediction": "The current status of the Haensch study is that its results have been confirmed and amended. The genetic evidence derived from Black Death victims in the East Smithfield burial site in England supports the conclusion that the Black Death in medieval"}
+{"id": "5acfef9577cf76001a6865a3", "prediction": "HT did not succeed in pulling off a bloodless coup in 1974; it was banned in Egypt after attempting such a coup."}
+{"id": "5a2ecbe9a83784001a7d2498", "prediction": "The Black Death victims in East Smithfield were discovered in 2011."}
+{"id": "57264fe65951b619008f6fa2", "prediction": "The burial site used for testing was located in East Smithfield, England."}
+{"id": "5a6391c268151a001a92238d", "prediction": "Besides cultural events, Victoria also has television programs like \"The Project,\" \"The Chaser'ISBN 978-0-14-026779-8\" (The Chaser's War on Everything"}
+{"id": "570d3468b3d812140066d543", "prediction": "Victoria is soon losing its car manufacturing plants."}
+{"id": "5727d1c93acd2414000ded40", "prediction": "Harvard ended its early admissions program in 2007."}
+{"id": "5a6381d868151a001a922322", "prediction": "The Secretary does not lead in the Legislative Assembly. The Premier, who is the leader of the political party or coalition with the most seats in the Legislative Assembly, leads the government. The Secretary, in this context, likely refers"}
+{"id": "5ad0383677cf76001a686e39", "prediction": "Colonies were a sign of imperialism amongst Asian countries."}
+{"id": "57114f0050c2381900b54a68", "prediction": "Steam engines drove machines in various industrial locations, including factories, pumping stations, and transport appliances such as railway locomotives, ships, steamboats, and road vehicles."}
+{"id": "5a8930573b2508001a72a503", "prediction": "Mersenne tests are of the form 2p - 1, where p is an arbitrary prime."}
+{"id": "5711119cb654c5140001fae7", "prediction": "Emigration to these colonies was attractive for Huguenot émigrés primarily because they were allowed to worship freely and practice their Protestant faith without persecution. Additionally, these colonies offered new opportunities for economic and"}
+{"id": "5711119cb654c5140001fae4", "prediction": "The nations that received Huguenot refugees generally had the religious belief of Protestantism in common."}
+{"id": "57302700a23a5019007fce8a", "prediction": "Hassan al-Turabi was the leader of the Islamist regime in Sudan."}
+{"id": "5a8917433b2508001a72a4b5", "prediction": "Besides 1, 3, and 7, all distinct divisors greater than 5 must end with the digit 9."}
+{"id": "5ad4f4d95b96ef001a10a794", "prediction": "Elections for the mayor are held every four years."}
+{"id": "5ad4f4d95b96ef001a10a793", "prediction": "There are 60 members on the Miasta City Council."}
+{"id": "5a1c8d0bb4fb5d00187146bf", "prediction": "Jacksonville's coldest month on record is January, with mean monthly temperatures around 53°F (11.7°C)."}
+{"id": "5ad5648b5b96ef001a10ad95", "prediction": "A polynomial-space reduction is a type of reduction in computational complexity theory where the reduction process takes polynomial space, rather than polynomial time. This means that the amount of memory required to perform the reduction is bounded by a polynomial function of the input"}
+{"id": "5733a2a9d058e614000b5f2b", "prediction": "The Zachęta National Gallery of Art organizes exhibitions of art from both Polish and international artists."}
+{"id": "5ad5041c5b96ef001a10a9ad", "prediction": "The Centre currently realizes about 500 projects a year. To find the number of projects per month, we divide the annual projects by the number of months in a year:\n\n500 projects / 12 months"}
+{"id": "5a38bf63a4b263001a8c18f9", "prediction": "The Department of Energy did not end anything in 1974. The Emergency Highway Energy Conservation Act was passed in 1974, which imposed a national maximum speed limit of 55 mph (about"}
+{"id": "5a234eef82b03a001a4aa76b", "prediction": "Manufacturing usually takes place on location for an unknown client."}
+{"id": "57273a465951b619008f86ff", "prediction": "The process of constructing a building or infrastructure, known as construction, involves several steps. Firstly, it begins with planning, which includes determining the purpose, scope, and requirements of the project. Next, the design phase takes"}
+{"id": "5a25a709ef59cd001a623c12", "prediction": "For manufacturing to happen, you typically need the following three things:\n\n1. A product design or blueprint: This outlines the specifications, dimensions, and features of the item to be manufactured.\n2. Raw"}
+{"id": "5ad3af11604f3c001a3fec64", "prediction": "Maternal Old Norse traditions merged with the Gallo-Romance language and Catholicism (Christianity) of the local people to synthesize a unique \"Norman\" culture in the north of France."}
+{"id": "573011de04bcaa1900d770fc", "prediction": "The splinter movements inspired by the final writings of Qutb, particularly the manifesto Milestones (Ma'alim fi-l-Tariq), pursued a more radical direction."}
+{"id": "56de0ffd4396321400ee258d", "prediction": "Hervé served as a Byzantine general in the 1050s."}
+{"id": "5a0c958bf5590b0018dab480", "prediction": "Indigenous territories are being preserved through community-based conservation efforts."}
+{"id": "5acfec2077cf76001a6864f6", "prediction": "The Brotherhood supported violence as a means of achieving its goals during the 1960s, particularly influenced by Qutb's radical ideas. However, by the 1970s, they had ren"}
+{"id": "5a0c958bf5590b0018dab47f", "prediction": "A relationship between humans and non-human primates in the subsistence and symbolism of indigenous lowland South American peoples has gained increased attention."}
+{"id": "572759665951b619008f8885", "prediction": "Wisconsin v. Yoder was decided at the Supreme Court in 1972."}
+{"id": "5a67e29d8476ee001a58a759", "prediction": "In the case of Runyon v. McCrary in 1976, the plaintiff was Runyon, and the defendant was McCrary."}
+{"id": "5727ff083acd2414000df1ab", "prediction": "Programs that help to redistribute wealth include social welfare programs, progressive taxation, public education, healthcare initiatives, and affordable housing schemes. These programs aim to reduce economic inequality by providing support and resources to"}
+{"id": "57339c16d058e614000b5ec9", "prediction": "The Wojciech Bogusławski Theatre (1922–26) was the best example of \"Polish monumental theatre\"."}
+{"id": "5a1c8ea7b4fb5d00187146d1", "prediction": "There were 5,751 Filipinos in Jacksonville in the year 2000, according to the 2000 United States Census."}
+{"id": "5729d51d3f37b3190047858f", "prediction": "Neoclassical economics viewed the inequality in the distribution of income as arising from differences in value added by labor, capital, and land. Within labor income distribution, it is due to differences in value added by different classifications of"}
+{"id": "572826634b864d19001645c1", "prediction": "The Filipino American community in Jacksonville is known for having heavy ties to the United States Navy."}
+{"id": "571a4b0f10f8ca1400304fd7", "prediction": "Nitroaereus is consumed in both combustion and respiration."}
+{"id": "572871bc4b864d1900164a04", "prediction": "The anthropologists who are also university alumni members mentioned in the context are David Graeber and Donald Johanson."}
+{"id": "573330444776f41900660759", "prediction": "John Paul II's visits in 1979 and 1983 encouraged the budding solidarity movement and the growing anti-communist fervor in Poland."}
+{"id": "571a4b0f10f8ca1400304fd8", "prediction": "John Mayow died in the year 1679."}
+{"id": "5ad3fc1f604f3c001a3ffb7c", "prediction": "Another term for the port face in the context of an oscillating cylinder steam engine is the \"fixed port face\" or \"fixed port.\""}
+{"id": "5a7b11bb21c2de001afe9d48", "prediction": "The Bungalows in the Tower District were restored by residents and local organizations in recent decades, as part of the preservation efforts to maintain the area's architectural heritage."}
+{"id": "5a2c3a5cbfd06b001a5aea7b", "prediction": "As per the context, VideoGuard pay-TV scrambling system decoders are not available as stand-alone DVB CAMs (conditional-access modules)."}
+{"id": "5a7b11bb21c2de001afe9d47", "prediction": "California Bungalows are located in the Tower District, which contrasts with the newer areas of tract homes urban sprawl in the north and east areas of Fresno."}
+{"id": "5ad3bd8f604f3c001a3fef2f", "prediction": "In the Rankine cycle, when nuclear power is used as a heat source, it turns water into steam. The heat generated from nuclear reactions is transferred to the water, causing it to boil and transform into high-pressure steam"}
+{"id": "5ad3bd8f604f3c001a3fef2e", "prediction": "The ideal thermodynamic cycle that analyzes the process byños solar engines work is the Rankine cycle."}
+{"id": "5a8933ed3b2508001a72a51a", "prediction": "The formula that frequently generates the number 2 and all other primes precisely twice is based on Wilson's theorem."}
+{"id": "5733cff84776f419006612b5", "prediction": "The war started with a dispute over control of the confluence of the Allegheny and Monongahela rivers, called the Forks of the Ohio, and the site of the French Fort Duquesne and present-"}
+{"id": "57281940ff5b5019007d9d47", "prediction": "The downfall of Jacksonville filmmaking was primarily brought about by the emergence of Hollywood as a major film production center."}
+{"id": "5a6398fd7f3c80001a150af1", "prediction": "The small freight operators and numerous tourist railways use 760 mm (2 ft 6 in) narrow gauge lines."}
+{"id": "570d47b8b3d812140066d630", "prediction": "The narrow gauge rail lines in Victoria were built in mountainous areas."}
+{"id": "5725cb33271a42140099d1df", "prediction": "Ctenophores use colloblasts to capture prey."}
+{"id": "57300200b2c2fd1400568729", "prediction": "Maududi believed that Muslim society could not be Islamic in the absence of Sharia."}
+{"id": "572649d8f1498d1400e8db36", "prediction": "The UK is not badly hit by the embargo, as it faced an oil crisis of its own due to strikes by coal miners and railroad workers."}
+{"id": "5a38baa2a4b263001a8c18dd", "prediction": "Heath asked Norway to ration gasoline and heating oil over the winter."}
+{"id": "5ad27e30d7d075001a429703", "prediction": "Newton realized that gravitational deceleration was proportional to the mass of the attracting body."}
+{"id": "5a81f84e31013a001a335007", "prediction": "The ship of John of London was called the John."}
+{"id": "572f6a0ba23a5019007fc5ec", "prediction": "The gorge between Bingen and Bonn is the Rhine Gorge."}
+{"id": "570d29c2b3d812140066d4be", "prediction": "To find the number of Catholic Victorians, we need to calculate 26.7% of the Victorian population.\n\nAssuming the Victorian population is approximately 6.3 million (as of the 20"}
+{"id": "5a63888168151a001a922343", "prediction": "The context provided does not give specific information on how many Victorians have a Buddha statue. It only mentions that Buddhism is the state's largest non-Christian religion with 168,637 members"}
+{"id": "57115ac550c2381900b54a77", "prediction": "Steam turbines became popular for power generation after piston steam engines."}
+{"id": "57271f125951b619008f8638", "prediction": "The character in the play that portrays civil disobedience is Antigone."}
+{"id": "5a664314c2b11c001a425edb", "prediction": "Sophocles defies Creon, the current King of Thebes, in his play Antigone."}
+{"id": "57281bb84b864d190016449c", "prediction": "The proposed solution to Jacksonville's tax issues was to begin annexing outlying communities in order to create the needed tax base to improve services throughout the county."}
+{"id": "57281bb84b864d190016449d", "prediction": "Voters outside the city limits of Jacksonville voted against the city's annexation plans in six referendums between 1960 and 1965."}
+{"id": "57108198b654c5140001f93b", "prediction": "Australia"}
+{"id": "5726241189a1e219009ac2df", "prediction": "On an international level, the automobile industry's competitive positions are affected."}
+{"id": "5a25ab1bef59cd001a623c32", "prediction": "The three sectors of public works are infrastructure, industrial, and buildings."}
+{"id": "57274e975951b619008f87f9", "prediction": "The project structures that assist the owner in integration are design-build, partnering, and construction management. These structures allow the owner to integrate the services of architects, interior designers, engineers, and constructors throughout the design and"}
+{"id": "5ad0447f77cf76001a686f50", "prediction": "The SNP gave 16 seats to Labour."}
+{"id": "5ad0447f77cf76001a686f52", "prediction": "Iain Gray gave up East Lothian by 151 votes."}
+{"id": "5725ff8238643c19005acf4b", "prediction": "The two railroads that have railyards in the city of Fresno are the Burlington Northern Santa Fe Railway and Union Pacific Railroad."}
+{"id": "5a7b10e021c2de001afe9d3d", "prediction": "Fresno has nightclubs that cater to various music and lifestyle communities, including the local punk/goth/deathrock and heavy metal community."}
+{"id": "573755afc3c5551400e51eb3", "prediction": "When an external force is applied to a system, the center of mass of the system experiences acceleration."}
+{"id": "5ad266f6d7d075001a4291ff", "prediction": "In an open system of particles, the concept of balance differs from that in a closed system. In an open system, external forces can act on the system, causing the center of mass to accelerate. The action-reaction forces"}
+{"id": "5a60556eeae51e001ab14d17", "prediction": "The minimum amount of data to make up a packet can vary depending on the specific protocol and network implementation. However, in many cases, a packet can be as small as a single byte."}
+{"id": "5a55068b134fea001a0e1810", "prediction": "Latency between nodes refers to the time delay experienced in a network when data is transmitted from one node (or device) to another. It is the time taken for a packet of data to travel from its source to its destination."}
+{"id": "5acff6ea77cf76001a686684", "prediction": "The geographical societies in Europe, such as the Royal Geographical Society of London, would not reject travelers based on their personal beliefs or political stances. Instead, these societies would evaluate travelers based on the quality and"}
+{"id": "5726446a89cfff1900a8404e", "prediction": "AUSTPAC supported applications such as online betting, financial applications (including the use by the Australian Tax Office), and remote terminal access to academic institutions."}
+{"id": "5a667761846392001a1e1c37", "prediction": "Circuit switching charges a fee for transferring a constant bit rate and latency between nodes, regardless of whether any data is transferred or not."}
+{"id": "572885c44b864d1900164a78", "prediction": "Hebei is part of the Central Region of China."}
+{"id": "56de16ca4396321400ee25c8", "prediction": "The ruling class ahead of the Normans in England were the Anglo-Saxons."}
+{"id": "571a50df4faf5e1900b8a960", "prediction": "To make combustion happen, an ignition event such as heat or a spark is needed to trigger the reaction between concentrated oxidants (like oxygen) and fuels."}
+{"id": "5711619950c2381900b54ab0", "prediction": "James Watt added a separate condenser to Newcomen's engine between 1763 and 1775. This improvement allowed the engine to use less coal and operate more efficiently."}
+{"id": "571cd5b1dd7acb1400e4c179", "prediction": "The medical treatment used to increase oxygen uptake in a patient is oxygen therapy."}
+{"id": "5726356938643c19005ad301", "prediction": "In cases with a shared medium, packets are delivered according to a multiple access scheme. This means that multiple devices or nodes can access and transmit data over the same physical medium (such as radio or ETH) simultaneously, but they must"}
+{"id": "5a564b1e6349e2001acdcd12", "prediction": "Packets can be irregularly forwarded according to some scheduling discipline for fair queuing, traffic shaping, or for differentiated or guaranteed quality of service, such as weighted fair queuing or leaky bucket."}
+{"id": "570d2556fed7b91900d45c47", "prediction": "The Asian influence is strongest in Bendigo and its environs in Victoria."}
+{"id": "570d2556fed7b91900d45c4b", "prediction": "The conditions for miners in the gold fields in Victoria were cramped and unsanitary. An outbreak of typhoid in 1854 at Buckland Valley resulted in the death of over 1,0"}
+{"id": "572648e8dd62a815002e8079", "prediction": "Ctenophore means \"comb-bearing\" in Greek, from the Greek word κτείς (stem-form κτεν-) meaning \"comb\" and the Greek suffix -φορ"}
+{"id": "570d44abb3d812140066d5fd", "prediction": "Victoria had 1,548 public schools by August 2010."}
+{"id": "572629c6271a42140099d6a5", "prediction": "Donald Davies wanted to build a nationwide network in the UK using packet switching methodology."}
+{"id": "5ad4d6a75b96ef001a10a2c9", "prediction": "Memory cells are not considered adaptive because they are a part of the adaptive immune response, which is a process that occurs during the lifetime of an individual as an adaptation to infection with a specific pathogen. Memory cells help the"}
+{"id": "5ad5036c5b96ef001a10a984", "prediction": "A tribute to the fall of Katyn can be found in the Katyń Museum, which preserves the memory of the crime."}
+{"id": "573099ee8ab72b1400f9c5e0", "prediction": "Europe invented the machine gun."}
+{"id": "5ad039be77cf76001a686e60", "prediction": "As an AI, I cannot predict the specific committees that will exist in the fifth Session. However, it is likely that the Subject Committees will continue to correspond with the departments or ministries of the Scottish Government"}
+{"id": "57097b50200fba140036804e", "prediction": "BSkyB said they could reach an audience of more than 25 million people."}
+{"id": "5ad3d4db604f3c001a3ff2b2", "prediction": "High-pressure engines based on the context provided are developed and utilized by the company Energiprojekt AB in Sweden."}
+{"id": "57097b50200fba1400368050", "prediction": "The target percentage of households BSkyB wanted to reach was 36%."}
+{"id": "5a2c14b4bfd06b001a5ae9d4", "prediction": "Pick TV was later rebranded as Sky Sports News."}
+{"id": "57094b4f9928a814004714f6", "prediction": "BSkyB was excluded from being a part of the ONdigital consortium."}
+{"id": "572fff45947a6a140053cf2a", "prediction": "The term for wind-blown dust in a tundra is \"loess.\""}
+{"id": "5a8373a7e60761001a2eb733", "prediction": "Another name for the sheath the mouth can be withdrawn to is the \"collar\" or \"collar tentacle.\""}
+{"id": "572867543acd2414000df9a2", "prediction": "There are seven sororities at the University of Chicago."}
+{"id": "572867543acd2414000df9a4", "prediction": "Four sororities belong to the National Panhellenic Conference."}
+{"id": "5ad505165b96ef001a10a9f7", "prediction": "Ekstraklasa's home venue is located at Konwiktorska Street, a ten-minute walk north from the Old Town."}
+{"id": "572a005f1d046914007796b8", "prediction": "Creating highways in the Amazon rainforest led to increased settlement and deforestation."}
+{"id": "5728804b4b864d1900164a46", "prediction": "Zhu Shijie was born in 1249."}
+{"id": "5ad40a41604f3c001a3fff8b", "prediction": "Zhu Shijie was not a ruler; he was a mathematician who made significant contributions to polynomial algebra during the Yuan era."}
+{"id": "5a38bbe3a4b263001a8c18e4", "prediction": "When new oil was withdrawn from the market, it created greater scarcity, leading to long lines at gas stations and increased summer 1973."}
+{"id": "57264cac708984140094c1b3", "prediction": "The oil crisis in the US was exacerbated by price controls that limited the price of \"old oil\" while allowing newly discovered oil to be sold at a higher price. This created greater scarcity as old oil was withdrawn"}
+{"id": "5a2c382dbfd06b001a5aea73", "prediction": "Sky News never used looping video streams."}
+{"id": "5ad537a15b96ef001a10ab9d", "prediction": "Computational simplicity theory most specifically seeños to answer the complexity of solving computational problems, rather than focusing on particular problem instances."}
+{"id": "5ad0178577cf76001a68698a", "prediction": "The more extensive eight county definition of Southern California (SoCal) includes Imperial, Los Angeles, Orange, Riverside, San Bernardino, San Diego, Santa Barbara, and Ventura counties."}
+{"id": "5ad0178577cf76001a68698c", "prediction": "Southern California, specifically the region often abbreviated as SoCal, is a major economic center for the state of California and the United States."}
+{"id": "5a6cdddf4eec6b001a80a65f", "prediction": "The context provided does not mention specific items that are never displayed in the Esteve Pharmacy museum. The museum houses albarellos from the 16th and 17th centuries, old prescription books, and ant"}
+{"id": "5a67a898f038b7001ab0c3f5", "prediction": "The Tuition Fee Supplement helps high school students by providing financial assistance for tuition and other school fees of students enrolled in priority courses in post-secondary and non-degree programs, including vocational and technical courses"}
+{"id": "56e1febfe3433e1400423236", "prediction": "The eponymous variation of arithmetic that presents a decision problem not evidenced in P is Presburger arithmetic."}
+{"id": "5ad56ef05b96ef001a10aeaa", "prediction": "No algorithm can solve the NP-complete knapsack problem over a wide range of sizes in less than quadratic time."}
+{"id": "5ad28471d7d075001a429876", "prediction": "The weak force only acts on elementary particles, specifically quarks and leptons."}
+{"id": "570d4c3bfed7b91900d45e31", "prediction": "There was an armed protest at Ballarat about mining taxes in 1854."}
+{"id": "571114cfb654c5140001fb0d", "prediction": "The practice of occupying and looting Huguenot homes was called dragonnades."}
+{"id": "570d2f5bfed7b91900d45cd3", "prediction": "The Parliament of Victoria was formed based on the Victoria Constitution Act 1855, which was passed by the United Kingdom Parliament."}
+{"id": "57308ddc396df919000961a4", "prediction": "Imperialism is most often associated with the sovereignty of a dominant nation or empire exerting control over other territories or nations, often through colonization, economic dominance, or military force. In the context provided"}
+{"id": "5a63835a68151a001a922330", "prediction": "The document that formed the Parliament of \"entrenched\" provisions is the Victoria Constitution Act 1855."}
+{"id": "5ad26d27d7d075001a4293c3", "prediction": "The Rhine does not flow from the north into Lake Constance. It flows from the south, following the Swiss-Austrian border."}
+{"id": "5ad24057d7d075001a42892e", "prediction": "In 1685, there were roughly 500,000 Huguenots in France."}
+{"id": "570d2f5bfed7b91900d45ccf", "prediction": "Victoria enacted its constitution in 1975."}
+{"id": "572fe60fb2c2fd140056858e", "prediction": "The border between Switzerland and Austria is located near Lake Constance, specifically along the southern shoreline where the Rhine River flows into the lake."}
+{"id": "5728455bff5b5019007da07b", "prediction": "132 million tons of Saharan dust remain in the air over the Amazon each year."}
+{"id": "5725c63438643c19005acca3", "prediction": "132 million tons of dust remain in the air."}
+{"id": "5728455bff5b5019007da078", "prediction": "The tool that has measured the amount of dust that travels from the Sahara to the Amazon is NASA's CALIPSO satellite."}
+{"id": "572754dd708984140094dc3d", "prediction": "700 people work for Kunskapsskolan schools."}
+{"id": "5ad40d28604f3c001a4000b8", "prediction": "The context provided does not mention Western Chinese as a specific group. The ranking system described is based on the date of surrender to the Mongols and the resistance put up by the Southern Chinese. The context does not provide any information about Western Chinese"}
+{"id": "5a6ce1054eec6b001a80a665", "prediction": "Pharmacy technicians depend less and less on manual tasks and calculations due to the increasing trend towards automation in their role."}
+{"id": "5a6ce1054eec6b001a80a666", "prediction": "Pharmacy legislation never mandates that pharmacists stay within the dispensary compounding/dispensing medications, as there has been an increasing trend towards the use of trained pharmacy technicians in"}
+{"id": "5a820ebf31013a001a33516b", "prediction": "The context provided does not mention a bridge over the Longwood Medical and Academic Area. The John W. Weeks Bridge mentioned is the one connecting the Harvard University campuses in Cambridge and Allston."}
+{"id": "5726e08e5951b619008f8110", "prediction": "Pharmacy technicians were formerly limited to assisting pharmacists in compounding and dispensing medications, as well as handling administrative tasks related to prescriptions and patient safety issues."}
+{"id": "5ad24b13d7d075001a428bcc", "prediction": "Oxygen on Earth, O, is referred to as dioxygen (O2)."}
+{"id": "5a6647d2c2b11c001a425f1e", "prediction": "LeGrande wrote that the student of civil disobedience often finds that specific terminology has no more (or no less) meaning than the individual orator intends it to have, highlighting the importance of understanding the nu"}
+{"id": "5728d7c54b864d1900164f4d", "prediction": "LeGrande suggests that there is a voluminous amount of literature on the subject of civil disobedience, indicating that a significant amount of writing has been produced on the topic."}
+{"id": "572fffb404bcaa1900d76fef", "prediction": "Europe slowly began to warm up from the last Ice Age around 22,000 years ago."}
+{"id": "5ad3a21d604f3c001a3fea21", "prediction": "The British loss of Florida to Spain in the Treaty of Paris (1763) was significant because it reduced France's colonial presence in North America and confirmed Britain's position as the dominant colonial power in eastern North America."}
+{"id": "572807802ca10214002d9bfc", "prediction": "LeGrande concludes that an author's words offer only what they intended for them to imply regarding this type of terminology, suggesting that the meaning of specific terminology in the context of civil disobedience can vary based"}
+{"id": "572ff890a23a5019007fcbcf", "prediction": "The construction of the Delta Works changed the Rhine's Delta in the second half of the 20th Century fundamentally."}
+{"id": "57339eb9d058e614000b5ef8", "prediction": "Warsaw's National Museum is one of the most prestigious museums in the country."}
+{"id": "5ad502385b96ef001a10a954", "prediction": "The context provided does not specify the exact number of posters in Warsaw. It only mentions that the Museum of Posters in Warsaw boasts one of the largest collections of art posters in the world."}
+{"id": "5ad2424cd7d075001a42898c", "prediction": "Janet Gray was a Protestant."}
+{"id": "571112ada58dae1900cd6bcf", "prediction": "According to the \"Hugues hypothesis,\" the name \"Huguenot\" means \"little Hugos\" or those who want Hugo, as it is associated with Hugues Capet, the king of France who was"}
+{"id": "57379a4b1c456719005744ce", "prediction": "When electron clouds overlap from different atoms, Pauli repulsion occurs due to the fermionic nature of electrons. This repulsion results in the normal force, which acts in a direction normal to the surface interface between two objects. The normal force"}
+{"id": "57293d6d1d046914007791b7", "prediction": "An IPCC report chapter typically has two coordinating lead authors."}
+{"id": "5726e5c95951b619008f81cd", "prediction": "The components of drug therapy include drug choice, dose, route, frequency, and duration of therapy. Additionally, the pharmacist must evaluate the appropriateness of the drug therapy, monitor for potential drug interactions,"}
+{"id": "572fe393947a6a140053cdbb", "prediction": "The measurement of the Rhine, known as Rhine-kilometers, was introduced in 1939."}
+{"id": "572f567cb2c2fd140056803f", "prediction": "The conventional method to measure the Rhine is using \"Rhine-kilometers\" (Rheinkilometer), a scale introduced in 1939 which runs from the Old Rhine Bridge at Constance (0"}
+{"id": "5a75028897ca42001a521db2", "prediction": "After the 1973 oil crisis, the \"second oil shock\" occurred in 1979."}
+{"id": "5a636c5a68151a001a9222cc", "prediction": "Melbourne, the capital and largest city of Victoria, Australia, is the second-largest city in the country. When compared to other American cities, Melbourne is significantly smaller. For example, New York City, the largest city in the United"}
+{"id": "571cca4add7acb1400e4c154", "prediction": "Oxygen began to move from the oceans to the atmosphere around 3–2.7 billion years ago, when the oxygen sinks, such as banded iron formations, became saturated."}
+{"id": "5a8391c7e60761001a2eb7db", "prediction": "When ocean water absorbs certain wavelengths of light, it becomes warmer. This is because the absorbed light energy is converted into heat, which raises the temperature of the water. Different wavelengths of light"}
+{"id": "572fc8a904bcaa1900d76d20", "prediction": "Private bills typically have topics related to large-scale development projects, such as infrastructure projects that require the use of land or property."}
+{"id": "572650325951b619008f6faa", "prediction": "Criticism of the energy policies suggests that they ignore market and technology realities."}
+{"id": "5a38c16aa4b263001a8c1903", "prediction": "Due to nuclear power, policies have been promoted that focus on crisis-mentality thinking, promoting expensive quick fixes and single-shot solutions that ignore market and technology realities. These policies often promise politically expedient solutions, but their"}
+{"id": "5a38c16aa4b263001a8c1901", "prediction": "Single-shot solutions created interest in renewable energy, nuclear power, and domestic fossil fuels."}
+{"id": "5ad03b4677cf76001a686ea4", "prediction": "The Ottoman Empire contained 32 provinces at the beginning of the 17th century. Since the question asks for the number of provinces it did not contain, the answer would be 0, as all 32 provinces were"}
+{"id": "5ad3af4e604f3c001a3fec74", "prediction": "Jacques Legardeur de Saint-Pierre invited Washington to dine with him."}
+{"id": "5ad3afa9604f3c001a3fec86", "prediction": "The context does not mention Governor Duquesne sending any men to kill Saint-Pierre. Instead, it states that Contrecœur led 500 men to relieve Fort Saint-Pierre."}
+{"id": "5733f062d058e614000b6636", "prediction": "The French felt they had the right to claim the Ohio Country because René-Robert Cavelier, Sieur de La Salle had explored the region nearly a century earlier. This exploration by La Salle established French presence and"}
+{"id": "5ad3b260604f3c001a3fed06", "prediction": "George Washington, along with Braddock and other aides, went to Fort Duquesne in June 1755, not July."}
+{"id": "5a666b43846392001a1e1c0f", "prediction": "George Carlin sent the track \"Filthy Words\" from a George Carlin comedy album to the city council in New Hampshire."}
+{"id": "5a666b43846392001a1e1c11", "prediction": "I'm sorry, but as an AI, I don't have real-time or updated information. In the case of George Carlin, he was not arrested for sending the email. The context provided refers to the FCC"}
+{"id": "572ff83ab2c2fd1400568683", "prediction": "Before the St. Elizabeth's flood (1421), the Meuse flowed just south of today's line Merwede-Oude Maas to the North Sea and formed an archipelago-like"}
+{"id": "572941273f37b319004781ae", "prediction": "Watson said that the mistake went in the direction of making climate change seem more serious by overstating the impact."}
+{"id": "5a3e3de4378766001a002514", "prediction": "Those who should be concerned with the trend to understate the effects of climate change are policymakers, environmental organizations, scientists, and the general public. Policymakers need accurate information to make informed decisions about climate change"}
+{"id": "5a3e3de4378766001a002513", "prediction": "Former IPCC chairman Robert Watson said that climate change has been overstated."}
+{"id": "5ad4fbeb5b96ef001a10a883", "prediction": "A major failure, especially in the building of Warsaw, was the lack of continued improvements and investments in infrastructure after the initial success of the Three-Year Plan to rebuild Poland, particularly in the city. This resulted in the"}
+{"id": "572a07a86aef0514001551d2", "prediction": "Income inequality has been strongly tied with health in developed countries in recent years."}
+{"id": "5ad28ea7d7d075001a429a54", "prediction": "St. Elizabeth lived in the Hollands Diep bay from 1421 to 1904."}
+{"id": "5a835b42e60761001a2eb60d", "prediction": "Coastal species of ctenophores need to be tough enough to withstand waves and swirling sediment particles."}
+{"id": "5a592b593e1742001a15cfce", "prediction": "Magnetic stratigraphers do not use isotopes to study; instead, they look for signs of magnetic reversals in igneous rock units within the drill cores. Isotope studies are typically performed by other"}
+{"id": "572f57c704bcaa1900d76871", "prediction": "The animal that the Rhine's islands are named after is an Esel, which is the Alemannic dialect pronunciation for \"Donkey.\""}
+{"id": "5ad26235d7d075001a429082", "prediction": "AlO is aluminium oxide, also known as alumina. It is a compound composed of aluminium and oxygen, with the chemical formula AlO. Aluminium oxide is found in minerals"}
+{"id": "571ce7f25efbb31900334e3e", "prediction": "In the atmosphere, oxygen is found in small amounts in the form of carbon dioxide (CO2)."}
+{"id": "572a019f3f37b31900478643", "prediction": "Bacteria often secrete enzymes to digest a physical barrier."}
+{"id": "5a8940ba3b2508001a72a55c", "prediction": "According to the context provided, if p is a prime number other than 2 and 5, then 1/p will always be a recurring decimal. The period of this recurring decimal is p - 1 or"}
+{"id": "572872dd2ca10214002da37e", "prediction": "A. A. Michelson calculated the speed of light."}
+{"id": "572a12381d0469140077972f", "prediction": "A study of Swedish counties was conducted between 1960 and 2000."}
+{"id": "572872dd2ca10214002da382", "prediction": "Maria Goeppert-Mayer was the second female Nobel laureate."}
+{"id": "5ad3b498604f3c001a3fed7e", "prediction": "Shirley did not plan attacks on Fort Frontenac on the north shore of Lake Ontario and an expedition through the wilderness of the Maine district and down the Chaudière River to attack the city of Quebec."}
+{"id": "5acf8c4b77cf76001a6851c0", "prediction": "The oldest additions in Hong Kong were opened in 2015."}
+{"id": "572995d46aef051400154fec", "prediction": "For 1/p to be expressed in base q instead of base 10 and still have a period of p - 1, the following condition must be satisfied: p must not be a prime factor of q. This ensures"}
+{"id": "5733834ed058e614000b5c29", "prediction": "On August 31, 2009, there were 374 companies listed on the Warsaw Stock Exchange (WSE)."}
+{"id": "57115b8b50c2381900b54a8b", "prediction": "Richard Trevithick patented his high-pressure steam engine in 1802."}
+{"id": "57268f2bf1498d1400e8e3c7", "prediction": "The Lisbon Treaty took the place of the constitutional treaty."}
+{"id": "5a7b086921c2de001afe9d01", "prediction": "Based on the context provided, Roeding Park is the smallest of the three large public parks in Fresno."}
+{"id": "5a7b086921c2de001afe9d03", "prediction": "The context provided does not mention the length of the trails in Roeding Park."}
+{"id": "5a25eae4c93d92001a40033e", "prediction": "In common construction procurement, the main contractor acts as the project coordinator, managing the works from inception to completion."}
+{"id": "572753335951b619008f8856", "prediction": "Any subcontractor has a direct contractual relationship with the main contractor."}
+{"id": "5a38d93da4b263001a8c195b", "prediction": "Other countries' oil production was surpassed by Saudi Arabia in 1981."}
+{"id": "57264865dd62a815002e8063", "prediction": "The referendums in France and the Netherlands curtailed the Constitution for Europe."}
+{"id": "5ad567055b96ef001a10aded", "prediction": "An example of a problem that rests within the NP simplicity class is the Boolean satisfiability problem."}
+{"id": "5ad567055b96ef001a10adea", "prediction": "The complexity class P is often seen as a scientific abstraction modeling those computational tasks that admit an efficient algorithm."}
+{"id": "57308cf88ab72b1400f9c576", "prediction": "The theory that suggested people in the tropics were uncivilized is environmental determinism."}
+{"id": "5725b92e38643c19005acbd3", "prediction": "From 1947 to 1967, the price of oil increased by less than two percent per year."}
+{"id": "5ad4ea425b96ef001a10a62a", "prediction": "Proteins such as NFIL3, which are closely intertwined with both T-cell differentiation and our circadian rhythms, are affected by natural light and dark cycles. Therefore, the answer to the question \""}
+{"id": "5ad265d2d7d075001a4291c6", "prediction": "In many developing countries, land and housing that are held inside the formal legal ownership registration system are those that have been officially registered and documented according to the country'ieves' property laws and regulations. This includes properties that have been bought,"}
+{"id": "5ad265d2d7d075001a4291c9", "prediction": "In some countries, it can take over 200 steps to build on government land."}
+{"id": "571cd88ddd7acb1400e4c18f", "prediction": "The type of reaction present in the emergency oxygen generator of an airplane is an exothermic reaction."}
+{"id": "5a669800f038b7001ab0c03c", "prediction": "The public KPN service Telepad used the X.121 DNIC 2041."}
+{"id": "5ad26000d7d075001a428fb0", "prediction": "In case of cabin pressurization, passengers have an emergency supply of oxygen automatically supplied to them."}
+{"id": "572647d0708984140094c14c", "prediction": "Ctenophores and cnidarians are classified as diploblastic, with some recent textbooks classifying ctenophores as triploblastic."}
+{"id": "5a82001531013a001a3350a2", "prediction": "The context does not provide a specific year for the founding of Cambridge."}
+{"id": "5727b0892ca10214002d93ea", "prediction": "No, the school was never officially associated with any denomination."}
+{"id": "5a2c41c8bfd06b001a5aeaab", "prediction": "Microsoft announced that OneDrive will soon become SkyDrive on 27 January 2014."}
+{"id": "5a63981168151a001a9223b7", "prediction": "Pacific National, CFCL Australia transports cargo in Melbourne."}
+{"id": "5733f5264776f419006615a6", "prediction": "The importance of the Albany Congress in 1754 was to formalize a unified front in trade and negotiations with various Indian tribes, as their allegiance was seen as crucial for the success in the unfolding war"}
+{"id": "5ad4f28c5b96ef001a10a730", "prediction": "Berlin has been a multi-cultural city for as long as it has existed."}
+{"id": "5ad4f28c5b96ef001a10a732", "prediction": "In 1901, 56.2% of Poland's inhabitants in Warsaw were Catholic."}
+{"id": "5711488ab654c5140001fc3d", "prediction": "The term for the reversing of steam flow in a piston engine after each stroke is \"counterflow.\""}
+{"id": "57266c015951b619008f7238", "prediction": "Previously, geologists used stratigraphic correlation to help date rock formations."}
+{"id": "5a59002d3e1742001a15cf3c", "prediction": "Fossil sequences are applied to rock units to convert the old relative ages into new absolute ages."}
+{"id": "57096f37200fba1400367fe5", "prediction": "BSkyB has an operating license from Ofcom."}
+{"id": "5a6792f1f038b7001ab0c2ee", "prediction": "In 1992, 6.1% of pupils attended private schools in Germany."}
+{"id": "5ad3c3bc604f3c001a3fefa3", "prediction": "Along with fuel sources, concerns about pollution have contributed to the development of the combustion movement."}
+{"id": "5ad0291f77cf76001a686c2a", "prediction": "The former Midlothian County Buildings were originally built as the headquarters of the pre-1875 Midlothian County Council."}
+{"id": "572fb059947a6a140053cb82", "prediction": "When the Parliament was done with the building on George IV Bridge, it was demolished."}
+{"id": "572677e7708984140094c723", "prediction": "Petrology is the study of rocks, their composition, origin, and the processes that form and transform them. It is a branch of geology that helps geologists understand Earth'psumary history and the processes occurring on"}
+{"id": "572faf74b2c2fd1400568347", "prediction": "Parliament's temporary home whilst the permanent building was being built was the General Assembly Hall of the Church of Scotland on the Royal Mile in Edinburgh."}
+{"id": "5ad0285977cf76001a686c0c", "prediction": "The Parliament's temporary home was on the Royal Mile in Edinburgh."}
+{"id": "5726f2375951b619008f830f", "prediction": "Pharmacy informatics brings together pharmacy practice science and applied information science."}
+{"id": "5726f2375951b619008f8311", "prediction": "The growth in pharmacy informatics will meet the needs of major national and international patient information projects and health system interoperability goals."}
+{"id": "5ad29d35d7d075001a429c12", "prediction": "The Pleistocene began around 11,600 BP (Before Present)."}
+{"id": "572ffd75b2c2fd14005686e6", "prediction": "The last glacial ended around 11,600 BP (Before Present)."}
+{"id": "5ad4fe635b96ef001a10a8b8", "prediction": "The Autumn Wielki is a music venue in Warsaw, Poland."}
+{"id": "5a1c539bb4fb5d00187145fb", "prediction": "Prior to 1968, Jacksonville was the county seat of Baker County."}
+{"id": "5ad3bbcc604f3c001a3feed0", "prediction": "The British General who negotiated at Toronto was General Amherst."}
+{"id": "573407d7d058e614000b6814", "prediction": "The requests made to the British by Governor Vaudreuil included:\n\n1. Granting freedom to French residents to continue worshiping in their Roman Catholic tradition.\n2. Allowing continued ownership of their property.\n3."}
+{"id": "572746addd62a815002e9a61", "prediction": "Private schools have the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding."}
+{"id": "571cd11add7acb1400e4c170", "prediction": "Professional athletes seek to boost their performance by breathing oxygen."}
+{"id": "57286bf84b864d19001649d2", "prediction": "Lauren Oliver is the alumni member who wrote the bestseller Before I Fall."}
+{"id": "572fec30947a6a140053cdf3", "prediction": "The first major bend in the Rhine is called the \"Rhine knee.\""}
+{"id": "5ad275c8d7d075001a429504", "prediction": "The bend where the overall direction of the Rhine changes from West to North is called the \"Rhine knee.\""}
+{"id": "57302a3aa23a5019007fced1", "prediction": "The Taliban could be more accurately described as Islamic fundamentalist or neofundamentalist."}
+{"id": "5a25eed2c93d92001a400348", "prediction": "The owner produces a list of requirements for a project, giving an overall view of the project' composing the goals."}
+{"id": "5ad24efad7d075001a428c77", "prediction": "The decline of organized labor in the United States has presented problems to the UN economy more than other nations, according to sociologist Jake Rosenfield. He argues that this decline has played a more significant role in expanding the"}
+{"id": "57286bf84b864d19001649d6", "prediction": "The name of the American writer and satirist who is also a university alumni is Kurt Vonnegut."}
+{"id": "5ad4d55f5b96ef001a10a277", "prediction": "Warsaw Palace was completely razed to the ground by bombing raids during the Second World War."}
+{"id": "5a3e2f07378766001a0024ce", "prediction": "The World Meteorological Organization (WMO) covers the cost of the President of the IPCC."}
+{"id": "56de3f784396321400ee26fc", "prediction": "The storm hit Richard's fleet in April 1191."}
+{"id": "5ad40280604f3c001a3ffd58", "prediction": "Richard's fleet avoided a storm in April 1191."}
+{"id": "57265aaf5951b619008f706c", "prediction": "Auricles are gelatinous projections edged with cilia that produce water currents, helping to direct microscopic prey toward the mouth of lobates."}
+{"id": "5726472bdd62a815002e8045", "prediction": "Internet2 partnered with Level 3 Communications to launch a brand new nationwide network."}
+{"id": "5ad23fded7d075001a4288fd", "prediction": "French Catholics were concentrated mainly in the northern parts of France."}
+{"id": "572684365951b619008f7540", "prediction": "Juvenile platyctenids live among the plankton."}
+{"id": "57105da9a58dae1900cd69a2", "prediction": "The Edict of Nantes, granted by the French crown, ended the Wars of Religion and provided the Huguenots with substantial religious, political, and military autonomy."}
+{"id": "5a838f74e60761001a2eb7cf", "prediction": "In the context provided, the larvae of most species develop gradually, taking on the body forms of their parents. However, in some groups like the platyctenids, the larvae live among the plankton and"}
+{"id": "5ad3a3fc604f3c001a3fea7a", "prediction": "The Iroquois Confederation did not control large areas dominated by native tribes to the north, such as the regions held by the Mi'kmaq and the Abenaki in Nova Scotia, Acadia, and"}
+{"id": "57268066708984140094c825", "prediction": "Stratigraphers try to locate areas for water, coal, and hydrocarbon extraction."}
+{"id": "5a581597770dc0001aeeffe5", "prediction": "Drill cores and ancient processes can be combined to show the reconstruction of past environments, interpretation of past environments, and the location of areas for water, coal, and hydrocarbon extraction."}
+{"id": "5728742cff5b5019007da246", "prediction": "Egyptologist James Henry Breasted was also a part of the university's faculty."}
+{"id": "5733a560d058e614000b5f7b", "prediction": "A greedy merchant captured the mermaid."}
+{"id": "5acfab5077cf76001a6857d3", "prediction": "The Nobel Prize researchers who are former faculty members mentioned in the context are Friedrich Hayek, Glenn T. Seaborg, and Yuan T. Lee."}
+{"id": "57109275b654c5140001f9a0", "prediction": "The name of France's primary colony in the New World was New France."}
+{"id": "5ad3c626604f3c001a3ff011", "prediction": "The Normans thereafter adopted the growing feudal doctrines of the rest of France."}
+{"id": "5ad27473d7d075001a4294ea", "prediction": "The first Huguenots arrived in the British colonies in 1685."}
+{"id": "573027d6a23a5019007fcea1", "prediction": "The NIF tried to unify Islamist opposition against the American attack on Iraq in the 1991 Gulf War."}
+{"id": "572648ed5951b619008f6f07", "prediction": "A plague-ridden ship landed in Norway in 1349."}
+{"id": "572648ed5951b619008f6f03", "prediction": "The disease first moved northwest across Europe."}
+{"id": "571ce6655efbb31900334e34", "prediction": "Oxygen gas can produce a toxic condition when its partial pressure exceeds 50 kilopascals (kPa), which is about 50% oxygen composition at standard pressure or 2.5 times the normal"}
+{"id": "5730b8ca8ab72b1400f9c706", "prediction": "The idea for the inquiry was also conceived by the American delegation from the Paris Peace Conference."}
+{"id": "5730088e947a6a140053cfac", "prediction": "The ideologue of the Iranian Revolution was Ali Shariati."}
+{"id": "5acfeae177cf76001a6864a1", "prediction": "The long-term agenda of the acts of plundering Muslim lands by the West was to undermine and weaken Islamic societies, spread Western influence and control, and further their own economic and political interests. This ag"}
+{"id": "572ffbaa947a6a140053cee6", "prediction": "Western governments supported fledgling Islamists during the 1970s and sometimes later."}
+{"id": "5a38d6e6a4b263001a8c1955", "prediction": "In 1982, Chrysler ended production of their full-sized luxury sedans and moved to a full front-wheel drive lineup. For GM vehicles, the changes implemented in 198"}
+{"id": "5a668d25f038b7001ab0bfb0", "prediction": "DECnet Phase I became a three-layer networking protocol."}
+{"id": "5a668d25f038b7001ab0bfac", "prediction": "DECnet was originally released in 1975 to connect two PDP-11 minicomputers."}
+{"id": "5a8942233b2508001a72a569", "prediction": "The prime logarithm key exchange, also known as the Diffie-Hellman key exchange, depends on efficient algorithms for modular exponentiation."}
+{"id": "5a668d25f038b7001ab0bfae", "prediction": "Linux became a networking powerhouse in the 1980s for several reasons. Firstly, the open standards of DECnet Phase II and later allowed for the development of various implementations outside Digital Equipment Corporation. One"}
+{"id": "5a2eccc9a83784001a7d24a0", "prediction": "Samuel K. Cohn, Jr. is a historian and author who has taken up the challenge to question the bubonic plague theory. He has contributed to the field by writing about the subject, particularly in his 200"}
+{"id": "5a2eccc9a83784001a7d24a2", "prediction": "The term \"Black Death\" was not attributed to a specific individual in the provided context. It is a historical term used to describe the devastating pandemic that occurred in the 14th century, and its origin predates the"}
+{"id": "572fae4b04bcaa1900d76be0", "prediction": "The Conservative Party's control of the UK's government helped fuel a desire for a Scottish Parliament."}
+{"id": "5a6ce55e4eec6b001a80a693", "prediction": "The context provided does not specify any entities that are not included in the U.S. federal health care system. The mentioned entities, such as the VA (Veterans Affairs), the Indian Health Service, and NIH ("}
+{"id": "5a6ce55e4eec6b001a80a691", "prediction": "The context does not provide information about specific states where pharmacist clinicians are given no prescriptive and diagnostic authority. It only mentions that in some states like North Carolina and New Mexico, these pharmacists are given"}
+{"id": "57299ec43f37b3190047850f", "prediction": "Prime ideals are utilized and studied in commutative algebra, algebraic number theory, and algebraic geometry."}
+{"id": "5a89473c3b2508001a72a59b", "prediction": "The Lasker–Noether theorem can be simplified to the prime ideals theorem."}
+{"id": "5ad3a342604f3c001a3fea5b", "prediction": "French North Americans were unsettled in various locations, including the St. Lawrence River valley, Acadia (present-day New Brunswick and parts of Nova Scotia, including Île Royale (present-day Cape Bre"}
+{"id": "57299ec43f37b31900478510", "prediction": "The theorem that can be simplified to the Lasker–Noether theorem is the fundamental theorem of arithmetic."}
+{"id": "5727cebc2ca10214002d96f3", "prediction": "The color crimson was unofficially adopted by an 1875 vote of the student body at Harvard."}
+{"id": "5a2c30dabfd06b001a5aea2a", "prediction": "The context provided does not mention any other manufacturer besides Thomson that dealt with BSkyB. Therefore, based on the given information, Thomson is the only manufacturer mentioned in relation to supply issues with BSkyB"}
+{"id": "572a09abaf94a219006aa75f", "prediction": "Synthetic aperture radar (SAR) was used to classify trees into four categories."}
+{"id": "570d418dfed7b91900d45dbd", "prediction": "Victoria has 37 seats in the Australian House of Representatives."}
+{"id": "5a1c8aedb4fb5d00187146a2", "prediction": "11.6% of Jacksonville is made up of water, which covers an area of 116.7 square miles (302 km2)."}
+{"id": "572fdd03a23a5019007fca9e", "prediction": "MPs representing English constituencies are unable to vote on laws only affecting Scotland."}
+{"id": "5a637f8768151a001a922319", "prediction": "Each electorate in the Victorian Legislative Council has 5 representatives elected by Single Transferable Vote."}
+{"id": "570d26efb3d812140066d490", "prediction": "The State of Victoria has eight electorates."}
+{"id": "5ad0457b77cf76001a686f6c", "prediction": "The context provided does not mention a 2005 UK election. The information given pertains to the 2015 UK election. Therefore, it is not possible to answer the question based on the provided context."}
+{"id": "572fc043a23a5019007fc95d", "prediction": "Time for Reflection takes place on Wednesdays."}
+{"id": "5acfe73c77cf76001a6863d3", "prediction": "A writer for the International Crisis Group thinks the concept of political Islam is not a creation of the Muslim community or the followers of Islam."}
+{"id": "5acfe73c77cf76001a6863d2", "prediction": "Islamists don't think the term \"Islamists\" should be applied to them."}
+{"id": "5a8929e43b2508001a72a4de", "prediction": "Euler primes take the form of numbers of the form 2p - 1, where p is a prime number."}
+{"id": "57297a276aef051400154f89", "prediction": "Besides Leibniz, the mathematician who proved the validity of Fermat's little theorem was Euler."}
+{"id": "5730a314069b5314008321ee", "prediction": "A similar view about the Asian continent was called \"The White Man's Burden.\" This concept, popularized by Rudyard Kipling's poem of the same name, suggested that it was the duty and responsibility of European colonizers"}
+{"id": "5ad0312677cf76001a686dcc", "prediction": "The geographic scholars did not work for the people of tropical climates, as they believed these individuals were incapable of governing a more evolved social structure and were in need of guidance and intervention from the European emp"}
+{"id": "572881022ca10214002da41a", "prediction": "Confucian scholars liked the medical field because it provided a high income and its ethics were compatible with Confucian virtues."}
+{"id": "5ad509615b96ef001a10aa7c", "prediction": "Tamara de Lempicka was born in Warsaw."}
+{"id": "5ad509615b96ef001a10aa7e", "prediction": "Moshe Vilenski represented the Art Deco style in music better than anyone else."}
+{"id": "5729fb003f37b31900478629", "prediction": "The production of thyroid hormone activity is regulated by the immune system."}
+{"id": "5ad0301577cf76001a686db6", "prediction": "Humans in tropical environments were not considered \"civilized\" according to the concept of environmental determinism used during European colonialism."}
+{"id": "572683075951b619008f7517", "prediction": "Fertilization is external in most species."}
+{"id": "5729a26d6aef05140015505c", "prediction": "Completing Q (the rational numbers) with respect to the usual absolute value will produce the field of real numbers."}
+{"id": "5a894a483b2508001a72a5ae", "prediction": "Completing p with respect to the absolute value (or infinite prime) will produce the field of real numbers."}
+{"id": "5ad25e17d7d075001a428f12", "prediction": "The smallest nation that the Rhine runs through is Liechtenstein."}
+{"id": "5ad3ad01604f3c001a3febd3", "prediction": "There was no specific \"South American portion\" of the War of the Austrian Succession. The war primarily took place in Europe, with its North American theater known as King George'串�������"}
+{"id": "5a7b3f0f21c2de001afe9e03", "prediction": "The average family size with no wife present is not directly provided in the context. However, we can infer that the households with a male householder with no wife present are part of the total family households. To find the average family size with"}
+{"id": "5a552578134fea001a0e1991", "prediction": "Promoted research in 1985 led to the creation of the National Science Foundation Network (NSFNET), a program of coordinated, evolving projects sponsored by the National Science Foundation (NSF) to promote advanced research"}
+{"id": "5726f868dd62a815002e9685", "prediction": "In the future, pharmacists are believed to be taking on more responsibilities related to patient care, such as providing Medication Therapy Management (MTM) services. These services include analyzing all medications (prescription"}
+{"id": "5725f8f5ec44d21400f3d7b5", "prediction": "The average household size was 3.07."}
+{"id": "5a7b3f0f21c2de001afe9e05", "prediction": "The context does not provide specific information on the number of same-sex partnerships without children. It only mentions that there were 1,388 same-sex married couples or partnerships in total. To determine the number of"}
+{"id": "5a552578134fea001a0e1993", "prediction": "Public and private funding led to the development of NSFNET into a major part of the Internet backbone."}
+{"id": "5a67dedd8476ee001a58a74d", "prediction": "Course content funding for private schools is subject to restrictions or possible prohibition, depending on the courts' interpretation of the Establishment Clause of the First Amendment or individual state Blaine Amendments."}
+{"id": "5a67dedd8476ee001a58a750", "prediction": "Course content in a private school is provided through various means, such as curriculum development by the school's administration, teachers, or educational consultants. The school may also incorporate textbooks, educational materials, and resources from"}
+{"id": "572758e0f1498d1400e8f6af", "prediction": "The Establishment Clause of the First Amendment governs government funding of religious schools in the United States."}
+{"id": "572755b7708984140094dc4d", "prediction": "The annual construction industry revenue in the United States in 2014 was around $960 billion."}
+{"id": "5ad3ae14604f3c001a3fec3a", "prediction": "Rollo conquered various Viking groups, including Danes, Norwegians, Norse-Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes from the English Danelaw under Norse"}
+{"id": "57268b43dd62a815002e88f3", "prediction": "There are three sources of European Union law: primary law, secondary law, and supplementary law."}
+{"id": "5725c28a271a42140099d14f", "prediction": "The three sources of European Union law are primary law, secondary law, and supplementary law."}
+{"id": "5a7b054521c2de001afe9cce", "prediction": "I cannot answer that based on the context provided. The context only gives information about Fresno, California, and does not mention the population of Los Angeles."}
+{"id": "5ad031ef77cf76001a686df3", "prediction": "France began in earnest to build its global empire after 1850."}
+{"id": "5733f7b9d058e614000b66ab", "prediction": "Shirley was going to be at Fort Niagara when Fort Oswego was to be attacked."}
+{"id": "5a63866968151a001a922338", "prediction": "The Australian Greens are strongest in Victoria's lower house."}
+{"id": "5ad4caf45b96ef001a10a0d8", "prediction": "Germany successfully defended itself against the Red Army."}
+{"id": "5726f48df1498d1400e8f0de", "prediction": "Pharmacists are forbidden to form business partnerships with physicians or give them \"kickback\" payments."}
+{"id": "5acfea4977cf76001a686476", "prediction": "The context provided does not specifically mention the status of the Brotherhood in the non-Islamic world. It primarily focuses on their influence and presence in the Islamic world, particularly in the Arab world."}
+{"id": "573004bf947a6a140053cf58", "prediction": "The Brotherhood was the only opposition group in Egypt able to field candidates during elections."}
+{"id": "56e16839cd28a01900c67888", "prediction": "The method used to intuitively assess or quantify the amount of resources required to solve a computational problem is computational complexity theory. This theory introduces mathematical models of computation to study these problems and quantify the resources needed, such as time and"}
+{"id": "5a25f133c93d92001a400351", "prediction": "Before the foundation is dug, contractors are required to verify and have existing utility lines marked to prevent damage to electrical, water, sewage, phone, and cable facilities. This process helps avoid outages and hazard"}
+{"id": "572754fff1498d1400e8f664", "prediction": "An occupancy permit is issued once construction is complete and a final inspection has been passed."}
+{"id": "571cbe35dd7acb1400e4c13f", "prediction": "Scientists would show measurements of vegetation on a global scale."}
+{"id": "5ad257e2d7d075001a428d99", "prediction": "Scientists have proposed using the measurement of radiance coming from vegetation canopies in the spectrophotometric absorption bands peaking at 687 and 760 nm to characterize plant health status from a"}
+{"id": "5ad248f7d7d075001a428b8f", "prediction": "The Edict of Nantes encouraged the founding of new Protestant churches in Catholic-controlled areas of France."}
+{"id": "5a25bb0bef59cd001a623cb4", "prediction": "Some conditions that can cause the availability of skilled tradespeople to vary include:\n\n1. Regional differences: The availability of skilled tradespeople can vary significantly from one region to another, depending on the local demand"}
+{"id": "5ad248f7d7d075001a428b8e", "prediction": "The context does not provide a specific starting year for the warfare between Protestants and Catholics in France. It only mentions that the pattern of warfare continued for nearly another quarter-century before being quelled in 159"}
+{"id": "571093aba58dae1900cd6a60", "prediction": "Henry renounced Protestantism upon ascending the throne."}
+{"id": "572fe41e04bcaa1900d76e4c", "prediction": "The section that turns north near Chur is nearly 86 km long."}
+{"id": "572f5703a23a5019007fc575", "prediction": "The Rhine flows through a wide glacial alpine valley known as the Rhine Valley (German: Rheintal)."}
+{"id": "5ad2a901d7d075001a429e28", "prediction": "The North Sea discharges into the former Meuse estuary, near Rotterdam."}
+{"id": "5730069004bcaa1900d77031", "prediction": "The Rhine branches into three branches."}
+{"id": "5730069004bcaa1900d7702e", "prediction": "The Waal and the Nederrijn-Lek discharge through the former Meuse estuary, near Rotterdam, into the North Sea."}
+{"id": "571127a5a58dae1900cd6cc8", "prediction": "Abercynon is located in the south Wales region."}
+{"id": "5ad3cd43604f3c001a3ff186", "prediction": "Trevithick is located in the constituent country of the United Kingdom known as Wales."}
+{"id": "572a0d21af94a219006aa784", "prediction": "Raghuram Rajan feels that systematic economic inequalities, both within the United States and around the world, have created deep financial fault lines."}
+{"id": "572a0d21af94a219006aa786", "prediction": "Political pressure pushes to extend easier credit to lower and middle income earners, particularly to buy homes, and easier credit in general to keep unemployment rates low."}
+{"id": "5ad28597d7d075001a4298b0", "prediction": "The weak force is weaker than gravity over short distances."}
+{"id": "5ad2442bd7d075001a428a3c", "prediction": "In Marxian analysis, businesses are pushed to decrease pressures on workers due to competitive pressure to reduce costs and maximize profits. This leads them to substitute capital equipment for labor inputs, which increases the organic composition of capital"}
+{"id": "5ad418fb604f3c001a400433", "prediction": "63 degrees Celsius is the creep limit of stainless steel."}
+{"id": "5ad418fb604f3c001a400431", "prediction": "The Rankine cycle's temperatures are limited by the pressure reaching supercritical levels for the working fluid. Without achieving supercritical pressure, the temperature range the cycle can operate over is quite small. In steam turbines"}
+{"id": "572659535951b619008f703f", "prediction": "Honda, Toyota, and Nissan opened US assembly plants in 1981."}
+{"id": "5ad25f82d7d075001a428f87", "prediction": "Based on the context, there are four main interactions known in particle physics. Therefore, the number of main interactions that are not known is zero."}
+{"id": "5a3e4e57378766001a002563", "prediction": "The Kyoto Protocol dealt with Climate Change."}
+{"id": "57373a9fc3c5551400e51e7d", "prediction": "The strongest main interaction is the strong force."}
+{"id": "5ad2ba09d7d075001a42a065", "prediction": "The German army re-occupied the Rhineland in 1936."}
+{"id": "57265700dd62a815002e8212", "prediction": "Europe's last major epidemic occurred in 1720 in Marseille."}
+{"id": "5ad14573645df0001a2d14b2", "prediction": "When there is a choice between several inappropriate measures, the European Court of Justice would not adopt any of them, as they do not meet the criteria of being appropriate and necessary to achieve the objectives legitimately pursued. The"}
+{"id": "57265700dd62a815002e8211", "prediction": "In the Great Northern War (1700–21), Sweden and Russia and their respective allies fought against each other."}
+{"id": "5729a03f1d04691400779595", "prediction": "Prime ideals can be used for validating quadratic reciprocity in the ring of integers of quadratic number fields."}
+{"id": "5a8949463b2508001a72a5a5", "prediction": "Geometry ramification seeks to understand the behavior of prime ideals when they are lifted to an extension field. This helps in studying the structure and properties of algebraic varieties, which are geometric objects defined by polynomial equations. By examining"}
+{"id": "5a6688fcf038b7001ab0bf6d", "prediction": "In UDP, the network does not guarantee the sequenced delivery of data to the host."}
+{"id": "5a6059ace9e1cc001a33cd34", "prediction": "No, Baran developed the concept of distributed adaptive message block switching not only for use by the Air Force but also for the broader field of survivable communications networks."}
+{"id": "56de1645cffd8e1900b4b5d1", "prediction": "Edward returned in 1041."}
+{"id": "5a81f28431013a001a334fb5", "prediction": "There are currently 62 living billionaires who are alumni of Harvard."}
+{"id": "5728eff82ca10214002daade", "prediction": "The neuroimmune system protects the brain."}
+{"id": "572881d34b864d1900164a5c", "prediction": "The Office of Western Medicine was founded in 1263 during the reign of Kublai."}
+{"id": "5ad53b9d5b96ef001a10abc8", "prediction": "Decision problems are one of the central objects of study in computational complexity theory."}
+{"id": "56e190bce3433e1400422fcb", "prediction": "The output for a member of the language of a decision problem will be \"yes\" or alternatively \"1\"."}
+{"id": "57264684708984140094c124", "prediction": "The Black Death made it to the Mediterranean and Europe primarily through Oriental rat fleas living on black rats that were regular passengers on merchant ships. The disease originated in the arid plains of Central Asia and traveled"}
+{"id": "5a2eb84ba83784001a7d2423", "prediction": "The Black Death reached the Mediterranean in 1343."}
+{"id": "5ad3a38c604f3c001a3fea63", "prediction": "The ratio of British settlers to French was not 20 to 1."}
+{"id": "572a02483f37b3190047864e", "prediction": "Frank Burnet was influenced by Niels Jerne when he was formulating his theory of immunity."}
+{"id": "571cde695efbb31900334e18", "prediction": "Carbohydrates contain the largest proportion by mass of oxygen among the organic compounds with biological relevance."}
+{"id": "5ad26479d7d075001a42914f", "prediction": "Squalene and the carotenes contain the element carbon."}
+{"id": "5ad4d5e15b96ef001a10a299", "prediction": "The distinct lymphocyte-derived molecule called Variable lymphocyte receptors (VLRs) only exists outside of jawed vertebrates, specifically in primitive jawless vertebrates"}
+{"id": "5729ef266aef05140015511d", "prediction": "The development of Terra Preta allowed for agriculture and silviculture in the previously hostile environment of the Amazon forest."}
+{"id": "5ad3e8f6604f3c001a3ff66c", "prediction": "The earliest recorded use of steam engines was in 1712."}
+{"id": "57114667a58dae1900cd6d80", "prediction": "The instrument used to examine steam engine performance is the steam engine indicator."}
+{"id": "5ad3a01a604f3c001a3fe975", "prediction": "Based on the context, there were 2 million people in the British North American colonies. Since the French North American colonies had a population of roughly 60,000 European settlers, the number of people not in"}
+{"id": "57283adcff5b5019007d9f98", "prediction": "During the Middle Miocene, the Amazon rainforest expanded."}
+{"id": "5725be0f271a42140099d119", "prediction": "During the Oligocene, the rainforest spanned a relatively narrow band."}
+{"id": "5ad032b377cf76001a686e0e", "prediction": "France lost a war in Vietnam in the 1950s."}
+{"id": "57299326af94a219006aa516", "prediction": "British mathematician G. H. Hardy took pride in doing work that he felt had no military benefit."}
+{"id": "5710e8c8a58dae1900cd6b2a", "prediction": "French troops put down the Camisard uprisings between 1702 and 1709."}
+{"id": "5ad24f27d7d075001a428c88", "prediction": "Frederick William of Prussia became the Great Elector in 1640."}
+{"id": "5a551328134fea001a0e18d8", "prediction": "The world's first commercial online service was a data network designed to connect GE's four computer sales and service centers (Schenectady, Phoenix, Chicago, and Phoenix) to facilitate a computer time-sharing"}
+{"id": "5ad24f27d7d075001a428c8a", "prediction": "The context provided does not specify the number of people Prussia lost due to war. It only mentions that Frederick William, the Calvinist Great Elector of Prussia, welcomed Huguenots to help rebuild"}
+{"id": "5a2ec55da83784001a7d245b", "prediction": "The king of France lived in Paris."}
+{"id": "5ad268cbd7d075001a429293", "prediction": "In 1705, it is estimated that nearly 25% of the Amsterdam population was Huguenot. Given that the entire population of the Dutch Republic at that time amounted to approximately 2 million, the number"}
+{"id": "5a551328134fea001a0e18d9", "prediction": "Warner Sinback offered a time-sharing system based on Kemney's work at Dartmouth, which used a computer on loan from GE, to turn the computer sales and service centers into a profitable business."}
+{"id": "57108d69b654c5140001f983", "prediction": "The Dutch Republic initially received the largest number of Huguenot refugees."}
+{"id": "5ad268cbd7d075001a429292", "prediction": "In 1705, Amsterdam and the area of West Frisia were the first areas to provide full citizens rights to Huguenot immigrants. Since Amsterdam had an estimated 25% of its population as H"}
+{"id": "5ad2741ed7d075001a4294d8", "prediction": "The lowest point of the Rhine basin is called the Rhine Falls."}
+{"id": "572fe9b3947a6a140053cde4", "prediction": "There's a rough border between Switzerland and Germany formed by the Rhine."}
+{"id": "572fe9b3947a6a140053cde3", "prediction": "The highest point of the Rhine basin is called the Finsteraarhorn."}
+{"id": "5ad2741ed7d075001a4294d6", "prediction": "Lake Constance emerges from the Rhine."}
+{"id": "572f609ca23a5019007fc5b0", "prediction": "The major tributary of the Rhine is the river Aare."}
+{"id": "5ad3b147604f3c001a3fecd6", "prediction": "The goal of Braddock's expedition was not to blockade French ports."}
+{"id": "5ad3b147604f3c001a3fecd7", "prediction": "French learned about Braddock's plans before his departure for North America."}
+{"id": "5ad3b147604f3c001a3fecd5", "prediction": "The goal of Baron Dieskau's expedition was to reinforce French forces in New France."}
+{"id": "5a25a8e9ef59cd001a623c20", "prediction": "Large-scale construction projects require collaboration across zoning requirements."}
+{"id": "5725bbec271a42140099d0d2", "prediction": "The courts of member states can enforce the European Union law when member states provide lesser rights."}
+{"id": "5a83894de60761001a2eb78c", "prediction": "If prey is too large to swallow, the epithelial cells on the mouth \"lips\" in some species of Beroe form intercellular connections with the opposite adhesive strip, causing the mouth to zip"}
+{"id": "57268bf9dd62a815002e890a", "prediction": "European Law is applied by the courts of member states and the Court of Justice of the European Union."}
+{"id": "5a89357c3b2508001a72a521", "prediction": "If a and q are coprime, Dirichlet's theorem on arithmetic progressions holds that an arithmetic progression has an infinite number of primes."}
+{"id": "5ad3cc47604f3c001a3ff146", "prediction": "The product notably shipped in vessels equipped with double and triple expansion engines was coal."}
+{"id": "5ad3cc47604f3c001a3ff147", "prediction": "Along with electric motors, internal combustion engines overtook expansion engines in the 20th century."}
+{"id": "56e1e9dfe3433e14004231fe", "prediction": "The polynomial time hierarchy implies that the graph isomorphism problem is NP-complete. If graph isomorphism were NP-complete, the polynomial time hierarchy would collapse to its second level. However, it is widely believed that the polynomial time hierarchy does"}
+{"id": "5729e1101d04691400779644", "prediction": "Lack of education leads directly to lower incomes."}
+{"id": "5ad3ed37604f3c001a3ff7a2", "prediction": "In a 4-cylinder compound engine, the individual cranks were balanced at 180°."}
+{"id": "57286f373acd2414000df9df", "prediction": "Buyantu resumed testing potential government employees in 1313."}
+{"id": "56de15104396321400ee25b7", "prediction": "The Normans and Byzantines signed the peace treaty in the city of Deabolis."}
+{"id": "572860e03acd2414000df97a", "prediction": "Kublai Khan's grandfather was Genghis Khan."}
+{"id": "5705eee952bb8914006896e2", "prediction": "The legislation allowed California to be admitted to the Union as a free state."}
+{"id": "57108ee6a58dae1900cd6a1a", "prediction": "The Gate of King Hugo, also known as Huguenot Gate, was located in Tours."}
+{"id": "5ad02cde77cf76001a686cc6", "prediction": "Mexico"}
+{"id": "5728f9882ca10214002dab5b", "prediction": "For most organisms, the dominant system of defense is the innate immune system."}
+{"id": "5ad4a75aba00c4001a268ee8", "prediction": "Toxins that fail to enter an organism encounter the cells and mechanisms of the innate immune system. The innate immune system is the dominant system of host defense in most organisms and responds to pathogens"}
+{"id": "5ad4a75aba00c4001a268eeb", "prediction": "Defenses that respond to pathogens in a specific way are the adaptive immune responses. Unlike the innate immune system, which is non-specific and does not confer long-lasting immunity, the adaptive"}
+{"id": "57273e50dd62a815002e9a03", "prediction": "Engineering News-Record (ENR) compiles and reports on data about the size of design and construction companies."}
+{"id": "5a23548782b03a001a4aa785", "prediction": "The US companies compiled in the Top-250 by Engineering News-Record (ENR) are the largest global firms in the construction industry, ranked by the amount of work they are doing outside their home country. The list includes"}
+{"id": "5a592e733e1742001a15cff7", "prediction": "The American Philosophical Society enlisted Maclure to make the geological survey in 1807."}
+{"id": "5a581e5d770dc0001aef000a", "prediction": "The American Philosophical Society was created in 1766."}
+{"id": "5728eb1a3acd2414000e01c5", "prediction": "Some civil disobedient people feel the need to acknowledge the validity of the social contract, which binds all to obey the laws established by a legitimate government, or else face the penalties set out in the law"}
+{"id": "5a668632f038b7001ab0bf47", "prediction": "Anarchists, who don't believe in the legitimacy of any government, feel they are not obligated to accept any consequences for their actions in breaking the law, as they do not recognize the authority of the government or its"}
+{"id": "5729f1c13f37b319004785e9", "prediction": "Women are less willing to travel or relocate for work."}
+{"id": "5a7b456121c2de001afe9e2c", "prediction": "The rapidly increasing factor by Interstate 5 was the population and traffic in cities along SR 99."}
+{"id": "5725fe63ec44d21400f3d7dd", "prediction": "Fresno is the largest U.S. city not directly linked to an Interstate highway."}
+{"id": "5ad289c2d7d075001a4299a1", "prediction": "Conservative forces include friction, tension, compression, and drag. These forces are the net results of the gradients of microscopic potentials."}
+{"id": "57096b66200fba1400367fa7", "prediction": "BSkyB announced its intention to replace its free-to-air digital terrestrial channels on 8 February 2007."}
+{"id": "5ad3b9cd604f3c001a3fee89", "prediction": "Abercrombie replaced the Duke of Cumberland as commander in chief."}
+{"id": "5734025d4776f419006616c3", "prediction": "The fall from power of Newcastle and his principal military advisor, the Duke of Cumberland, was primarily due to the British failures in North America, combined with other failures in the European theater. These failures led"}
+{"id": "5ad28ad0d7d075001a4299ce", "prediction": "The force that leads to a commonly used unit of mass is the kilogram-force (kgf). When standard gravity acts on one kilogram of mass, it results in a force of 1 kgf. This force is used to"}
+{"id": "571c879bdd7acb1400e4c0ed", "prediction": "The O2 molecule is referred to as triplet oxygen in its ground state."}
+{"id": "57296f293f37b319004783a6", "prediction": "Another algorithm useful for conveniently testing the primality of large numbers is the Miller–Rabin primality test."}
+{"id": "572756fe708984140094dc72", "prediction": "The most common cause of injury on site in the construction industry is falls."}
+{"id": "57296f293f37b319004783a5", "prediction": "One algorithm useful for conveniently testing the primality of large numbers is the Miller–Rabin primality test."}
+{"id": "5727ef664b864d1900164061", "prediction": "The top tax rate has a direct relationship with income inequality. In a progressive tax system, changes in the top tax rate can directly impact the level of income inequality within a society, assuming that income remains constant."}
+{"id": "5a8925e53b2508001a72a4d0", "prediction": "The name of the Egyptian papyrus that suggests they may have had knowledge of infinite numbers is the Rhind papyrus."}
+{"id": "57274046dd62a815002e9a15", "prediction": "Some examples of undesirable end results of a building construction project include structural collapse, cost overruns, and litigation."}
+{"id": "57274046dd62a815002e9a16", "prediction": "Those in the field ensure a positive outcome by making detailed plans and maintaining careful oversight during the project. This includes considering various common elements such as design, financial, estimating, and legal aspects."}
+{"id": "5a57f0ea770dc0001aeefee3", "prediction": "The theory of evolution, as proposed by Charles Darwin, is based on the concept of natural selection. This theory suggests that species evolve over time through a process of variation, inheritance, and selection, where organisms with advantageous tra"}
+{"id": "572a05eb3f37b31900478656", "prediction": "One factor in eroding self-esteem, as mentioned in the context, is the increase in unemployment and its inequality-associated effects, which can lead to social dislocation, unrest, and conflict."}
+{"id": "5a58feb63e1742001a15cf32", "prediction": "The principles of succession are independent of evolutionary thought."}
+{"id": "5a57f0ea770dc0001aeefee4", "prediction": "Changes in habitat, or facies changes in sedimentary strata, can be used to provide information about the localization of specific fossil types within formations. This helps geologists understand the environmental conditions and ecological"}
+{"id": "572669a9dd62a815002e8419", "prediction": "The presence or absence of fossils can be used to determine the relative age of the formations in which they are found."}
+{"id": "5728fd3c3f37b31900477f2f", "prediction": "In a just society, punishment should rely on engaging the offender in a moral dialogue, focusing on the moral reasons to follow the law rather than solely on the threat of punishment. This approach emphasizes the importance"}
+{"id": "57338255d058e614000b5c0d", "prediction": "The mayor of Warsaw is called the President."}
+{"id": "5ad402ae604f3c001a3ffd5e", "prediction": "The context does not mention a peaceful relationship between the Song dynasty and Kublai Khan. Instead, it states that the Song dynasty remained an obstacle in the south, indicating that there was no peaceful coexistence or"}
+{"id": "5ad25d39d7d075001a428eda", "prediction": "In countries with lower inequality, such as Japan and Finland, the rates of social goods are higher. This includes better life expectancy, educational performance, trust among strangers, women' perspectives, social mobility, and a higher"}
+{"id": "5ad4d9be5b96ef001a10a3b0", "prediction": "The Warsaw Philharmony edifice was originally inspired by Palais Garnier in Paris, but it was rebuilt in the socialist realism style."}
+{"id": "5710f4b8b654c5140001fa45", "prediction": "Prince Louis de Condé helped establish the Huguenot settlement in Saarland."}
+{"id": "5ad3c46a604f3c001a3fefb3", "prediction": "Hero of Ayanz was Spanish."}
+{"id": "5ad3c46a604f3c001a3fefb1", "prediction": "The history of the steam digester began in the 17th century."}
+{"id": "57113c6da58dae1900cd6d34", "prediction": "Hero of Alexandria was Greek."}
+{"id": "5a6695e8f038b7001ab0c01a", "prediction": "X.25 and Xeno121 allowed the interconnection of national X.25 networks, enabling a user or host to call a host on a foreign network by including the DNIC (Domain Name in Canon"}
+{"id": "572643de5951261400b5195c", "prediction": "Foreign clones of DATAPAC allowed for the interconnection of national X.25 networks, enabling a user or host to call a host on a foreign network by including the DNIC (Domain Name in Canonical Form"}
+{"id": "57284b904b864d19001648e3", "prediction": "The Main Quadrangles have six quadrangles."}
+{"id": "57284b904b864d19001648e5", "prediction": "The Mitchell Tower is designed to look like Oxford's Magdalen Tower."}
+{"id": "5a6695e8f038b7001ab0c016", "prediction": "TRANSPAC and TYMNET were modified to provide a X.25 host interface in addition to their older host connection schemes. This modification allowed them to support the X.25 protocol, which was a standard for packet"}
+{"id": "5ad28173d7d075001a4297fd", "prediction": "James Clerk Maxwell discovered that electric and magnetic fields could be \"self-generating\" through a wave that traveled at the speed of light."}
+{"id": "57378e311c456719005744b0", "prediction": "The origins of magnetic and electric fields occurred in 1864 when James Clerk Maxwell unified earlier theories into a set of equations that fully described the sources of the fields as being stationary and moving charges, and"}
+{"id": "5ad4d2855b96ef001a10a1de", "prediction": "The left part of Vistula is situated both on the moraine plateau and on the Vistula terraces."}
+{"id": "5ad4d2855b96ef001a10a1da", "prediction": "The formation with an asymmetrical pattern of different landmarks is the Vistula Valley."}
+{"id": "572671a5f1498d1400e8dfe4", "prediction": "This causes the rock unit as a whole to become longer and thinner through the processes of normal faulting and ductile stretching and thinning."}
+{"id": "57378862c3c5551400e51f22", "prediction": "Henry Cavendish made the first measurement of the Newton Universal Gravitation Constant in 1798 using a torsion balance."}
+{"id": "57300137b2c2fd1400568718", "prediction": "Maududi pursued the profession of journalism instead of law."}
+{"id": "5730005db2c2fd1400568705", "prediction": "Sayyid Abul Ala Maududi founded the Jamaat-e-Islami party in 1941."}
+{"id": "5ad24e85d7d075001a428c4f", "prediction": "Besides England, Holland, Prussia, and South Africa were particularly welcoming to those fleeing France."}
+{"id": "5a664447c2b11c001a425eef", "prediction": "Henry David Thoreau would quote Percy Shelley's \"The Mask of Anarchy\" to audiences in India."}
+{"id": "573750f61c4567190057446b", "prediction": "In Newton's second law, the units of mass and force are fixed and remain consistent across all scales, including microscales. The law states that force (F) is equal to the mass (m) of an object multip"}
+{"id": "5ad283bcd7d075001a42985b", "prediction": "When electrons are loosely packed, there is not enough energy to occupy higher energy states."}
+{"id": "573750f61c45671900574469", "prediction": "General relativity has an equivalence between mass and space-time."}
+{"id": "5a3e2dc0378766001a0024c4", "prediction": "The IPCC sessions that are open to everyone are the plenary sessions of the IPCC and IPCC Working groups. These sessions are held at the level of government representatives, and non-governmental and intergovern"}
+{"id": "5728d63c4b864d1900164f1a", "prediction": "The principle shown in The Mask of Anarchy is nonviolent protest."}
+{"id": "5ad3b781604f3c001a3fee27", "prediction": "Given the weakness of the French forces at Louisbourg, Loudoun returned to New York amid news that a massacre had occurred at Fort William Henry."}
+{"id": "5727dc473acd2414000dee44", "prediction": "The name of Harvard's primary recreational sports facility is the Malkin Athletic Center (MAC)."}
+{"id": "5ad25f35d7d075001a428f6a", "prediction": "Hyperbaric chambers use increased concentrations of oxygen (O2) as the medicine to treat conditions such as carbon monoxide poisoning, gas gangrene, and decompression sickness (the 'bends')."}
+{"id": "5a8241e631013a001a335361", "prediction": "Olympic athletes train at the Malkin Athletic Center (MAC) at Harvard University."}
+{"id": "572864542ca10214002da2de", "prediction": "The Maroons are apart of the University Athletic Association (UAA)."}
+{"id": "5a89117e19b91f001a626f2e", "prediction": "Numbers greater than 1 that can be divided by 6 or more numbers are called composite numbers."}
+{"id": "5a89117e19b91f001a626f2f", "prediction": "Any number larger than 6 can be represented as a product of prime numbers, according to the fundamental theorem of arithmetic. This representation is unique up to the order of the prime factors."}
+{"id": "5ad55ee35b96ef001a10ace4", "prediction": "The Cobham-Edmonds thesis does not often yield complexity classes that depend on the chosen machine model."}
+{"id": "56e1c2eee3433e1400423138", "prediction": "Decision problems capable of being solved by a deterministic Turing machine while maintaining adherence to polynomial time belong to the complexity class P."}
+{"id": "57096c95200fba1400367fbf", "prediction": "A VideoGuard UK equipped receiver is dedicated to decrypting the Sky service."}
+{"id": "57265d08708984140094c398", "prediction": "The lithosphere includes the Earth's crust and the rigid uppermost portion of the upper mantle."}
+{"id": "5acfe91c77cf76001a686438", "prediction": "Iqbal discouraged ending the nationalist differences among Muslims."}
+{"id": "572fffb1b2c2fd14005686fb", "prediction": "Iqbal encouraged ending the nationalist differences among Muslims."}
+{"id": "5acf86ff77cf76001a6850fc", "prediction": "The Kalven Report was issued in 1967."}
+{"id": "57271c235951b619008f860b", "prediction": "Civil disobedience is when people in society rebel against laws they think are unfair."}
+{"id": "5ad4f0675b96ef001a10a6e9", "prediction": "The main detractor of the cellular theory of immunity was Emil von Behring. He, along with Robert Koch, supported the humoral theory of immunity, which stated that the active immune agents were soluble components"}
+{"id": "5ad5344b5b96ef001a10ab8a", "prediction": "The process that classifies problems that can and cannot be solved with approximately unlimited resources is computational complexity theory."}
+{"id": "5a2ed246a83784001a7d24e3", "prediction": "The context does not provide a specific percentage of the population of London that died during the 1589 breakout of the Black Death."}
+{"id": "573060b48ab72b1400f9c4c9", "prediction": "The term imperialism has been applied to Western countries and Japan, especially in Asia."}
+{"id": "5a8919843b2508001a72a4c0", "prediction": "The early Greeks considered 1 to be a number, but not a prime number."}
+{"id": "5a8919843b2508001a72a4bd", "prediction": "There is no mention of anyone including 1 as the first prime number in the mid-20th century in the provided context. The last professional mathematician to consider 1 as a prime was Henri Lebesgue, and by"}
+{"id": "57297547af94a219006aa45e", "prediction": "Derrick Norman Lehmer's list of prime numbers included 10,006,721 primes."}
+{"id": "5ad3f13e604f3c001a3ff866", "prediction": "Another term for excessive shortening is \"overcutting.\""}
+{"id": "572a04d51d046914007796d0", "prediction": "Melatonin during sleep can actively counteract the production of free radicals."}
+{"id": "57115f0a50c2381900b54aa7", "prediction": "Another term for shortening the admission event is \"reducing the cutoff.\""}
+{"id": "5a75066297ca42001a521ded", "prediction": "They said it was fair to raise the prices to ten times more."}
+{"id": "572879574b864d1900164a17", "prediction": "The Yuan reintroduced Confucian governmental practices and examinations based on the Classics in government."}
+{"id": "5ad40762604f3c001a3ffe96", "prediction": "During the Yuan dynasty, besides Confucianism, Buddhism, and Islam, Roman Catholicism was not tolerated."}
+{"id": "5ad4cc135b96ef001a10a0f6", "prediction": "The context provided does not mention the estimated death toll for the Red Army during the Warsaw Uprising. The information given focuses on the Polish Home Army fighters and civilians, with civilian deaths estimated between"}
+{"id": "5a0c98fef5590b0018dab49a", "prediction": "The Amazon basin experienced its worst drought in one hundred years in 2005."}
+{"id": "57332e48d058e614000b5764", "prediction": "The Warsaw Uprising began on 1 August 1944."}
+{"id": "5a0c98fef5590b0018dab49d", "prediction": "The rainforest dying there would have little effect on the world's climate."}
+{"id": "572a0b101d046914007796ec", "prediction": "Along with drought, deforestation is another factor that is pushing the Amazon rainforest towards a tipping point."}
+{"id": "5705edcd52bb8914006896ce", "prediction": "Point Conception is an example of a landmark among the boundary of southern California that uses the Tehachapi Mountains as the northern boundary."}
+{"id": "572870b2ff5b5019007da224", "prediction": "Paul Samuelson was the first American to win the Nobel Memorial Prize in Economic Sciences."}
+{"id": "57300761947a6a140053cf9d", "prediction": "Herodotus did not write about the Rhine's discovery and border. The Rhine was first mentioned in Roman-era geography, with the river forming the boundary between Gaul and Germania in the 1st century BC."}
+{"id": "5acfac7177cf76001a6857fb", "prediction": "Steven Levitt wrote Freakonomics and is also an economist, not an anthropologist."}
+{"id": "56e17a7ccd28a01900c679a2", "prediction": "In computational complexity theory, the term given to describe the baseline abstract question needing to be solved is a \"problem.\""}
+{"id": "572a1046af94a219006aa78e", "prediction": "Inequality prevents growth by limiting aggregate demand. When there is a significant gap between the rich and the poor, the poor cannot afford to spend as much on goods and services. This leads to a decrease in overall demand, which in"}
+{"id": "572a1046af94a219006aa791", "prediction": "Widespread education has become the secret to economic growth."}
+{"id": "5a38aa28a4b263001a8c1881", "prediction": "Arab oil producers linked any future policy changes to peace between the belligerents."}
+{"id": "5ad14816645df0001a2d1543", "prediction": "The European Court of Justice did not find that international treaties for the protection of human rights can supply guidelines which should be ignored within the framework of Community law."}
+{"id": "5acfe5ce77cf76001a6863af", "prediction": "Radical Islamist organizations accept entirely the rejection of democracy, often declaring as kuffar those Muslims who support it, and they call for violent/offensive jihad or urging and conducting attacks on a religious"}
+{"id": "57339dd94776f41900660ecd", "prediction": "Thousands of people gather along the banks of the Vistula for the Wianki festival."}
+{"id": "572f59b4a23a5019007fc58b", "prediction": "From the German islands, you can see the entire length of the lake where the flow of the Rhine water is clearly visible."}
+{"id": "5725f7cd38643c19005acf24", "prediction": "In 2010, the percentage of White people in Fresno was 49.6%."}
+{"id": "5728f50baf94a219006a9e57", "prediction": "Giving a defiant speech during allocution can be more harmful for the individual because it may suggest a lack of remorse for their actions, an attempt to avoid responsibility, and even a likelihood of repeating their illegal actions"}
+{"id": "57302bd0b2c2fd14005689db", "prediction": "The Islamic State is a Wahhabi/Salafi jihadist extremist militant group."}
+{"id": "5ad4abe25b96ef001a109d64", "prediction": "The context does not mention any barrier that does not protect organisms from infection. All the barriers mentioned, including mechanical, chemical, and biological barriers, serve to protect organisms from infection."}
+{"id": "5727490bdd62a815002e9a84", "prediction": "The comparison in price between Australian private schools and public schools is that private schools are always more expensive than their public counterparts."}
+{"id": "57264991f1498d1400e8db2e", "prediction": "The plague had a devastating effect on the Middle East, leading to serious depopulation and permanent changes in both economic and social structures. The disease spread through trade routes, reaching various countries in the region and causing widesp"}
+{"id": "57094a79efce8f15003a7dc6", "prediction": "Sky purchased the remaining 4 packages available to broadcasters."}
+{"id": "57115dbe2419e314009555a7", "prediction": "Boulton saw the centrifugal governor at a flour mill Boulton & Watt were building."}
+{"id": "57115dbe2419e314009555a9", "prediction": "The centrifugal governor was incapable of holding a set speed, as it would assume a new constant speed in response to load changes."}
+{"id": "5706074552bb8914006897d8", "prediction": "The population of the Greater Los Angeles Area is 17,786,419."}
+{"id": "5ad25dd3d7d075001a428f03", "prediction": "At 28°C, oxygen gas must be at its gaseous state, as one liter of liquefied oxygen is equivalent to 840 liters of gaseous oxygen at atmospheric"}
+{"id": "5ad25dd3d7d075001a428f00", "prediction": "The cryogenic and chemical compound storage method for oxygen involves storing oxygen in its liquid form at very low temperatures. This method is used for transporting and storing large volumes of oxygen efficiently. Liquid oxygen"}
+{"id": "572faec7b2c2fd1400568333", "prediction": "Since September 2004, the official home of the Scottish Parliament has been the Scottish Parliament Building in the Holyrood area of Edinburgh."}
+{"id": "5ad0278077cf76001a686be6", "prediction": "The down-turned boat skylights are located in the Garden Lobby."}
+{"id": "57265e97708984140094c3c3", "prediction": "The species that are ribbon-shaped planktonic animals are the Cestida, specifically the two known species, Cestum veneris (\"Venus' girdle\") and Velamen parallelum."}
+{"id": "572663a9f1498d1400e8ddf2", "prediction": "The second timeline is needed to provide a more detailed and expanded view of the most recent eon, which includes the Quaternary period and the Pleistocene epoch. This expanded view allows for a clearer understanding of the ge"}
+{"id": "5ad26aedd7d075001a429335", "prediction": "All quantitative force laws were discovered using simple devices such as weighing scales and spring balances, as well as through experimentation and analysis of physical phenomena."}
+{"id": "572663a9f1498d1400e8ddf6", "prediction": "The Pleistocene epoch takes place during the Quaternary period."}
+{"id": "5a57d364770dc0001aeefdcc", "prediction": "The Holocene is not shown clearly on the first timeline because it is a very short period with short epochs, which makes it difficult to represent accurately on a compressed scale. The first timeline compresses the most recent"}
+{"id": "572ffee1947a6a140053cf18", "prediction": "Iqbal's seven English lectures were published as a book titled \"The Reconstruction of Religious Thought in Islam\" by Oxford University Press in 1934."}
+{"id": "572ffee1947a6a140053cf15", "prediction": "Iqbal joined the All India Muslim League in London."}
+{"id": "572ffee1947a6a140053cf17", "prediction": "Iqbal was a critic of the mainstream Indian nationalist and secularist Indian National Congress."}
+{"id": "5726a3c6f1498d1400e8e5b2", "prediction": "The Social Charter has become the basis for 40 pieces of legislation."}
+{"id": "5725daa8ec44d21400f3d6b7", "prediction": "After restoration, the feature that will enrich the pedestrian-friendly environment in the Fulton Mall district is the wide sidewalks, which will be up to 28 feet on the east side of the street"}
+{"id": "5a6ceb7a4eec6b001a80a6d2", "prediction": "Specialty drugs are no longer used against common diseases. They are primarily used for chronic and complex disease states such as cancer, hepatitis, and rheumatoid arthritis."}
+{"id": "572991943f37b319004784a3", "prediction": "Polignac's conjecture holds that for any positive integer n, there is an infinite amount of pairs of consecutive primes differing by 2n."}
+{"id": "5ad03c2977cf76001a686eb4", "prediction": "All subjects which are not explicitly stated in Schedule 6 to the Scotland Act are automatically devolved to the Scottish Parliament. This includes agriculture, fisheries and forestry, economic development, education, environment, food standards, health"}
+{"id": "5728809f2ca10214002da410", "prediction": "Guo Shoujing's calendar, the Shoushi Li, became the official calendar of the Yuan dynasty in 1281."}
+{"id": "5ad40b87604f3c001a400005", "prediction": "The context provided does not mention the Mongols acquiring Japanese printing technology. Instead, it discusses the Mongols patronizing the Yuan printing industry, transferring Chinese printing technology through Kingdom of Qocho and Tibetan intermedi"}
+{"id": "572ff626947a6a140053ce90", "prediction": "Islamism aims to reorder government and society in accordance with the Shari'a, which involves implementing Islamic values in all spheres of life. This can be achieved through either a revolutionary or reformist approach, with"}
+{"id": "572750e8dd62a815002e9af3", "prediction": "Malum prohibitum considerations are legal requirements that are based on custom or expectation, rather than on the inherent immorality of an action. These considerations aim to regulate certain behaviors or activities that may not be inher"}
+{"id": "572750e8dd62a815002e9af1", "prediction": "Constructing a project that fails to adhere to codes does not benefit the owner."}
+{"id": "572750e8dd62a815002e9af2", "prediction": "Malum in se considerations refer to legal requirements that aim to prevent actions or situations that are universally considered inherently bad or wrong, such as bridge collapses or explosions. These considerations are based on the idea that certain"}
+{"id": "5ad24600d7d075001a428aca", "prediction": "The exact number of Huguenot fatalities throughout France is not known. However, it is estimated that between 2,000 and 3,000 were killed in Paris, and between 3,00"}
+{"id": "5ad24600d7d075001a428ac9", "prediction": "In Paris, about 2,000 Huguenots were killed."}
+{"id": "5a669d5cf038b7001ab0c05e", "prediction": "The Very high-speed Backbone Network Service (vBNS) was created as part of a National Science Foundation (NSF) sponsored project to provide high-speed interconnection between NSF-sponsored supercomputing cent"}
+{"id": "57108073b654c5140001f927", "prediction": "The Huguenot rebellions took place between 1621 and 1629."}
+{"id": "57281ab63acd2414000df493", "prediction": "The construction of highways drove residents to move to quieter suburban housing."}
+{"id": "5a1c883cb4fb5d0018714672", "prediction": "The context does not provide specific information on the decline of Jacksonville's Hispanic white population. It only mentions a decline in the non-Hispanic white population from 75.8% in 1"}
+{"id": "5a1c883cb4fb5d0018714670", "prediction": "Jacksonville suffered from negative effects of rapid urban sprawl following World War II, not World War I."}
+{"id": "571155ae2419e31400955593", "prediction": "The Rankine cycle created 90% of electric power in the 1990s."}
+{"id": "571155ae2419e31400955594", "prediction": "Along with solar, coal, and nuclear plants, notable plants that use the Rankine process include biomass power plants. These plants utilize organic materials, such as wood chips, agricultural waste, or other biological"}
+{"id": "572fbf21a23a5019007fc93b", "prediction": "The mace is displayed in a glass case suspended from the lid."}
+{"id": "572fbf21a23a5019007fc93a", "prediction": "The Queen presented the mace to the Scottish Parliament when it was initially opened."}
+{"id": "57267947f1498d1400e8e0f0", "prediction": "Petrologists use a petrographic microscope for optical mineralogy analysis."}
+{"id": "5733266d4776f41900660713", "prediction": "The General Sejm made Warsaw its permanent seat in 1569."}
+{"id": "5a6ce6164eec6b001a80a69c", "prediction": "Some small pharmacy management companies include Omnicare, Kindred Healthcare, and PharMerica."}
+{"id": "5726ea985951b619008f8261", "prediction": "Consultant pharmacy is mainly concerned with medication regimen review, also known as \"cognitive services.\" This involves assessing and optimizing medication use for patients, particularly those with complex medication regimens."}
+{"id": "57340a094776f4190066177f", "prediction": "The British resettled many Acadians throughout its North American provinces."}
+{"id": "5a6ce6164eec6b001a80a69e", "prediction": "Based on the context provided, it is not explicitly stated that no community pharmacies do anything. However, it is mentioned that some community pharmacies employ consultant pharmacists and/or provide consulting services. Therefore,"}
+{"id": "5ad3bce5604f3c001a3feefb", "prediction": "The context does not provide a specific number of French colonists who were not gained by the British. It only mentions that the British resettled many Acadians throughout its North American provinces, and some went to France, New Orleans,"}
+{"id": "5ad3bce5604f3c001a3feefd", "prediction": "The deportation of Acadians began in 1755."}
+{"id": "5729517d6aef051400154cc9", "prediction": "The IPCC's report deadlines can cause significant new evidence or events that change our understanding of climate science to be omitted from the report."}
+{"id": "57284456ff5b5019007da05e", "prediction": "The 5th president's tenure lasted 24 years."}
+{"id": "5a5812f9770dc0001aeeffd0", "prediction": "Orogenic wedges work in the same way as analog models in structural geology experiments."}
+{"id": "57267ebfdd62a815002e8730", "prediction": "Numerical models are more sophisticated than analog models of orogenic wedges."}
+{"id": "5a5920963e1742001a15cfb2", "prediction": "An analog model has physical components, such as layers of sand and a back stop, that can be manipulated and observed directly. In contrast, a numerical model operates through computer simulations and does not have physical components that can be manipulated"}
+{"id": "5ad40b9a604f3c001a40001a", "prediction": "In the top of a boiler, a lever is used to restrain a plug valve."}
+{"id": "5ad25a8bd7d075001a428e32", "prediction": "The context provided does not directly address what has the lowest impact on wealth accumulation and the resulting income inequality. However, it does mention that wealth concentration occurs when those who already hold wealth have the means to invest in new sources of creating wealth"}
+{"id": "5ad0440a77cf76001a686f48", "prediction": "None of the jobs mentioned in the context require no qualifications. All the jobs listed, such as being an MSP, police officer, armed forces member, civil servant, or foreign legislature member, have specific qualifications or disqual"}
+{"id": "57287c2bff5b5019007da26d", "prediction": "According to the wealth concentration theory, the wealthy have the advantage of being able to invest in new sources of creating wealth or to otherwise leverage the accumulation of wealth. This is because they already have the means to do so, which"}
+{"id": "572fce13a23a5019007fca14", "prediction": "Bills are typically gestated in the relevant committee or committees during Stage 1 of the legislative process."}
+{"id": "5ad03efa77cf76001a686edf", "prediction": "In Stage 1 of the bill process, the bill and its accompanying documents (Explanatory Notes, Policy Memorandum, and Financial Memorandum) are initially submitted to the relevant committee or committe"}
+{"id": "573368044776f41900660a29", "prediction": "The Botanic Garden and University Library garden in Warsaw are green spaces."}
+{"id": "5ad40397604f3c001a3ffd86", "prediction": "Kublai Khan shortened the Grand Canal to Daidu in the north."}
+{"id": "5ad4dc755b96ef001a10a471", "prediction": "The Culture Garden and University Library garden in Warsaw are green spaces."}
+{"id": "5ad40397604f3c001a3ffd83", "prediction": "Kublai Khan did not discourage commercial, scientific, and cultural growth. Instead, he promoted and supported these areas of development during his rule."}
+{"id": "57287b4a4b864d1900164a28", "prediction": "The first known European to visit China and return was the Venetian traveler Marco Polo."}
+{"id": "5a6cb7ce4eec6b001a80a639", "prediction": "A pharmacy must not be allowed to register with the General Pharmaceutical Council (GPhC). The GPhC is the governing body for pharmacy health care professionals and regulates the practice of ph"}
+{"id": "5726da89dd62a815002e92b6", "prediction": "A pharmacy technician in the UK may have various responsibilities, including:\n\n1. Dispensing medication: Pharmacy technicians are responsible for accurately dispensing prescribed medications to patients"}
+{"id": "5ad25d49d7d075001a428eec", "prediction": "The Wars of Religion started in 1562."}
+{"id": "5729fefbaf94a219006aa739", "prediction": "Immunodeficiencies occur when part of the immune system isn't active."}
+{"id": "5733d249d058e614000b6332", "prediction": "The French were unwilling to risk large convoys to aid the limited forces they had in New France."}
+{"id": "5ad3a1cd604f3c001a3fe9f5", "prediction": "William Pitt decreased British military resources in the colonies."}
+{"id": "5a6790dbf038b7001ab0c2d1", "prediction": "The three churches that have colleges in Sydney are the Anglican Church, the Uniting Church, and the Presbyterian Church."}
+{"id": "5a6790dbf038b7001ab0c2d2", "prediction": "All grammar schools insist that their students have a strong academic ability or aptitude in order to attend."}
+{"id": "571c97e2dd7acb1400e4c120", "prediction": "About 0.9% of the Sun's mass is made up of oxygen."}
+{"id": "5ad14e86645df0001a2d16e0", "prediction": "The question seems to be asking about a specific policy or directive that did not require workforce consultation in business. Based on the context provided, the Works Council Directive, which was adopted in 1996, required workforce"}
+{"id": "57298ef11d0469140077952e", "prediction": "According to the Riemann hypothesis, all zeroes of the ζ-function have real part equal to 1/2 except for s = −2, −4, ..."}
+{"id": "5ad50c9f5b96ef001a10aae1", "prediction": "I cannot answer this question as it requires specific demographic data which is not provided in the context. The context only mentions that Warsaw's Jewish population was about 30% of the city's total population. To determine the"}
+{"id": "5a0c807ff5590b0018dab452", "prediction": "Areas of heavy forest are visible to the naked eye from outer space."}
+{"id": "5a668b33f038b7001ab0bf90", "prediction": "Francis Heisler sponsored a protest at the Camp Mercury nuclear test site near Las Vegas, Nevada, in August 1077."}
+{"id": "5ad561c85b96ef001a10ad3c", "prediction": "An example of a measurement within a complexity class that would not create a bigger set of problems if the bounds were relaxed is the requirement for a problem to be solvable in polynomial time. If we relax this requirement, we would not"}
+{"id": "5a6ce1ca4eec6b001a80a670", "prediction": "One issue that takes away the complexity of a pharmacist's job is patient compliance issues. Ensuring that patients follow their prescribed medication regim0mens, both in the hospital and at home, can be"}
+{"id": "5726e179dd62a815002e93b0", "prediction": "One issue that adds to the complexity of a pharmacist's job is the need to consider drug interactions when evaluating the safety of medications for patients."}
+{"id": "5ad561c85b96ef001a10ad3d", "prediction": "Relaxing the requirements on computation time does not define a bigger set of problems. In fact, the time hierarchy theorem states that there are pairs of complexity classes such that one is properly included in the other, meaning that relaxing the computation"}
+{"id": "571caac55efbb31900334dc9", "prediction": "The context does not specify the exact amount of liquid oxygen produced by the early French experimenters. It only mentions that only a few drops were produced in either case."}
+{"id": "5ad23eefd7d075001a4288db", "prediction": "Polish scientists from Jagiellonian University, Zygmunt Wróblewski and Karol Olszewski, liquified oxygen in a stable state on March 22, 1883."}
+{"id": "571caac55efbb31900334dca", "prediction": "Oxygen was liquefied in a stable form on March 29, 1883."}
+{"id": "5ad22cd0d7d075001a42861b", "prediction": "Priestley named the air he created \"dephlogisticated air.\""}
+{"id": "5ad22cd0d7d075001a428618", "prediction": "Joseph Priestley conducted an experiment on August 4, 1774."}
+{"id": "5725f00938643c19005aced7", "prediction": "Kearney Boulevard is named after early 20th century entrepreneur and millionaire M. Theo Kearney."}
+{"id": "57332442d058e614000b5721", "prediction": "In the Polish language, Warszawa means \"belonging to Warsz,\" with Warsz being a shortened form of the masculine name of Slavic origin Warcisław."}
+{"id": "5725f00938643c19005aced9", "prediction": "Wealthy African-American families were at one time residing between Fresno Street and Thorne Ave along Kearney Boulevard."}
+{"id": "57332442d058e614000b5720", "prediction": "Warsaw's name in the Polish language is Warszawa."}
+{"id": "5727e21e4b864d1900163f36", "prediction": "The Shakespeare scholar who is a faculty member at Harvard is Stephen Greenblatt."}
+{"id": "5a25f6a3c93d92001a400366", "prediction": "Construction workers with 14 years of experience earn an average of £43,389 per annum in the Middle East."}
+{"id": "5ad3b567604f3c001a3fedb6", "prediction": "The context does not provide information on how much gunpowder was saved. It only mentions that 45,000 pounds of gunpowder were destroyed at the Oneida Carry."}
+{"id": "5ad2b72fd7d075001a42a025", "prediction": "Archduke Sigismund of Austria died on August 18, 1496."}
+{"id": "57264e2f708984140094c1e1", "prediction": "The Plos Pathogens paper came out in October 2010."}
+{"id": "57264e2f708984140094c1e3", "prediction": "Scientists assessed the DNA/RNA of Yersinia pestis using Polymerase Chain Reaction (PCR) techniques. They extracted DNA/RNA from the tooth sockets of human skelet"}
+{"id": "571090abb654c5140001f996", "prediction": "The Weavers, a half-timbered house by the river, was the site of a weaving school in Canterbury."}
+{"id": "5acf8d4077cf76001a6851f6", "prediction": "The University of Chicago is governed by a board of trustees, which includes the university President. As of August 2009, the Chairman of the Board of Trustees was Andrew Alper, and the President of the"}
+{"id": "5730131c947a6a140053d056", "prediction": "The context does not specify who the Islamic Liberation Party attempted to assassinate."}
+{"id": "5acfec9277cf76001a686507", "prediction": "Over 300 Egyptian police were victims of al-Gama'a al-Islamiyya's (Islamic Group) campaign of terror."}
+{"id": "5acfec9277cf76001a68650a", "prediction": "The Islamic Liberation Party has never attempted to assassinate the Egyptian head of the counter-terrorism police, Major General Raouf Khayrat."}
+{"id": "5a8221dc31013a001a335231", "prediction": "Cambridge owns approximately fifty percent less land in Allston than in Cambridge."}
+{"id": "5728683b3acd2414000df9b2", "prediction": "The name of the winter festival held in January that is based on fitness is Kuviasungnerk/Kangeiko."}
+{"id": "5ad14a28645df0001a2d15a2", "prediction": "The entity that does not enforce the Charter of Fundamental Rights of the European Union is the European Court of Human Rights. This court enforces the European Convention on Human Rights, not the Charter of Fundamental Rights of the European"}
+{"id": "5a25d89aef59cd001a623cf7", "prediction": "After the equity in the property, the initial bid is eliminated from consideration."}
+{"id": "5726a34bf1498d1400e8e5a0", "prediction": "After the Lisbon Treaty, the Charter and the Convention now co-exist under European Union law."}
+{"id": "5ad3c57a604f3c001a3feff4", "prediction": "John Smeaton notably improved the Savery water pump by introducing an ingenious improvement of Savery's construction, making it capable of working itself."}
+{"id": "5ad2b1e1d7d075001a429f6c", "prediction": "The foreign territory between the modern Baden and Württemberg was occupied by Germanic populations."}
+{"id": "5ad2b1e1d7d075001a429f6a", "prediction": "The Black Forest was not discovered at a specific time; it has been inhabited by humans for thousands of years. The context provided does not mention the discovery of the Black Forest."}
+{"id": "5ad2b1e1d7d075001a429f68", "prediction": "Augustus, the first Roman emperor, did not \"find\" Rome. He was born in Rome in 63 BC and became emperor in 27 BC. Augustus, also known as Gaius Octavius"}
+{"id": "5ad0313b77cf76001a686dd5", "prediction": "Rebellions by members who are discontent with their party's policies are rare in the Scottish Parliament. However, parties sometimes announce \"free votes\" on moral issues, allowing Members to vote as they please."}
+{"id": "5728df634b864d1900164fe3", "prediction": "When violence is used, civil disobedience is sometimes called civil rebellion."}
+{"id": "57281c594b864d19001644a5", "prediction": "People behaving with civil disobedience that is not-violent is said to make society have more tolerance of civil disobedience."}
+{"id": "5705f36452bb89140068971a", "prediction": "The two AAA clubs divided the state into a northern and southern California as opposed to the three-region point of view."}
+{"id": "57281c594b864d19001644a2", "prediction": "Cristian Bay's encyclopedia concludes that civil disobedience does not only include non-violent behavior."}
+{"id": "5a892e8e3b2508001a72a4fb", "prediction": "One impressive continuation of the Carmichael primality test is the Miller-Rabin primality test."}
+{"id": "573368e54776f41900660a55", "prediction": "Bielany Forest is the last remnant of the Masovian Primeval Forest."}
+{"id": "5ad26e85d7d075001a4293f5", "prediction": "Dover was the main center of the British lace industry at the time."}
+{"id": "5ad50fe55b96ef001a10ab4e", "prediction": "Kampinos's flora is very rich in species because it is located within the border region of several big floral regions, including substantial proportions of close-toMainActivity.com.com. It is connected with Bielany"}
+{"id": "5ad4d10e5b96ef001a10a1a3", "prediction": "The context provided does not mention specific roles for B cells. It only discusses T cells and their subtypes. B cells have their own distinct roles in the immune system, such as producing antibodies and presenting antig"}
+{"id": "5ad02e3377cf76001a686d34", "prediction": "As a result of non-imperialism, the world's economy grew significantly and became much more interconnected in the decades before World War I. This interconnectedness made the many imperial powers rich and prosperous."}
+{"id": "57281d494b864d19001644c1", "prediction": "The increased support for government reform was spurred by the corruption scandals among city officials, the loss of accreditation for all 15 of Duval County's public high schools, and the desire for lower tax"}
+{"id": "5a7b3b3121c2de001afe9df1", "prediction": "It snowed 2.2 inches (0.06 m) in Fresno in 1885."}
+{"id": "5725f6e138643c19005acf1d", "prediction": "The most rainfall recorded in a 24-hour period in Fresno was 3.55 inches (90.2 mm) on November 18, 1885."}
+{"id": "5726431d271a42140099d7f9", "prediction": "To counteract the overpopulation of Mnemiopsis in the Black Sea, the accidental introduction of Beroe, another ctenophore that preys on Mnemiopsis, was done. This helped to mitig"}
+{"id": "5725c69738643c19005accb9", "prediction": "Beroe eats other ctenophores."}
+{"id": "5a834dbde60761001a2eb558", "prediction": "Copepods have accidentally been released into the Black Sea."}
+{"id": "57281edd3acd2414000df4eb", "prediction": "The result of the 1967 referendum was that voters approved the plan for the consolidation of the governments, leading to the creation of the Consolidated City of Jacksonville on October 1, 1"}
+{"id": "57281edd3acd2414000df4ed", "prediction": "After the consolidation, Jacksonville was referred to as the \"Bold New City of the South.\""}
+{"id": "5a834dbde60761001a2eb557", "prediction": "In other places where ctenophores are uncommon and difficult to find, copepods may be more common as there is less predation by ctenophores on small zooplanktonic organisms like"}
+{"id": "5ad26964d7d075001a4292ce", "prediction": "The context provided does not specify particular issues that prevent women from working outside the home or receiving education. However, it mentions gender roles and customs as potential barriers. These could include societal norms, cultural expectations, or traditional"}
+{"id": "572a2224af94a219006aa823", "prediction": "When a person's capabilities are lowered, they are deprived of earning as much income as they would otherwise. This can happen due to various reasons such as illness, gender roles, customs, epidemics"}
+{"id": "572ffc99947a6a140053cef9", "prediction": "The gentlemen's agreement between Sadat and the Islamists broke down in 1975."}
+{"id": "572f6c85947a6a140053c941", "prediction": "A bulk of factories are concentrated along the Lower Rhine, as the river passes the major cities of Cologne, Düsseldorf, and Duisburg."}
+{"id": "572a1a5c6aef051400155284", "prediction": "To ensure poorer members of society can participate in economic growth, special efforts must be made to address inequality and create opportunities for their inclusion. This can be achieved through policies and initiatives that focus on improving access to education,"}
+{"id": "572a1a5c6aef051400155285", "prediction": "The growth elasticity of poverty can depend on the existing level of inequality within a country."}
+{"id": "5725c95f38643c19005accf7", "prediction": "Around 5 million people may have lived in the Amazon region during AD 1500."}
+{"id": "5729f4e46aef051400155156", "prediction": "Joseph Stiglitz is an economist."}
+{"id": "5729f4e46aef05140015515a", "prediction": "Income not from the creation of wealth but by grabbing a larger share of it is known to economists by the term \"rent-seeking.\""}
+{"id": "57335ddbd058e614000b5932", "prediction": "Aeolian sand with a number of dunes can be found on the highest terrace of the right side of Warsaw."}
+{"id": "5acfa71b77cf76001a68572f", "prediction": "John B. Goodenough developed the lithium-ion battery."}
+{"id": "5728fb6a1d04691400778ef5", "prediction": "With civil disobedience, one needs to avoid actions that undermine the law by encouraging general disobedience which is neither conscientious nor of social benefit. Additionally, civil disobedience should not be for"}
+{"id": "5728fb6a1d04691400778ef9", "prediction": "Someone might avoid crimes while protesting to ensure that their act of civil disobedience is conscientious, of social benefit, and to maintain the integrity of their protest. By not engaging in crimes for self-"}
+{"id": "572881704b864d1900164a50", "prediction": "Four schools of medicine were recognized in China."}
+{"id": "572905ce1d04691400778f86", "prediction": "When a phagosome fuses with a lysosome, a phagolysosome is formed."}
+{"id": "5ad4d52a5b96ef001a10a263", "prediction": "Antibodies do not circulate in the blood plasma and lymph when they are bound to pathogens expressing the antigen they recognize. This binding allows the antibodies to mark the pathogens for"}
+{"id": "5ad02fda77cf76001a686d8e", "prediction": "There is some debate that there is a not correlation between capitalism, imperialism, and domestic social reforms, as argued by J. A. Hobson."}
+{"id": "5710968aa58dae1900cd6a86", "prediction": "Families with French names in South Africa today mostly speak Afrikaans."}
+{"id": "5a67a492f038b7001ab0c3c4", "prediction": "St Andrew's College in Christchurch is run as a Presbyterian private school."}
+{"id": "5ad3ae4f604f3c001a3fec4b", "prediction": "Mohawk Chief Hendrick was the reader of the tribal council."}
+{"id": "5705f09e75f01819005e77a7", "prediction": "The percentage of people that voted in favor of the Pico Act of 1859 was nearly 75%."}
+{"id": "5705f09e75f01819005e77a6", "prediction": "Southern California attempted to achieve separate statehood three times in the 1850s."}
+{"id": "5705f09e75f01819005e77a5", "prediction": "The name given to the regions in which the pro-slavery southerners lived was the \"Cow Counties\" of southern California."}
+{"id": "5ad3eb61604f3c001a3ff71c", "prediction": "Arthur Smith was British."}
+{"id": "572f55e8a23a5019007fc56b", "prediction": "The name Rhine derives from the Gaulish name Rēnos, which was adapted in Roman-era geography as Greek Ῥῆνος (Rhēnos), Latin Rhenus."}
+{"id": "572f55e8a23a5019007fc56c", "prediction": "The French name for the Rhine is Rhin."}
+{"id": "5a2c16e3bfd06b001a5ae9e8", "prediction": "The context provided does not mention a TV advertising campaign specifically targeting men."}
+{"id": "572a20816aef0514001552e6", "prediction": "In an ideal moral society, as argued by Robert Nozick, all citizens would be free from force."}
+{"id": "57337f6ad058e614000b5bce", "prediction": "Many Poles believed that Varsovians thought of themselves as better only because they lived in the capital."}
+{"id": "5ad4f1c95b96ef001a10a72a", "prediction": "Since 1945, there are no longer limitations on residency registration in Warsaw."}
+{"id": "5a679db8f038b7001ab0c351", "prediction": "Private schools worldwide must work towards the Junior Certificate and the Leaving Certificate, as mentioned in the context."}
+{"id": "5725d34089a1e219009abf50", "prediction": "Paul Baran developed the concept of Distributed Adaptive Message Block Switching, which aimed to provide a fault-tol0tolerant, efficient routing method for telecommunication messages as part of a research program at the R"}
+{"id": "5a5504e1134fea001a0e17f8", "prediction": "In the late 1950s, the concept of Distributed Adaptive Message Block Switching was developed by American computer scientist Paul Baran."}
+{"id": "5a667457846392001a1e1c2e", "prediction": "The RAND Corporation, funded by the US Department of Defense, conducted research on the development of Distributed Adaptive Message Block Switching, a concept aimed at providing a fault-tol0tolent, efficient routing method"}
+{"id": "5ad4e4425b96ef001a10a575", "prediction": "When tyrosinase is expressed at low levels, it does not cause any harm or transformation of skin cells. Tyrosinase is an enzyme that, when expressed at high levels, can contribute to the development of melan"}
+{"id": "5ad400f0604f3c001a3ffcf3", "prediction": "Kublai Khan's opposition to Ögedei Khan was not explicitly stated in the provided context. Instead, the context describes Kublai Khan's actions and policies during his reign, which included building schools for Confucian"}
+{"id": "572900f73f37b31900477f6a", "prediction": "The symptoms of inflammation, which include redness, swelling, heat, and pain, are caused by increased blood flow into the affected tissue. This increased blood flow is a result of the immune system'atively respond"}
+{"id": "5ad4b1895b96ef001a109dc7", "prediction": "Pain is not a symptom that is caused by inflammation. Inflammation causes redness, swelling, heat, and pain."}
+{"id": "5a893a003b2508001a72a53f", "prediction": "Goldbach's conjecture holds that every odd integer n greater than 2 can be expressed as a sum of two primes."}
+{"id": "5a55167b134fea001a0e18fe", "prediction": "Tymnet worked with X.25, SNA/SDLC, BSC, and ASCII interfaces to connect host computers at thousands of large companies, educational institutions, and government agencies. It also worked with other public networks in"}
+{"id": "5730b541396df919000962c2", "prediction": "The first British Empire was based on mercantilism."}
+{"id": "5ad4b0f25b96ef001a109dbd", "prediction": "Pathogenic bacteria do not compete with commensal flora for food and space. Instead, commensal flora compete with pathogenic bacteria for these resources."}
+{"id": "572a142e3f37b319004786bb", "prediction": "The type of cascade that results when complement proteins bind to microbes and activate their protease activity is a complement cascade."}
+{"id": "572ffce5a23a5019007fcc18", "prediction": "In the early Pleistocene, the Rhine flowed to the northwest, through the present North Sea."}
+{"id": "572ffce5a23a5019007fcc17", "prediction": "The sea level dropped 120 meters (390 feet) during the Ice Ages."}
+{"id": "5a5904ed3e1742001a15cf44", "prediction": "The point that radiometric isotopes begin diffusing is called the closure temperature."}
+{"id": "5a57f717770dc0001aeeff07", "prediction": "Measuring in crystal lattices shows the absolute age data for sedimentary rock units within ash layers."}
+{"id": "5a2ed354a83784001a7d24ef", "prediction": "The context provided does not specify the percentage of Venice residents who died of the plague in 1361."}
+{"id": "5ad3bd30604f3c001a3fef11", "prediction": "I'm sorry for the confusion, but there seems to be a mistake in the context provided. The Royal Proclamation you're referring to is the Royal Proclamation of 1763, not the Royal Proclam"}
+{"id": "57265c10f1498d1400e8dd39", "prediction": "Cydippids combs are controlled by water disturbances created by the cilia."}
+{"id": "5a38ab9fa4b263001a8c188c", "prediction": "OPEC dollars depreciated because the industrialized nations increased their money supplies, causing their currencies to fluctuate unpredictably. This led to a decrease in the value of the dollar and other industrialized nations' curr"}
+{"id": "5725b76389a1e219009abd4d", "prediction": "Oil started getting priced in terms of gold in September 1971, following OPEC's joint communiqué."}
+{"id": "5a75054b97ca42001a521dce", "prediction": "The US abandoned the Gold Exchange Standard."}
+{"id": "5ad04ecf77cf76001a686fb2", "prediction": "Pomona University is located in Pomona, California."}
+{"id": "5706139252bb891400689865", "prediction": "The region is famous for its prestigious and world-renowned research universities, including both public and private institutions."}
+{"id": "5ad295d4d7d075001a429afb", "prediction": "Southern Europe was not \"discovered\" in the same sense as new lands were discovered by explorers in other parts of the world. The geological history of southern Europe, as described in the context, spans millions of years"}
+{"id": "57376a1bc3c5551400e51ec4", "prediction": "Forces have magnitude and direction with regard to additive quantities."}
+{"id": "5733e5a14776f4190066145d", "prediction": "In 1750, Christopher Gist explored the Ohio territory."}
+{"id": "572998673f37b319004784d8", "prediction": "The logic behind the cicadas' prime number evolutionary strategy is that the prime number intervals between their emergences make it very difficult for predators to evolve and specialize as predators on Magicicadas. If the cicadas"}
+{"id": "5729f5a03f37b31900478607", "prediction": "Gamma delta T cells (γδ T cells) help with both innate and adaptive immunity."}
+{"id": "571c3c47dd7acb1400e4c09d", "prediction": "Oxygen is found in the major portion of living things as a part of water, which is the major constituent of lifeforms."}
+{"id": "5ad3bd87604f3c001a3fef25", "prediction": "The Spanish takeover of the Louisiana Territory was not completed until 1769."}
+{"id": "57274ca8dd62a815002e9aa8", "prediction": "In private schools, classes are taught in English."}
+{"id": "57340d124776f419006617c1", "prediction": "The Spanish takeover of the Louisiana Territory was complete in 1769."}
+{"id": "56e1ec83cd28a01900c67c0c", "prediction": "That there currently exists no known efficient integer factorization problem underpins the commonly used RSA cryptographic system."}
+{"id": "5a57c667770dc0001aeefd69", "prediction": "The way a mineral is deposited can be changed by the processes of weathering, erosion, and lithification. Weathering breaks down the rock into smaller particles, erosion transports these particles, and l"}
+{"id": "572fb42904bcaa1900d76c15", "prediction": "At the beginning of each parliamentary session, one Member of the Scottish Parliament (MSP) is elected to serve as the Presiding Officer. The current Presiding Officer is Tricia Marwick."}
+{"id": "5ad3f846604f3c001a3ffa5f", "prediction": "Gas turbines have overtaken steam engines for gas propulsion."}
+{"id": "5ad543c05b96ef001a10ac00", "prediction": "Turing machines are not intended as a practical computing technology; they are a theoretical device used for thought experiments and representing a computing machine."}
+{"id": "572fd7b8947a6a140053cd3c", "prediction": "During General Question Time, members may direct questions towards any member of the Scottish Government."}
+{"id": "5ad0426c77cf76001a686f1c", "prediction": "Members can ask questions to only particular members of the Scottish Government during the \"General Question Time\" on a Thursday between 11:40 a.m. and 12 p.m."}
+{"id": "5a8235a931013a001a3352d8", "prediction": "The American Library Association does not endorse a specific number of books. The context provided states that the Harvard University Library System holds over 18 million volumes, making it the largest academic library in the United States and one of the largest"}
+{"id": "5ad40346604f3c001a3ffd75", "prediction": "Kublai failed to move the Mongol capital in 1264."}
+{"id": "5a82370631013a001a3352e3", "prediction": "The context provided does not mention who designed the Fogg Museum of Art."}
+{"id": "5ad3f4ed604f3c001a3ff966", "prediction": "The attempt to remedy the difficulties arising from gradient performance is the development of the Quasiturbine, a uniflow rotary steam engine where steam intakes in hot areas, while exhausting in cold areas."}
+{"id": "572facb0a23a5019007fc866", "prediction": "There was a sharp rise in nationalism in Scotland during the late 1960s."}
+{"id": "5a6799adf038b7001ab0c31e", "prediction": "The legislature conducts examinations for school leaving certificates."}
+{"id": "57274beff1498d1400e8f5e4", "prediction": "The term for an Indian private school is an \"unaffiliated independent school.\""}
+{"id": "5ad404a6604f3c001a3ffde3", "prediction": "Richard offered Isaac his daughter."}
+{"id": "57306797396df919000960ef", "prediction": "Colonial rule, or physical occupation of a territory, is an example of \"formal\" imperialism."}
+{"id": "5acff4b177cf76001a686615", "prediction": "Colonial rule, or physical occupation of a territory, is not an example of informal imperialism."}
+{"id": "5727f6723acd2414000df0e8", "prediction": "The set of countries that have higher economic mobility than the United States, according to the context provided, are the continental European countries for which data is available."}
+{"id": "572a18a4af94a219006aa7df", "prediction": "Theories suggesting that inequality may have some positive effect on economic development were developed in the 1970s."}
+{"id": "57286010ff5b5019007da1cc", "prediction": "The name of the experiment that tested how life originated on early Earth is the Miller–Urey experiment."}
+{"id": "5acf9b1177cf76001a685442", "prediction": "REM sleep was discovered at the University of Chicago in 1953 by Nathaniel Kleitman and Eugene Aserinsky, not in 1947."}
+{"id": "5acf9b1177cf76001a685443", "prediction": "The context provided does not mention an experiment specifically testing early life on Mars. The experiments mentioned are related to the University of Chicago, but they are focused on the origin of life on Earth, such as the Miller-Urey experiment, radi"}
+{"id": "5acf9b1177cf76001a685441", "prediction": "The Miller-Urey experiment was conducted in 1953."}
+{"id": "571ccfbadd7acb1400e4c164", "prediction": "Electrolysis of water can be used to produce oxygen and hydrogen."}
+{"id": "5733f8dc4776f419006615f8", "prediction": "When Johnson was seen as the larger threat, Vaudreuil reacted by sending Baron Dieskau to Fort St. Frédéric to meet that threat."}
+{"id": "5a6ce2ec4eec6b001a80a679", "prediction": "One factor that decreases the importance of the pharmacy performing at a high level is the outsourcing of high-risk preparations and some other compounding functions to specialized companies. This allows the hospital pharmacy"}
+{"id": "57286ead2ca10214002da347", "prediction": "Kublai wanted his eldest son, Zhenjin, to succeed him."}
+{"id": "5ad25e99d7d075001a428f31", "prediction": "Besides Nova Scotia, another British colony in North America was New Netherland, which later became incorporated into New York and New Jersey."}
+{"id": "57107932a58dae1900cd69cc", "prediction": "The name of the first Huguenot church in the New World was L'Église française à la Nouvelle-Amsterdam (the French church in New Amsterdam)."}
+{"id": "57107932a58dae1900cd69ce", "prediction": "The Huguenots were the first Europeans to live in what is now known as Brooklyn, New York."}
+{"id": "5acff69e77cf76001a686665", "prediction": "J. A. Hobson didn't want the races of lowest 'social efficiency' to develop the world."}
+{"id": "5ad25963d7d075001a428e0c", "prediction": "A couple of ships with around 500 people arrived at the Guanabara Bay, and they settled in a small island."}
+{"id": "572a135daf94a219006aa79f", "prediction": "The immune systems of bacteria have enzymes that protect against infection by bacteriophage cells."}
+{"id": "5725c41eec44d21400f3d50b", "prediction": "LGM stands for Last Glacial Maximum."}
+{"id": "5a590efb3e1742001a15cf60", "prediction": "Hillslopes and channels erode due to the topographic gradient created by deformation processes, such as faulting, which results in material on the rock unit that is increasing in elevation being eroded by hillslopes and channels."}
+{"id": "5a3e5014378766001a002579", "prediction": "Everyday relevance to popular culture explained the effective communication of the ozone depletion case to laypersons, using easy-to-understand bridging metaphors. This approach helped convey the immediate risks associated with o"}
+{"id": "5a590efb3e1742001a15cf64", "prediction": "Another name for a dike swarm is a \"dike ring.\""}
+{"id": "5725c41eec44d21400f3d50c", "prediction": "The analysis from the sediment deposits indicated that rainfall in the Amazon basin during the Last Glacial Maximum (LGM) was lower than it is today, which was likely associated with reduced moist tropical vegetation cover"}
+{"id": "572745c6708984140094db9a", "prediction": "A formal design team may be assembled to plan the physical proceedings of a construction project and integrate those proceedings with the other parts, such as architectural, mechanical, electrical, and structural engineering aspects."}
+{"id": "5a25c087ef59cd001a623cce", "prediction": "A quantity surveyor prepares a bill of quantities based on the design provided by the design team. This bill of quantities is used by construction companies or construction management companies to make a bid for the work, either directly on the design or on"}
+{"id": "571166352419e314009555f2", "prediction": "The steam generated by a nuclear power plant drives a turbine connected to an electrical generator."}
+{"id": "5ad3fabc604f3c001a3ffb1d", "prediction": "In a nuclear power plant, the steam turbine is connected to an electrical generator."}
+{"id": "5acf9a5277cf76001a685420", "prediction": "The National Opinion Research Center is located on the Chicago campus."}
+{"id": "572fd6aa04bcaa1900d76da0", "prediction": "The ordinary general elections are held on the first Thursday in May every four years."}
+{"id": "5a8352ebe60761001a2eb580", "prediction": "Lagerstatten are thought to have appeared after the Cretaceous–Paleogene extinction event, which happened 66 million years ago."}
+{"id": "5a8352ebe60761001a2eb57d", "prediction": "Lagerstätten, where fossils thought to represent ctenophores have been found, date back to the early Cambrian period, about 515 million years ago."}
+{"id": "5ad546c75b96ef001a10ac11", "prediction": "A non-deterministic Turing machine allows the machine to have multiple possible past actions from a given state."}
+{"id": "5a822bc531013a001a335281", "prediction": "The Carnegie Foundation required students to complete seven classes outside of their concentration in 2007."}
+{"id": "5727d3843acd2414000ded69", "prediction": "Between 1978 and 2008, entering students were required to complete a core curriculum of seven classes outside of their concentration."}
+{"id": "5a3e44ea378766001a002535", "prediction": "The National Research Council's investigation found no statistical failings."}
+{"id": "5725b81b271a42140099d097", "prediction": "The Amazon rainforest is also described as Amazonia or the Amazon Jungle in English."}
+{"id": "572856beff5b5019007da194", "prediction": "The John Crerar Library roughly holds more than 1.3 million volumes."}
+{"id": "570d32e4fed7b91900d45d02", "prediction": "The public schools in Victoria are run directly by the Victoria Department of Education."}
+{"id": "570d32e4fed7b91900d45d03", "prediction": "In Victoria, students who attend public schools do not pay tuition fees, but they may have to pay some extra costs. These extra costs can include expenses related to school uniforms, textbooks, stationery, and other school"}
+{"id": "572ff86004bcaa1900d76f65", "prediction": "Between fundamentalist Islamism and reformist Islamism, there exists a major division within Islamism, as described by Graham E. Fuller. This division is characterized by the contrast between the fundamentalist \"guardians of the tradition\""}
+{"id": "5a7b0fae21c2de001afe9d2c", "prediction": "The California State University was renamed as California State University at Fresno."}
+{"id": "5a892d303b2508001a72a4ee", "prediction": "There are two main classes of modern primality tests for general numbers n: probabilistic (or \"Monte Carlo\") and deterministic algorithms."}
+{"id": "5a2eb95ca83784001a7d242c", "prediction": "Constantinople is in the country of Turkey."}
+{"id": "572647935951b619008f6ecb", "prediction": "Scientists think all of the plagues originated from China."}
+{"id": "57297d421d046914007794e8", "prediction": "Trial division is a deterministic algorithm."}
+{"id": "5a2eb95ca83784001a7d242d", "prediction": "The term for a disease that is not commonly present is \"endemic.\""}
+{"id": "5a592c9d3e1742001a15cfd9", "prediction": "Abu al-Rayhan al-Biruni based his writings on the earliest writings on the geology of India, hypothesizing that the Indian subcontinent was once a sea. He drew from Greek and Indian"}
+{"id": "5acf7ecb77cf76001a684fa3", "prediction": "The context does not provide information about Clay Bartlett donating land by Marshall Field."}
+{"id": "57115c7450c2381900b54aa0", "prediction": "An evaporative cooling tower is also referred to as a wet cooling tower."}
+{"id": "5ad3a16d604f3c001a3fe9e3", "prediction": "The British operations in 1755, 1756, and 1757 in the frontier areas of Pennsylvania and New York did not succeed. The context provided indicates that the main reasons for their failure were"}
+{"id": "571c9074dd7acb1400e4c103", "prediction": "Ozone performs the function of acting as a protective radiation shield for the planet by absorbing strongly in the UV region of the spectrum."}
+{"id": "5ad24ce8d7d075001a428c0f", "prediction": "In 2006, it was proven that the metastable molec069 molecule tetraoxygen (O4) exists in one of the six phases of solid oxygen, specifically as a r"}
+{"id": "5ad4bcc45b96ef001a109e9e", "prediction": "The Warsaw Stock Exchange is one of the most important for Central and Eastern Europe."}
+{"id": "5a8224ea31013a001a335250", "prediction": "Forbes did not halt the construction of the Allston Science Complex in 2008. The context states that Harvard University halted the construction of the $1.2 billion Allston Science Complex in 2009 due"}
+{"id": "5730b1022461fd1900a9cfa4", "prediction": "As a result of the Russo-Japanese War in 1905, Japan took part of Sakhalin Island from Russia."}
+{"id": "5a665870846392001a1e1af6", "prediction": "Gandhi believed that using one's conscience to disobey laws that are deemed \"wrong\" by an individual could render those laws ineffective, lead to their repeal, or exert pressure to achieve political or social"}
+{"id": "5728202c4b864d19001644ec", "prediction": "It is called revolutionary civil disobedience when there is an active attempt to overthrow a government or belief system."}
+{"id": "5728202c4b864d19001644ef", "prediction": "The example of revolutionary civil disobedience towards culture is highlighted by the Hungarians under Ferenc Deák."}
+{"id": "5a665870846392001a1e1af7", "prediction": "Harvey Wheeler did not direct the Hungarians to do anything. The context provided mentions that it has been claimed that the Hungarians under Ferenc Deák directed revolutionary civil disobedience against the Austrian government."}
+{"id": "572871bd3acd2414000dfa05", "prediction": "Toghun Temur was 13 years old when he became emperor."}
+{"id": "5ad4066a604f3c001a3ffe5f", "prediction": "Tugh Temür was born in 1305."}
+{"id": "57274a8ff1498d1400e8f5be", "prediction": "The level of tuition in German private schools (Ersatzschulen) is generally lower compared to private schools in other Western European countries. Most German private schools offer very low tuition fees or scholarships to make education more accessible"}
+{"id": "5728dddc2ca10214002da9d6", "prediction": "The book of the Bible that discusses civil disobedience is the Book of Exodus."}
+{"id": "5a665549846392001a1e1ad5", "prediction": "A lawyer must publicly announce their intention to engage in civil disobedience so that they can still find representation."}
+{"id": "57379ed81c456719005744d6", "prediction": "You use ideal pulleys to let ideal strings switch direction."}
+{"id": "5ad40219604f3c001a3ffd47", "prediction": "Mongke Khan was born in 1258."}
+{"id": "5a2c0a5abfd06b001a5ae993", "prediction": "ITV was not concerned about retaining new rights."}
+{"id": "5a823e6f31013a001a335330", "prediction": "Walter Camp was the captain of the Yale football team, not Harvard's."}
+{"id": "5727db85ff5b5019007d96fc", "prediction": "The first year that Yale and Harvard played football was 1875."}
+{"id": "5733ea04d058e614000b6595", "prediction": "Marin built first Fort Presque Isle on Lake Erie's south shore."}
+{"id": "57378b141c456719005744a0", "prediction": "The straight line path in space-time is seen as a curved line in space, and it is called the ballistic trajectory of the object."}
+{"id": "5ad01a6277cf76001a686a0d", "prediction": "MAS stands for Metropolitan Statistical Area."}
+{"id": "5ad01a6277cf76001a686a0c", "prediction": "Southern California contains roughly 60 percent of California's 22 million people."}
+{"id": "5729f39a6aef05140015514e", "prediction": "The co-receptor on the T cell that helps in recognizing the MHC-antigen complex is CD8."}
+{"id": "5ad4d2105b96ef001a10a1c9", "prediction": "The co-receptor that makes recognition more difficult is CD8. CD8 is a co-receptor on the T cell that aids in the recognition of the MHC I receptor bearing the specific antigen. When CD8"}
+{"id": "5725c337271a42140099d167", "prediction": "Coastal beriods use groups of large, stiffened cilia as teeth."}
+{"id": "5726400589a1e219009ac5f2", "prediction": "There are 100-150 validated species of ctenophores, and possibly another 25 that have not been fully described and named."}
+{"id": "57308f6b8ab72b1400f9c581", "prediction": "Early Western texts referencing the East often describe the people as being irrational and backward in opposition to the rational and progressive West."}
+{"id": "57287338ff5b5019007da232", "prediction": "The Yuan people suffered a series of natural disasters from the late 1340s onwards."}
+{"id": "57287338ff5b5019007da234", "prediction": "Toghun Temur dismissed Toghtogha because he feared betrayal. Toghtogha had led a large army to crush the Red Turban rebels, but Toghun Temur"}
+{"id": "5a8251c231013a001a3353f0", "prediction": "The actor who starred in the movie Saving Private Ryan is Tom Hanks."}
+{"id": "5ad040d977cf76001a686ef9", "prediction": "The Second Minister is chosen by the First Minister."}
+{"id": "5ad261a4d7d075001a429049", "prediction": "The second law contradicts the Aristotelian belief that the acceleration of an object is directly proportional to the net force applied to it and inversely proportional to its mass."}
+{"id": "5ad266f8d7d075001a429209", "prediction": "Huguenots began to settle in South Africa in 1688."}
+{"id": "5acf98ad77cf76001a6853c6", "prediction": "Apart from its mathematics and postgraduate schools, the University of Chicago also runs the University of Chicago Laboratory Schools, the Sonia Shankman Orthogenic School, four public charter schools on the South Side of Chicago"}
+{"id": "572855973acd2414000df926", "prediction": "The name of the residential treatment program the university runs is the Sonia Shankman Orthogenic School."}
+{"id": "5a836273e60761001a2eb643", "prediction": "In other parts of the canal system, the mesoglea is different in that it is not lined with the gastrodermis, unlike the inner surface of the cavity. The mesoglea in these areas is composed of c"}
+{"id": "5728661e2ca10214002da2e8", "prediction": "Shi Tianze was Han Chinese."}
+{"id": "5710eca0a58dae1900cd6b3c", "prediction": "The Huguenots were actually granted land at the abandoned Monacan village known as Manakin Town, now in Powhatan County."}
+{"id": "573749741c4567190057445f", "prediction": "Albert Einstein explained that inertial reference frames equaled reference frames subject to constant acceleration."}
+{"id": "5ad2461ad7d075001a428ad2", "prediction": "In the context provided, the wages of workers are uncontrollable by the market and economy. This is because, in a purely capitalist mode of production, wages are determined by the market price of skill, which is influenced"}
+{"id": "5ad2447dd7d075001a428a6b", "prediction": "John Calvin became a Protestant after he converted to Protestantism, which happened after he was a student at the University of Paris. According to the context, William Farel, a leader of the Swiss Reformation, was a student"}
+{"id": "57111380a58dae1900cd6bd9", "prediction": "William Farel was a leader of the Swiss Reformation and a student of Jacques Lefevre."}
+{"id": "5a550b52134fea001a0e1846", "prediction": "Packets arrive out of order in connectionless mode because each packet is routed individually, sometimes taking different paths through the network. This means that the packets may arrive at the destination at different times, resulting in out-of-order delivery"}
+{"id": "5a822dc931013a001a335297", "prediction": "In 2004, 90% of the student body at Harvard College received Latin honors."}
+{"id": "5ad2467ad7d075001a428af9", "prediction": "Lower wages for members of labor organizations can be caused by a few factors. One potential reason is if the supply of workers in the industry is high, leading to increased competition among workers. This can drive down wages as employers have"}
+{"id": "5729f4b41d0469140077968c", "prediction": "For a helper T cell to be activated, around 200–300 receptors on the cell must be bound to an MHC:antigen complex."}
+{"id": "5a2ecb43a83784001a7d248b", "prediction": "Marseille was founded in the year 625 BC."}
+{"id": "5a2ecb43a83784001a7d248c", "prediction": "The second wave of the plague hit the Netherlands around 1350."}
+{"id": "5a836496e60761001a2eb65b", "prediction": "Cilia, when they reverse direction with their flagella, are participating in escape behavior. This behavior allows ctenophores (comb jellies) to quickly change their swimming direction as a response to predators, either by"}
+{"id": "57268da7f1498d1400e8e39e", "prediction": "The period called that was 505 million years ago is the mid-Cambrian period."}
+{"id": "5a8398bbe60761001a2eb805", "prediction": "Fish larvae were not introduced into the Black Sea; it was the Western Atlantic ctenophore Mnemiopsis leidyi that was accidentally introduced into the Black Sea and Sea of Azov via the ballast tanks"}
+{"id": "572883a33acd2414000dfa7b", "prediction": "The Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers."}
+{"id": "572883a33acd2414000dfa7a", "prediction": "The Mongols sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia."}
+{"id": "5ad267e2d7d075001a429247", "prediction": "If there were fewer people, the amount of environmental degradation would be lower. This is because the increase in environmental degradation is the result of the increase in emissions per person being multiplied by a multiplier. With fewer"}
+{"id": "5ad4dd325b96ef001a10a4a8", "prediction": "An immune response that heals the body's own tissues is not a hypersensitivity reaction. Hypersensitivity reactions, as described in the context, are immune responses that damage the body's own t"}
+{"id": "57376828c3c5551400e51eba", "prediction": "Physical quantities that do not have direction are called scalar quantities. Examples of scalar quantities include mass, temperature, speed, energy, and time."}
+{"id": "5ad11097645df0001a2d0be2", "prediction": "In the 1960s, minor amendments were made to the European Union's treaties."}
+{"id": "57268e2bf1498d1400e8e3b1", "prediction": "The Maastricht Treaty was signed in 1992."}
+{"id": "5725cc38ec44d21400f3d5bf", "prediction": "Greenland signed a Treaty in 1985 giving it a special status."}
+{"id": "57268a37f1498d1400e8e340", "prediction": "Turtles and jellyfish can eat large quantities of ctenophores."}
+{"id": "5a8397d0e60761001a2eb7fc", "prediction": "It is hard to identify the remains of salmon in the guts of possible predators."}
+{"id": "5ad146c0645df0001a2d1507", "prediction": "The adoption of laws which will not have legal effect in the EU must have a proper legal basis."}
+{"id": "5acff5b077cf76001a68662a", "prediction": "Colonialism as a policy is never caused by financial and ideological reasons."}
+{"id": "573083dc2461fd1900a9ce6f", "prediction": "Colonialism as a policy is caused by financial and ideological reasons."}
+{"id": "5ad3a733604f3c001a3feacc", "prediction": "The English recruited natives from the western portions of the Great Lakes region, including the Huron, Mississauga, Ojibwa, Winnebago, and Potawatomi."}
+{"id": "5a8203d431013a001a3350c3", "prediction": "Plato used the concept of ideal forms or archetypes to explain life-forms. He believed that the physical world was a reflection of these perfect, immutable forms, and that understanding these forms would allow one to grasp the divine plan"}
+{"id": "5a38c34ea4b263001a8c190c", "prediction": "In 2004, the intentions of the British in the Middle East regarding oil prices were revealed through a conversation between U.S. Secretary of Defense James Schlesinger and British Ambassador to the United States Lord Crom"}
+{"id": "5ad14966645df0001a2d1582", "prediction": "The European Convention on Human Rights was written in 1950."}
+{"id": "5ad2605dd7d075001a428fc7", "prediction": "In Galileo's view, the terrestrial sphere contained four elements: earth, water, air, and fire."}
+{"id": "57373d0cc3c5551400e51e87", "prediction": "Aristotle believed the terrestrial sphere to be made up of four elements."}
+{"id": "572812e74b864d19001643d0", "prediction": "Thoreau argues that usually majority rules but their views collectively are sometimes wrong."}
+{"id": "57106185b654c5140001f8dc", "prediction": "The term may be related to the Swiss politician Besançon Hugues."}
+{"id": "573408ef4776f41900661757", "prediction": "The North American French and Indian War ended with the signing of the Treaty of Paris on 10 February 1763."}
+{"id": "5a668fc9f038b7001ab0bfea", "prediction": "NSF helped the network enhance its capabilities by supporting the development of terminal to host connections, host to host batch connections (remote job submission, remote printing, batch file transfer), interactive file transfer, gateways to the Tymnet and"}
+{"id": "5a668fc9f038b7001ab0bfe7", "prediction": "Michigan Network Inc., which later became Merit Network, Inc., was formed in 1966 by Michigan's public universities."}
+{"id": "5ad56e5c5b96ef001a10ae9f", "prediction": "Problems that have polynomial-time solutions in complexity theory are considered feasible or tractable. This means that they can be solved efficiently on a computational device, and their solutions can be found in a reasonable amount of time, regardless of the"}
+{"id": "5ad56e5c5b96ef001a10ae9e", "prediction": "Problems that cannot be solved in theory, but which in practice take too long for their solutions to be useful are known as intractable problems."}
+{"id": "5a7b33b821c2de001afe9dbd", "prediction": "Luxury homes were built on the western edge of the neighborhood, on the corner of Fresno and B streets."}
+{"id": "5a7b33b821c2de001afe9dc0", "prediction": "State Route 99 Freeway was built in the late 1990s."}
+{"id": "5ad4081b604f3c001a3ffedc", "prediction": "The Ming dynasty came after the Yuan dynasty."}
+{"id": "5a2ed0a0a83784001a7d24d1", "prediction": "The Black Death, which caused the plague, is believed to have originated in Asia, specifically in the region of Central Asia. It then spread along trade routes to Europe, causing widesp0read devastation."}
+{"id": "5a2ed0a0a83784001a7d24cf", "prediction": "The context does not provide a specific number for the population of Egypt at the start of the Black Death."}
+{"id": "57287fec4b864d1900164a3e", "prediction": "The Yuan's unofficial state religion was Tibetan Buddhism."}
+{"id": "5728e8212ca10214002daa6e", "prediction": "When talking to authorities in civil disobedience cases, it is generally advised to avoid giving any information that could be incriminating or helpful to the authorities. This includes refraining from discussing the details of the protest,"}
+{"id": "5711163bb654c5140001fb13", "prediction": "New Rochelle is located in the county of Westchester."}
+{"id": "5730bb522461fd1900a9d011", "prediction": "Some people describe the internal strife between various people groups as imperialism or colonialism."}
+{"id": "5730bb522461fd1900a9d015", "prediction": "Edward Said says that the contemporary Orient, due to their backward living, lack of democracy, and the violation of women's rights, is being attacked by US imperialism."}
+{"id": "5726545f708984140094c2a5", "prediction": "The legislative body, the Council, is made up of ministers from the member states."}
+{"id": "5a7b12a421c2de001afe9d51", "prediction": "The context provided does not mention any specific factors that stalled the development of houses in the Alta Vista Tract. The development appears to have proceeded rapidly, with the tract having 267 homes just five years after the ac"}
+{"id": "5725ec8289a1e219009ac0b2", "prediction": "The Fresno Traction Company provided streetcar connections between downtown and the hospital."}
+{"id": "5acff63377cf76001a68665d", "prediction": "The conquering people take away the valuable assets and supplies of the native populations, as well as increasing their own dominance and control over the conquered lands. This often leads to changes in the social, physical, and economic structures of the"}
+{"id": "5ad13ef3645df0001a2d138d", "prediction": "Citizens or corporations were said to have been able to bring claims against other non-state parties in 1986."}
+{"id": "5ad14f5a645df0001a2d1710", "prediction": "The context provided does not mention any countries that did not agree upon the European Coal and Steel Community (ECSC) agreement. The agreement was signed by France, Italy, Belgium, the Netherlands, Luxembourg, and Germany in"}
+{"id": "5ad14f5a645df0001a2d1712", "prediction": "The EU members did not believe that Germany's dominance in the production of coal and steel led to the outbreak of the war."}
+{"id": "5a3e42de378766001a00252b", "prediction": "McIntyre and McKitrick supported the \"hockey stick graph\" produced by MBH99."}
+{"id": "5733140a4776f419006606e2", "prediction": "Warsaw became the capital of the Kingdom of Poland in 1596 when King Sigismund III Vasa moved his court from Kraków to Warsaw."}
+{"id": "5a839654e60761001a2eb7f1", "prediction": "The context does not provide a specific amount of food that crustacean larvae can eat per day. It only mentions that some ctenophores prey on zooplankton, which includes crustacean"}
+{"id": "572824f13acd2414000df58f", "prediction": "The storm that had the most significant impact on Jacksonville was Hurricane Dora in 1964. It was the only recorded storm to hit the First Coast with sustained hurricane-force winds, making it"}
+{"id": "5726965ef1498d1400e8e486", "prediction": "The entity that deals with EU staff issues is the Civil Service Tribunal."}
+{"id": "5ad139b2645df0001a2d1296", "prediction": "The CJEU's duty does not encomp0compass creating new EU law or legislation. Its role is to interpret and apply existing EU law, ensuring that the law is observed and developing the law according to appropriate"}
+{"id": "572695285951b619008f774b", "prediction": "TFEU article 294 defines the \"ordinary legislative procedure\" that applies for most EU acts."}
+{"id": "5a38c911a4b263001a8c1921", "prediction": "The Persian Gulf depended on the Saudis to manage external and internal threats, including increased military competition between them over increased oil revenues."}
+{"id": "5ad3ed26604f3c001a3ff79c", "prediction": "Robert's army faced an army of 30,000 men."}
+{"id": "5725f2c838643c19005aceee", "prediction": "Woodward Park is a total of 300 acres."}
+{"id": "57287d4a2ca10214002da3e8", "prediction": "The three parts of Kublai Khan's government were the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military"}
+{"id": "5ad11288645df0001a2d0c34", "prediction": "The Commissioners, as a block, were subjected to a qualified majority vote of the Council for approval."}
+{"id": "5ad10f94645df0001a2d0bc6", "prediction": "The Treaty on European Union (TEU) does not establish European Union law as applying to all regions within member states, as it specifically excludes certain regions, such as the Faroe Islands, from the jurisdiction of European Union law"}
+{"id": "5730b4282461fd1900a9cfc6", "prediction": "Lenin wrote extensively on the matter and famously declared that Imperialism was the highest stage of capitalism."}
+{"id": "57287f6a3acd2414000dfa52", "prediction": "The arts that were often practiced together by the same artists during the Yuan dynasty were painting, poetry, and calligraphy."}
+{"id": "5ad242e5d7d075001a4289a6", "prediction": "To be considered in the bottom percentile, a person would need to amass significantly less than the wealth of the top 1%, which is nearly half of the world's wealth. The exact amount would vary depending on the specific percent"}
+{"id": "5729d36b1d04691400779608", "prediction": "The three richest people in the world possess more financial assets than the lowest 48 nations combined."}
+{"id": "5726baf2dd62a815002e8e74", "prediction": "Since its foundation, the Treaties have sought to enable people to pursue their life goals in any country through free movement."}
+{"id": "5ad15a11645df0001a2d1858", "prediction": "The context provided does not specify any particular group or individual who does not have the right to set up an enterprise without unjustified restrictions. All people or entities that engage in economic activity, particularly the self-employed,"}
+{"id": "5ad15a11645df0001a2d185a", "prediction": "The Grand Chamber of the Court of Justice said that the Commission had not proven that the requirement for lawyers in Italy to comply with maximum tariffs, unless there was an agreement with a client, had any objective or effect of limit"}
+{"id": "5ad15170645df0001a2d1735", "prediction": "Free movement and trade were not central to European development since the Treaty of Rome 1957."}
+{"id": "5726b58f5951b619008f7b58", "prediction": "The Treaties generally limit free trade to prioritize other values such as public health, consumer protection, labour rights, fair competition, and environmental improvement."}
+{"id": "5726b58f5951b619008f7b59", "prediction": "The entity that has taken the view that the goals of free trade are underpinned by the aims to improve people's well-being is the Court of Justice."}
+{"id": "5726ba2c708984140094cf5b", "prediction": "In the case of Konsumentombudsmannen v De Agostini, the Court of Justice reviewed Swedish bans on advertising to children under age 12."}
+{"id": "5726c5a9f1498d1400e8eac6", "prediction": "Danish law required £200,000 (around €27,000) to start a company."}
+{"id": "5ad13b23645df0001a2d12f8", "prediction": "The EU has operated among an increasing plurality of national and globalising legal systems."}
+{"id": "5a550e6f134fea001a0e187e", "prediction": "Frame Relay provides connection-oriented operations at the data link layer of the OSI Model. It is a modified version of ISDN's layer two protocol, LAPD and LAPB, and its integrity operations per"}
+{"id": "5726b718dd62a815002e8dbf", "prediction": "Article 34 discriminated against parallel importers like Mr. Dassonville in Procureur du Roi v Dassonville by imposing a requirement for a certificate of origin for Scotch whisky imports"}
