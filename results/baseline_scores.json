@@ -2,14 +2,17 @@
   "n_total": 1000,
   "n_answerable": 493,
   "n_unanswerable": 507,
-  "exact_match": 1.7,
-  "f1": 17.31,
-  "lenient_accuracy": 44.9,
+  "exact_match": 1.9,
+  "f1": 17.51,
+  "lenient_accuracy": 45.1,
   "has_ans_em": 0.2,
   "has_ans_f1": 31.87,
-  "no_ans_accuracy": 3.16,
-  "bleu": 10.87,
+  "no_ans_accuracy": 3.55,
+  "bleu": 11.99,
   "rouge_l": 31.23,
   "method": "baseline",
-  "model": "microsoft/Phi-3-mini-4k-instruct"
+  "model": "microsoft/Phi-3-mini-4k-instruct",
+  "generation_minutes": 8.7,
+  "gpu": "Tesla T4",
+  "max_new_tokens": 48
 }
