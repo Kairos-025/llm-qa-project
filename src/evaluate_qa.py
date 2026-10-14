@@ -15,7 +15,8 @@ Metrics:
     has_ans_em, has_ans_f1     answerable questions only
     no_ans_accuracy            unanswerable questions: did the model abstain?
     lenient_accuracy           gold answer appears inside the prediction
-    bleu, rouge_l              answerable questions only (undefined for empty answers)
+    bleu, rouge_l              answerable questions only (undefined for empty answers);
+                               BLEU is sentence-level, averaged (see bleu_rouge)
 """
 import argparse
 import collections
@@ -28,8 +29,9 @@ import string
 # "unanswerable". Any of these phrasings also count as abstaining.
 # ---------------------------------------------------------------------------
 NO_ANSWER_PATTERNS = [
-    r"^unanswerable$",
-    r"^no answer$",
+    r"\bunanswerable\b",
+    r"\bnot answerable\b",
+    r"\bno answer\b",
     r"^none$",
     r"^n/?a$",
     r"cannot be answered",
@@ -39,17 +41,24 @@ NO_ANSWER_PATTERNS = [
     r"^i (do not|don't) know$",
 ]
 
+# A line like "Answer: Paris" or "Final answer: Paris"
+ANSWER_LINE = re.compile(r"^(final answer|answer)\s*[:\-]\s*", re.IGNORECASE)
 ANSWER_PREFIXES = re.compile(r"^(final answer|answer|a)\s*[:\-]\s*", re.IGNORECASE)
 
 
 def clean_prediction(raw: str) -> str:
-    """Turn a raw LLM output into a short answer string ('' means no answer)."""
+    """Turn a raw LLM output into a short answer string ('' means no answer).
+
+    If the output contains a line starting with "Answer:" (structured and
+    step-by-step prompts ask for this), the last such line is used.
+    Otherwise the first non-empty line is used, since LLMs often add
+    explanations after the answer.
+    """
     if raw is None:
         return ""
-    text = raw.strip()
-    # keep only the first non-empty line; LLMs often add explanations after it
-    lines = [l.strip() for l in text.splitlines() if l.strip()]
-    text = lines[0] if lines else ""
+    lines = [l.strip().strip("*#").strip() for l in raw.strip().splitlines() if l.strip()]
+    answer_lines = [l for l in lines if ANSWER_LINE.match(l)]
+    text = answer_lines[-1] if answer_lines else (lines[0] if lines else "")
     text = ANSWER_PREFIXES.sub("", text).strip()
     text = text.strip(" \"'`*")
     if text.endswith("."):
@@ -98,22 +107,26 @@ def lenient_match(golds, pred: str) -> int:
 
 # --- BLEU / ROUGE (answerable questions only) -------------------------------
 def bleu_rouge(pairs):
-    """pairs: list of (gold_answers, prediction). Returns (bleu, rouge_l) in 0-100."""
+    """pairs: list of (gold_answers, prediction). Returns (bleu, rouge_l) in 0-100.
+
+    BLEU is computed per answer and averaged (sentence-level BLEU with
+    effective n-gram order). Standard corpus BLEU needs matching 4-word
+    sequences, so it scores a perfect one-word answer like "Paris" as 0,
+    which would unfairly punish methods that give short, correct answers.
+    """
     if not pairs:
         return None, None
     import sacrebleu
     from rouge_score import rouge_scorer
 
     preds = [p if p else "unanswerable" for _, p in pairs]
-    max_refs = max(len(g) for g, _ in pairs)
-    # sacrebleu needs the same number of references per example: pad with the first one
-    ref_streams = [[g[i] if i < len(g) else g[0] for g, _ in pairs] for i in range(max_refs)]
-    bleu = sacrebleu.corpus_bleu(preds, ref_streams).score
+    bleu = sum(sacrebleu.sentence_bleu(p, golds).score
+               for (golds, _), p in zip(pairs, preds)) / len(pairs)
 
     scorer = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
     rouge = sum(
         max(scorer.score(g, p)["rougeL"].fmeasure for g in golds)
-        for golds, p in zip([g for g, _ in pairs], preds)
+        for (golds, _), p in zip(pairs, preds)
     ) / len(pairs)
     return bleu, rouge * 100
 
