@@ -1,0 +1,21 @@
+{
+  "source": "SQuAD 2.0 train split (test questions come from validation, so no overlap)",
+  "seed": 42,
+  "max_context_words": 450,
+  "excluded": "few-shot pool examples; passages longer than max_context_words",
+  "prompt_format": "Phase 4 structured prompt; target 'Answer: <short gold answer or unanswerable>'",
+  "train": {
+    "n": 4000,
+    "unanswerable_share": 50.0,
+    "avg_context_words": 119.7,
+    "articles": 438
+  },
+  "validation": {
+    "n": 200,
+    "unanswerable_share": 50.0,
+    "avg_context_words": 122.5,
+    "articles": 157
+  },
+  "example_target_answerable": "Answer: Jennifer Hudson",
+  "example_target_unanswerable": "Answer: unanswerable"
+}
