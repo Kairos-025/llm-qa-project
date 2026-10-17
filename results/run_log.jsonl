@@ -6,3 +6,8 @@
 {"tag": "fewshot5", "n_generated": 1000, "minutes": 15.24, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-14T03:34:36+00:00"}
 {"tag": "structured", "n_generated": 1000, "minutes": 5.34, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-14T03:40:21+00:00"}
 {"tag": "cot", "n_generated": 1000, "minutes": 13.25, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 150, "time_utc": "2026-10-14T03:53:58+00:00"}
+{"tag": "rag_k3_sample20", "n_generated": 20, "minutes": 0.23, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17T09:31:04+00:00"}
+{"tag": "rag_k1", "n_generated": 1000, "minutes": 6.01, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17T09:39:01+00:00"}
+{"tag": "rag_k3", "n_generated": 1000, "minutes": 11.93, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17T09:56:19+00:00"}
+{"tag": "rag_k5", "n_generated": 8, "minutes": 0.38, "gpu": "Tesla T4", "batch_size": 2, "max_new_tokens": 48, "time_utc": "2026-10-17T10:24:34+00:00"}
+{"tag": "rag_k5", "n_generated": 992, "minutes": 18.87, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17", "note": "run interrupted by out-of-memory on the last batch"}

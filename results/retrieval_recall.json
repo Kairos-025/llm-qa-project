@@ -1,0 +1,29 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_passages": 1204,
+  "n_questions": 1000,
+  "embedding_dim": 384,
+  "index_type": "faiss.IndexFlatIP (exact cosine search)",
+  "build_and_search_seconds": 13.2,
+  "device": "Tesla T4",
+  "recall": {
+    "all": {
+      "recall@1": 60.4,
+      "recall@3": 79.6,
+      "recall@5": 85.2,
+      "recall@10": 90.5
+    },
+    "answerable": {
+      "recall@1": 67.95,
+      "recall@3": 84.18,
+      "recall@5": 90.06,
+      "recall@10": 93.51
+    },
+    "unanswerable": {
+      "recall@1": 53.06,
+      "recall@3": 75.15,
+      "recall@5": 80.47,
+      "recall@10": 87.57
+    }
+  }
+}

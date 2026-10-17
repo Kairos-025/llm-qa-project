@@ -1,0 +1,19 @@
+{
+  "method": "rag_k5",
+  "k": 5,
+  "answerable_with_correct_passage_retrieved": {
+    "n": 444,
+    "exact_match": 49.1,
+    "f1": 62.27
+  },
+  "answerable_without_correct_passage": {
+    "n": 49,
+    "exact_match": 12.24,
+    "f1": 17.08
+  },
+  "error_sources_on_answerable": {
+    "retrieval_failures": 49,
+    "model_failures_despite_correct_passage": 226,
+    "correct": 218
+  }
+}
