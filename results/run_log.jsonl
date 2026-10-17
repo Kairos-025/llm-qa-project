@@ -6,3 +6,5 @@
 {"tag": "fewshot5", "n_generated": 1000, "minutes": 15.24, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-14T03:34:36+00:00"}
 {"tag": "structured", "n_generated": 1000, "minutes": 5.34, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-14T03:40:21+00:00"}
 {"tag": "cot", "n_generated": 1000, "minutes": 13.25, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 150, "time_utc": "2026-10-14T03:53:58+00:00"}
+{"tag": "rag_k3_sample20", "n_generated": 20, "minutes": 0.23, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17T09:31:04+00:00"}
+{"tag": "rag_k1", "n_generated": 1000, "minutes": 6.01, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17T09:39:01+00:00"}
