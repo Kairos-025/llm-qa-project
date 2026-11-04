@@ -12,12 +12,6 @@ Usage:
     python -m src.train_lora train            # full training (Session 2)
     python -m src.train_lora train --resume   # continue after a crash (same Colab server only)
 
-  Depth experiments (Phase 6, after the main run):
-    python -m src.train_lora train --max_train 500 --name size500     # training-size curve
-    python -m src.train_lora train --max_train 1000 --name size1000
-    python -m src.train_lora train --max_train 2000 --name size2000
-    python -m src.train_lora train --rank 8 --name rank8              # LoRA rank comparison
-
 Creates:
     data/ft_train.jsonl, data/ft_val.jsonl     training / validation examples (rebuilt each session)
     results/finetune_data_stats.json           what the training data looks like
@@ -152,7 +146,7 @@ def build_dataset(tok, rows):
     return Dataset.from_list(kept), len(encoded) - len(kept)
 
 
-def load_for_training(model_id, lora=LORA):
+def load_for_training(model_id):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
     from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
@@ -179,7 +173,7 @@ def load_for_training(model_id, lora=LORA):
         print("WARNING: no GPU found. CPU mode is only for testing the code with a tiny model.")
         model = AutoModelForCausalLM.from_pretrained(model_id, dtype=torch.float32)
     model.config.use_cache = False      # required with gradient checkpointing
-    model = get_peft_model(model, LoraConfig(**lora))
+    model = get_peft_model(model, LoraConfig(**LORA))
     return model, tok
 
 
@@ -228,22 +222,11 @@ def train(args):
         out_dir, ckpt_dir, log_path = TINY_ADAPTER_DIR, "checkpoints/tiny", "results/finetune_tiny_log.json"
         max_steps, every = 15, 5
     else:
-        if args.name:   # extra experiments (training-size curve, rank comparison) get their own files
-            out_dir, ckpt_dir = f"adapters/{args.name}", f"checkpoints/{args.name}"
-            log_path = f"results/finetune_{args.name}_log.json"
-        else:           # the main run
-            out_dir, ckpt_dir, log_path = args.output_dir, "checkpoints/full", "results/finetune_train_log.json"
+        out_dir, ckpt_dir, log_path = args.output_dir, "checkpoints/full", "results/finetune_train_log.json"
         max_steps, every = -1, 50
-        if args.max_train:
-            # keep the 50/50 balance: the first max_train/2 of each type
-            ans = [r for r in train_rows if not r["is_impossible"]][: args.max_train // 2]
-            unans = [r for r in train_rows if r["is_impossible"]][: args.max_train // 2]
-            keep = {r["id"] for r in ans + unans}
-            train_rows = [r for r in train_rows if r["id"] in keep]
 
-    lora = dict(LORA, r=args.rank, lora_alpha=2 * args.rank)
     print(f"Loading {args.model} for training ...")
-    model, tok = load_for_training(args.model, lora)
+    model, tok = load_for_training(args.model)
     trainable, total = model.get_nb_trainable_parameters()
     print(f"Trainable parameters: {trainable:,} of {total:,} ({100 * trainable / total:.2f}%)")
 
@@ -308,7 +291,7 @@ def train(args):
         "run": "tiny test" if args.tiny else "full",
         "base_model": args.model,
         "method": "QLoRA (4-bit NF4 base + LoRA adapter)",
-        "lora": lora,
+        "lora": LORA,
         "training": {
             "train_examples": len(train_ds),
             "val_examples": len(val_ds),
@@ -360,11 +343,6 @@ def main():
     t.add_argument("--batch_size", type=int, default=4)
     t.add_argument("--grad_accum", type=int, default=4)
     t.add_argument("--output_dir", default=ADAPTER_DIR)
-    t.add_argument("--max_train", type=int, default=None,
-                   help="train on only this many examples (still 50/50), for the training-size curve")
-    t.add_argument("--rank", type=int, default=LORA["r"], help="LoRA rank (alpha is set to 2 x rank)")
-    t.add_argument("--name", default=None,
-                   help="name for an extra experiment, e.g. size1000; saves to adapters/<name>")
     args = ap.parse_args()
     {"prepare": prepare, "train": train}[args.cmd](args)
 
