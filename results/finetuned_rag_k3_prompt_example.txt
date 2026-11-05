@@ -1,0 +1,20 @@
+<|user|>
+Read the context passages and answer the question.
+Rules:
+- The passages come from a search, so some may be irrelevant. Use only a passage that answers the question.
+- Copy the answer exactly as it appears in the passage, using as few words as possible.
+- Do not write a full sentence and do not explain.
+- If no passage contains the answer, reply with exactly: unanswerable
+
+Reply in exactly this format and nothing else:
+Answer: <answer or unanswerable>
+
+Context passages:
+[1] French and Indian War. In the spring of 1753, Paul Marin de la Malgue was given command of a 2,000-man force of Troupes de la Marine and Indians. His orders were to protect the King's land in the Ohio Valley from the British. Marin followed the route that Céloron had mapped out four years earlier, but where Céloron had limited the record of French claims to the burial of lead plates, Marin constructed and garrisoned forts. He first constructed Fort Presque Isle (near present-day Erie, Pennsylvania) on Lake Erie's south shore. He had a road built to the headwaters of LeBoeuf Creek. Marin constructed a second fort at Fort Le Boeuf (present-day Waterford, Pennsylvania), designed to guard the headwaters of LeBoeuf Creek. As he moved south, he drove off or captured British traders, alarming both the British and the Iroquois. Tanaghrisson, a chief of the Mingo, who were remnants of Iroquois and other tribes who had been driven west by colonial expansion. He intensely disliked the French (whom he accused of killing and eating his father). Traveling to Fort Le Boeuf, he threatened the French with military action, which Marin contemptuously dismissed.
+
+[2] Jacksonville, Florida. French Huguenot explorer Jean Ribault charted the St. Johns River in 1562 calling it the River of May because he discovered it in May. Ribault erected a stone column near present-day Jacksonville claiming the newly discovered land for France. In 1564, René Goulaine de Laudonnière established the first European settlement, Fort Caroline, on the St. Johns near the main village of the Saturiwa. Philip II of Spain ordered Pedro Menéndez de Avilés to protect the interest of Spain by attacking the French presence at Fort Caroline. On September 20, 1565, a Spanish force from the nearby Spanish settlement of St. Augustine attacked Fort Caroline, and killed nearly all the French soldiers defending it. The Spanish renamed the fort San Mateo, and following the ejection of the French, St. Augustine's position as the most important settlement in Florida was solidified. The location of Fort Caroline is subject to debate but a reconstruction of the fort was established on the St. Johns River in 1964.
+
+[3] Huguenot. In 1564 a group of Norman Huguenots under the leadership of Jean Ribault established the small colony of Fort Caroline on the banks of the St. Johns River in what is today Jacksonville, Florida. The effort was the first at any permanent European settlement in the present-day continental United States, but survived only a short time. A September 1565 French naval attack against the new Spanish colony at St. Augustine failed when its ships were hit by a hurricane on their way to the Spanish encampment at Fort Matanzas. Hundreds of French soldiers were stranded and surrendered to the numerically inferior Spanish forces led by Pedro Menendez. Menendez proceeded to massacre the defenseless Huguenots, after which he wiped out the Fort Caroline garrison.
+
+Question: Where did Marin build first fort?<|end|>
+<|assistant|>

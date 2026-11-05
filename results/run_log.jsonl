@@ -13,3 +13,5 @@
 {"tag": "rag_k5", "n_generated": 992, "minutes": 18.87, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-10-17", "note": "run interrupted by out-of-memory on the last batch"}
 {"tag": "finetuned_sample20", "n_generated": 20, "minutes": 0.11, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-05T01:17:02+00:00"}
 {"tag": "finetuned", "n_generated": 1000, "minutes": 5.76, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-05T01:24:19+00:00"}
+{"tag": "finetuned_rag_k1", "n_generated": 1000, "minutes": 6.2, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-05T06:02:03+00:00"}
+{"tag": "finetuned_rag_k3", "n_generated": 1000, "minutes": 12.45, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-05T06:22:17+00:00"}
