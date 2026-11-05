@@ -12,6 +12,14 @@ Usage:
     python -m src.train_lora train            # full training (Session 2)
     python -m src.train_lora train --resume   # continue after a crash (same Colab server only)
 
+  Depth experiments (Phase 6, after the main run):
+    python -m src.train_lora train --max_train 500 --name size500     # training-size curve
+    python -m src.train_lora train --max_train 1000 --name size1000
+    python -m src.train_lora train --max_train 2000 --name size2000
+    python -m src.train_lora train --rank 8 --name rank8              # LoRA rank comparison
+    python -m src.train_lora train --data natural --name natural      # balance ablation (~33% unanswerable)
+    python -m src.train_lora train --seed 1 --name seed1              # seed variation (also --seed 2)
+
 Creates:
     data/ft_train.jsonl, data/ft_val.jsonl     training / validation examples (rebuilt each session)
     results/finetune_data_stats.json           what the training data looks like
@@ -94,9 +102,16 @@ def prepare(args):
     rng.shuffle(train)
     rng.shuffle(val)
 
+    # Balance ablation: same size, but the training split's natural mix (~33% unanswerable),
+    # drawn from everything not used for validation. Separate random generator, so the
+    # balanced set above is identical with or without this step.
+    val_ids = {r["id"] for r in val}
+    natural = random.Random(SEED + 1).sample([r for r in rows if r["id"] not in val_ids], len(train))
+
     os.makedirs("data", exist_ok=True)
     write_jsonl("data/ft_train.jsonl", train)
     write_jsonl("data/ft_val.jsonl", val)
+    write_jsonl("data/ft_train_natural.jsonl", natural)
 
     def stats(rs):
         return {
@@ -114,6 +129,7 @@ def prepare(args):
         "prompt_format": "Phase 4 structured prompt; target 'Answer: <short gold answer or unanswerable>'",
         "train": stats(train),
         "validation": stats(val),
+        "train_natural_mix (balance ablation)": stats(natural),
         "example_target_answerable": target(next(r for r in train if not r["is_impossible"])),
         "example_target_unanswerable": target(next(r for r in train if r["is_impossible"])),
     }
@@ -121,7 +137,8 @@ def prepare(args):
     with open("results/finetune_data_stats.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print(json.dumps(out, indent=2))
-    print("\nSaved data/ft_train.jsonl, data/ft_val.jsonl and results/finetune_data_stats.json")
+    print("\nSaved data/ft_train.jsonl, data/ft_val.jsonl, data/ft_train_natural.jsonl "
+          "and results/finetune_data_stats.json")
 
 
 # ---------------------------------------------------------------------------
@@ -146,7 +163,7 @@ def build_dataset(tok, rows):
     return Dataset.from_list(kept), len(encoded) - len(kept)
 
 
-def load_for_training(model_id):
+def load_for_training(model_id, lora=LORA):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
     from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
@@ -173,7 +190,7 @@ def load_for_training(model_id):
         print("WARNING: no GPU found. CPU mode is only for testing the code with a tiny model.")
         model = AutoModelForCausalLM.from_pretrained(model_id, dtype=torch.float32)
     model.config.use_cache = False      # required with gradient checkpointing
-    model = get_peft_model(model, LoraConfig(**LORA))
+    model = get_peft_model(model, LoraConfig(**lora))
     return model, tok
 
 
@@ -211,10 +228,11 @@ def train(args):
     import torch
     from transformers import DataCollatorForSeq2Seq, Trainer, TrainingArguments, set_seed
 
-    set_seed(SEED)
-    if not os.path.exists("data/ft_train.jsonl"):
+    set_seed(args.seed)
+    train_file = "data/ft_train_natural.jsonl" if args.data == "natural" else "data/ft_train.jsonl"
+    if not os.path.exists(train_file):
         raise SystemExit("No training data. Run first:  python -m src.train_lora prepare")
-    train_rows = load_jsonl("data/ft_train.jsonl")
+    train_rows = load_jsonl(train_file)
     val_rows = load_jsonl("data/ft_val.jsonl")
 
     if args.tiny:   # quick test: does training start, does loss drop, does it save?
@@ -222,11 +240,24 @@ def train(args):
         out_dir, ckpt_dir, log_path = TINY_ADAPTER_DIR, "checkpoints/tiny", "results/finetune_tiny_log.json"
         max_steps, every = 15, 5
     else:
-        out_dir, ckpt_dir, log_path = args.output_dir, "checkpoints/full", "results/finetune_train_log.json"
+        if args.name:   # extra experiments (training-size curve, rank comparison) get their own files
+            out_dir, ckpt_dir = f"adapters/{args.name}", f"checkpoints/{args.name}"
+            log_path = f"results/finetune_{args.name}_log.json"
+        else:           # the main run
+            out_dir, ckpt_dir, log_path = args.output_dir, "checkpoints/full", "results/finetune_train_log.json"
         max_steps, every = -1, 50
+        if args.max_train and args.data == "natural":
+            train_rows = train_rows[: args.max_train]     # keep the natural mix
+        elif args.max_train:
+            # keep the 50/50 balance: the first max_train/2 of each type
+            ans = [r for r in train_rows if not r["is_impossible"]][: args.max_train // 2]
+            unans = [r for r in train_rows if r["is_impossible"]][: args.max_train // 2]
+            keep = {r["id"] for r in ans + unans}
+            train_rows = [r for r in train_rows if r["id"] in keep]
 
+    lora = dict(LORA, r=args.rank, lora_alpha=2 * args.rank)
     print(f"Loading {args.model} for training ...")
-    model, tok = load_for_training(args.model)
+    model, tok = load_for_training(args.model, lora)
     trainable, total = model.get_nb_trainable_parameters()
     print(f"Trainable parameters: {trainable:,} of {total:,} ({100 * trainable / total:.2f}%)")
 
@@ -257,7 +288,7 @@ def train(args):
         fp16=on_gpu,                                   # T4 has no bfloat16
         optim="paged_adamw_8bit" if on_gpu else "adamw_torch",
         report_to="none",
-        seed=SEED,
+        seed=args.seed,
         use_cpu=not on_gpu,
     )
     trainer = Trainer(
@@ -291,7 +322,7 @@ def train(args):
         "run": "tiny test" if args.tiny else "full",
         "base_model": args.model,
         "method": "QLoRA (4-bit NF4 base + LoRA adapter)",
-        "lora": LORA,
+        "lora": lora,
         "training": {
             "train_examples": len(train_ds),
             "val_examples": len(val_ds),
@@ -306,6 +337,9 @@ def train(args):
             "scheduler": "cosine",
             "max_tokens": MAX_TOKENS,
             "resumed_from_checkpoint": resume,
+            "training_data": train_file,
+            "unanswerable_share": round(100 * sum(r["is_impossible"] for r in train_rows) / len(train_rows), 1),
+            "seed": args.seed,
         },
         "trainable_params": trainable,
         "total_params": total,
@@ -343,6 +377,14 @@ def main():
     t.add_argument("--batch_size", type=int, default=4)
     t.add_argument("--grad_accum", type=int, default=4)
     t.add_argument("--output_dir", default=ADAPTER_DIR)
+    t.add_argument("--max_train", type=int, default=None,
+                   help="train on only this many examples (still 50/50), for the training-size curve")
+    t.add_argument("--rank", type=int, default=LORA["r"], help="LoRA rank (alpha is set to 2 x rank)")
+    t.add_argument("--data", choices=["balanced", "natural"], default="balanced",
+                   help="natural = the training split's own mix (~33%% unanswerable), for the balance ablation")
+    t.add_argument("--seed", type=int, default=SEED, help="random seed (change it for the seed-variation runs)")
+    t.add_argument("--name", default=None,
+                   help="name for an extra experiment, e.g. size1000; saves to adapters/<name>")
     args = ap.parse_args()
     {"prepare": prepare, "train": train}[args.cmd](args)
 

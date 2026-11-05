@@ -8,6 +8,9 @@ Usage:
     python -m src.eval_finetuned --limit 20   # quick test
     python -m src.eval_finetuned              # full run
 
+  Fine-tuned + RAG (do the two methods stack?): run `python -m src.rag build` first, then
+    python -m src.eval_finetuned --rag_k 1    # saves as finetuned_rag_k1
+
 Saves results/finetuned_preds.jsonl, _scores.json, _prompt_example.txt and a
 line in results/run_log.jsonl, so compare_results.py picks it up automatically.
 """
@@ -35,7 +38,11 @@ def main():
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--batch_size", type=int, default=8)
     ap.add_argument("--limit", type=int, default=None, help="only run the first N questions")
+    ap.add_argument("--rag_k", type=int, default=None,
+                    help="answer from the top-k RETRIEVED passages (Phase 5 setup) instead of the given one")
     args = ap.parse_args()
+    if args.rag_k and args.name == "finetuned":
+        args.name = f"finetuned_rag_k{args.rag_k}"
 
     if not os.path.exists(os.path.join(args.adapter, "adapter_config.json")):
         raise SystemExit(f"No adapter in {args.adapter}. Train first, or git pull the saved adapter.")
@@ -48,24 +55,32 @@ def main():
     test = load_jsonl(args.test)
     if args.limit:
         test = test[: args.limit]
+    if args.rag_k:
+        from src.rag import attach_retrieved, rag_prompt
+        test = attach_retrieved(test)
+        make_prompt = lambda ex: rag_prompt(ex, args.rag_k)
+        length = lambda ex: len(" ".join(ex["retrieved"][: args.rag_k]))
+    else:
+        make_prompt = structured
+        length = lambda ex: len(ex["context"])
 
     done = {}
     if os.path.exists(preds_path):
         done = {r["id"]: r for r in load_jsonl(preds_path)}
         print(f"Resuming: {len(done)} of {len(test)} already done")
     todo = [ex for ex in test if ex["id"] not in done]
-    todo.sort(key=lambda ex: len(ex["context"]))   # less padding per batch
+    todo.sort(key=length)   # similar lengths batch together: less padding
 
     if todo:
         print(f"Loading {args.model} + adapter {args.adapter} ...")
         model, tok = load_model(args.model, args.adapter)
         with open(f"results/{tag}_prompt_example.txt", "w", encoding="utf-8") as f:
-            f.write(tok.apply_chat_template(structured(test[0]), tokenize=False, add_generation_prompt=True))
+            f.write(tok.apply_chat_template(make_prompt(test[0]), tokenize=False, add_generation_prompt=True))
         start = time.time()
         with open(preds_path, "a", encoding="utf-8") as f:
             for i in tqdm(range(0, len(todo), args.batch_size), desc=args.name):
                 batch = todo[i : i + args.batch_size]
-                answers = generate_batch(model, tok, [structured(ex) for ex in batch], MAX_NEW_TOKENS)
+                answers = generate_batch(model, tok, [make_prompt(ex) for ex in batch], MAX_NEW_TOKENS)
                 for ex, ans in zip(batch, answers):
                     f.write(json.dumps({"id": ex["id"], "prediction": ans}, ensure_ascii=False) + "\n")
                 f.flush()
@@ -76,6 +91,8 @@ def main():
     scores, per_example = evaluate(test, load_jsonl(preds_path))
     scores["method"] = args.name
     scores["model"] = f"{args.model} + {args.adapter}"
+    if args.rag_k:
+        scores["k"] = args.rag_k
     scores.update(run_totals(tag))
     with open(scores_path, "w", encoding="utf-8") as f:
         json.dump(scores, f, indent=2)
