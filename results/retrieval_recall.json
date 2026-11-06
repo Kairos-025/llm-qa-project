@@ -4,7 +4,7 @@
   "n_questions": 1000,
   "embedding_dim": 384,
   "index_type": "faiss.IndexFlatIP (exact cosine search)",
-  "build_and_search_seconds": 13.2,
+  "build_and_search_seconds": 8.9,
   "device": "Tesla T4",
   "recall": {
     "all": {

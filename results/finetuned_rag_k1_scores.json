@@ -1,0 +1,19 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 72.1,
+  "f1": 74.28,
+  "lenient_accuracy": 73.7,
+  "has_ans_em": 54.36,
+  "has_ans_f1": 58.79,
+  "no_ans_accuracy": 89.35,
+  "bleu": 56.8,
+  "rouge_l": 58.66,
+  "method": "finetuned_rag_k1",
+  "model": "microsoft/Phi-3-mini-4k-instruct + adapters/phi3-squad-lora",
+  "k": 1,
+  "generation_minutes": 6.2,
+  "gpu": "Tesla T4",
+  "max_new_tokens": 48
+}

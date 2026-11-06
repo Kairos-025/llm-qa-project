@@ -1,0 +1,18 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 78.0,
+  "f1": 80.79,
+  "lenient_accuracy": 80.3,
+  "has_ans_em": 67.14,
+  "has_ans_f1": 72.8,
+  "no_ans_accuracy": 88.56,
+  "bleu": 70.52,
+  "rouge_l": 72.75,
+  "method": "finetuned_size1000",
+  "model": "microsoft/Phi-3-mini-4k-instruct + adapters/size1000",
+  "generation_minutes": 5.95,
+  "gpu": "Tesla T4",
+  "max_new_tokens": 48
+}
