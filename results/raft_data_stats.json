@@ -3,7 +3,7 @@
   "questions": "the same 4,000 train / 200 validation questions as Phase 6 (data/ft_*.jsonl)",
   "distractor_source": "top 20 search results over 19029 SQuAD train passages, sentence-transformers/all-MiniLM-L6-v2, exact cosine (FAISS IndexFlatIP)",
   "own_passage_in_top5_search": 73.7,
-  "search_seconds": 58.3,
+  "search_seconds": 48.3,
   "seed": 42,
   "k_choices": {
     "1": 0.3,
