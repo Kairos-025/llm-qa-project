@@ -1,0 +1,171 @@
+method,qtype,n,n_answerable,ans_f1,unans_acc
+baseline,how many,54,25,27.78,13.79
+baseline,how much,16,7,41.28,44.44
+baseline,what,644,309,31.88,2.39
+baseline,which,55,32,32.57,0.0
+baseline,who,66,33,33.0,0.0
+baseline,when,68,39,31.81,0.0
+baseline,where,41,20,31.56,4.76
+baseline,why,14,5,36.48,11.11
+baseline,how,27,13,29.2,0.0
+baseline,other,15,10,31.17,0.0
+cot,how many,54,25,81.33,58.62
+cot,how much,16,7,54.29,22.22
+cot,what,644,309,81.99,24.78
+cot,which,55,32,88.86,17.39
+cot,who,66,33,89.2,24.24
+cot,when,68,39,88.44,44.83
+cot,where,41,20,70.23,9.52
+cot,why,14,5,60.43,22.22
+cot,how,27,13,67.25,35.71
+cot,other,15,10,70.0,40.0
+fewshot1,how many,54,25,63.4,48.28
+fewshot1,how much,16,7,59.92,66.67
+fewshot1,what,644,309,71.36,20.9
+fewshot1,which,55,32,72.64,13.04
+fewshot1,who,66,33,71.35,15.15
+fewshot1,when,68,39,88.87,41.38
+fewshot1,where,41,20,56.19,9.52
+fewshot1,why,14,5,51.45,22.22
+fewshot1,how,27,13,59.83,35.71
+fewshot1,other,15,10,60.95,40.0
+fewshot3,how many,54,25,81.63,55.17
+fewshot3,how much,16,7,67.86,66.67
+fewshot3,what,644,309,80.1,32.24
+fewshot3,which,55,32,84.58,21.74
+fewshot3,who,66,33,78.19,36.36
+fewshot3,when,68,39,91.15,44.83
+fewshot3,where,41,20,54.73,23.81
+fewshot3,why,14,5,53.71,11.11
+fewshot3,how,27,13,65.85,42.86
+fewshot3,other,15,10,55.67,60.0
+fewshot5,how many,54,25,70.93,68.97
+fewshot5,how much,16,7,45.0,77.78
+fewshot5,what,644,309,72.1,53.43
+fewshot5,which,55,32,78.33,47.83
+fewshot5,who,66,33,64.27,45.45
+fewshot5,when,68,39,84.51,68.97
+fewshot5,where,41,20,63.27,28.57
+fewshot5,why,14,5,63.81,66.67
+fewshot5,how,27,13,42.64,71.43
+fewshot5,other,15,10,37.86,100.0
+finetuned_natural,how many,54,25,96.0,82.76
+finetuned_natural,how much,16,7,71.43,88.89
+finetuned_natural,what,644,309,84.21,85.37
+finetuned_natural,which,55,32,79.24,91.3
+finetuned_natural,who,66,33,84.85,90.91
+finetuned_natural,when,68,39,92.31,86.21
+finetuned_natural,where,41,20,87.29,90.48
+finetuned_natural,why,14,5,80.0,66.67
+finetuned_natural,how,27,13,92.31,100.0
+finetuned_natural,other,15,10,70.0,100.0
+finetuned,how many,54,25,98.67,82.76
+finetuned,how much,16,7,71.43,77.78
+finetuned,what,644,309,79.83,90.45
+finetuned,which,55,32,72.99,95.65
+finetuned,who,66,33,75.76,93.94
+finetuned,when,68,39,93.41,82.76
+finetuned,where,41,20,84.02,95.24
+finetuned,why,14,5,59.2,77.78
+finetuned,how,27,13,86.54,92.86
+finetuned,other,15,10,60.0,100.0
+finetuned_rag_k1,how many,54,25,85.33,75.86
+finetuned_rag_k1,how much,16,7,57.14,88.89
+finetuned_rag_k1,what,644,309,57.56,89.55
+finetuned_rag_k1,which,55,32,43.82,91.3
+finetuned_rag_k1,who,66,33,44.24,96.97
+finetuned_rag_k1,when,68,39,83.33,82.76
+finetuned_rag_k1,where,41,20,61.94,90.48
+finetuned_rag_k1,why,14,5,39.2,100.0
+finetuned_rag_k1,how,27,13,51.15,92.86
+finetuned_rag_k1,other,15,10,45.33,100.0
+finetuned_rag_k3,how many,54,25,87.33,65.52
+finetuned_rag_k3,how much,16,7,71.43,77.78
+finetuned_rag_k3,what,644,309,68.23,77.91
+finetuned_rag_k3,which,55,32,67.19,73.91
+finetuned_rag_k3,who,66,33,61.25,78.79
+finetuned_rag_k3,when,68,39,88.1,68.97
+finetuned_rag_k3,where,41,20,54.44,52.38
+finetuned_rag_k3,why,14,5,59.2,77.78
+finetuned_rag_k3,how,27,13,58.8,71.43
+finetuned_rag_k3,other,15,10,45.33,100.0
+finetuned_size1000,how many,54,25,94.67,86.21
+finetuned_size1000,how much,16,7,68.57,100.0
+finetuned_size1000,what,644,309,72.63,89.55
+finetuned_size1000,which,55,32,65.7,78.26
+finetuned_size1000,who,66,33,78.59,84.85
+finetuned_size1000,when,68,39,83.88,79.31
+finetuned_size1000,where,41,20,64.83,90.48
+finetuned_size1000,why,14,5,0.0,100.0
+finetuned_size1000,how,27,13,60.44,92.86
+finetuned_size1000,other,15,10,55.33,100.0
+finetuned_size2000,how many,54,25,93.33,86.21
+finetuned_size2000,how much,16,7,71.43,88.89
+finetuned_size2000,what,644,309,77.2,87.76
+finetuned_size2000,which,55,32,70.31,91.3
+finetuned_size2000,who,66,33,78.59,90.91
+finetuned_size2000,when,68,39,84.62,86.21
+finetuned_size2000,where,41,20,74.3,90.48
+finetuned_size2000,why,14,5,38.18,88.89
+finetuned_size2000,how,27,13,77.56,85.71
+finetuned_size2000,other,15,10,55.33,100.0
+finetuned_size500,how many,54,25,90.67,86.21
+finetuned_size500,how much,16,7,71.43,100.0
+finetuned_size500,what,644,309,70.09,89.55
+finetuned_size500,which,55,32,66.74,78.26
+finetuned_size500,who,66,33,71.35,87.88
+finetuned_size500,when,68,39,83.52,82.76
+finetuned_size500,where,41,20,62.07,95.24
+finetuned_size500,why,14,5,0.0,100.0
+finetuned_size500,how,27,13,54.27,92.86
+finetuned_size500,other,15,10,55.33,100.0
+instructed,how many,54,25,89.16,75.86
+instructed,how much,16,7,67.86,66.67
+instructed,what,644,309,80.7,39.4
+instructed,which,55,32,78.54,39.13
+instructed,who,66,33,81.45,48.48
+instructed,when,68,39,90.04,58.62
+instructed,where,41,20,62.9,33.33
+instructed,why,14,5,72.91,44.44
+instructed,how,27,13,64.29,57.14
+instructed,other,15,10,58.0,100.0
+rag_k1,how many,54,25,83.33,82.76
+rag_k1,how much,16,7,50.71,88.89
+rag_k1,what,644,309,56.26,54.03
+rag_k1,which,55,32,53.91,56.52
+rag_k1,who,66,33,50.9,60.61
+rag_k1,when,68,39,75.4,72.41
+rag_k1,where,41,20,44.23,42.86
+rag_k1,why,14,5,40.5,88.89
+rag_k1,how,27,13,43.99,85.71
+rag_k1,other,15,10,50.0,100.0
+rag_k3,how many,54,25,81.69,75.86
+rag_k3,how much,16,7,65.0,77.78
+rag_k3,what,644,309,59.49,50.75
+rag_k3,which,55,32,63.54,21.74
+rag_k3,who,66,33,61.21,39.39
+rag_k3,when,68,39,76.93,62.07
+rag_k3,where,41,20,46.61,23.81
+rag_k3,why,14,5,45.91,44.44
+rag_k3,how,27,13,54.24,57.14
+rag_k3,other,15,10,45.0,100.0
+rag_k5,how many,54,25,58.77,68.97
+rag_k5,how much,16,7,44.9,77.78
+rag_k5,what,644,309,58.53,42.69
+rag_k5,which,55,32,59.11,26.09
+rag_k5,who,66,33,58.6,42.42
+rag_k5,when,68,39,66.18,65.52
+rag_k5,where,41,20,51.99,28.57
+rag_k5,why,14,5,29.05,55.56
+rag_k5,how,27,13,56.12,57.14
+rag_k5,other,15,10,29.67,80.0
+structured,how many,54,25,89.6,68.97
+structured,how much,16,7,65.0,77.78
+structured,what,644,309,77.89,42.99
+structured,which,55,32,75.42,39.13
+structured,who,66,33,75.39,51.52
+structured,when,68,39,88.45,65.52
+structured,where,41,20,66.34,38.1
+structured,why,14,5,53.24,55.56
+structured,how,27,13,71.11,71.43
+structured,other,15,10,44.0,100.0
