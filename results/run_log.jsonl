@@ -21,3 +21,4 @@
 {"tag": "finetuned_size2000", "n_generated": 1000, "minutes": 6.33, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-05T09:20:51+00:00"}
 {"tag": "raft_rag_k3", "n_generated": 1000, "minutes": 11.05, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-08T09:15:34+00:00"}
 {"tag": "raft_rag_k1", "n_generated": 1000, "minutes": 6.0, "gpu": "Tesla T4", "batch_size": 8, "max_new_tokens": 48, "time_utc": "2026-11-08T09:22:24+00:00"}
+{"tag": "raft_rag_k5", "n_generated": 8, "minutes": 0.36, "gpu": "Tesla T4", "batch_size": 2, "max_new_tokens": 48, "time_utc": "2026-11-08T09:43:30+00:00"}
