@@ -1,0 +1,46 @@
+{
+  "rerank_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "reranked": "the top 10 passages of the Phase 5 search (all-MiniLM-L6-v2 + FAISS) for each question",
+  "pairs_scored": 10000,
+  "seconds": 19.3,
+  "recall_before": {
+    "all": {
+      "recall@1": 60.4,
+      "recall@3": 79.6,
+      "recall@5": 85.2,
+      "recall@10": 90.5
+    },
+    "answerable": {
+      "recall@1": 67.95,
+      "recall@3": 84.18,
+      "recall@5": 90.06,
+      "recall@10": 93.51
+    },
+    "unanswerable": {
+      "recall@1": 53.06,
+      "recall@3": 75.15,
+      "recall@5": 80.47,
+      "recall@10": 87.57
+    }
+  },
+  "recall_after": {
+    "all": {
+      "recall@1": 82.1,
+      "recall@3": 89.5,
+      "recall@5": 89.9,
+      "recall@10": 90.5
+    },
+    "answerable": {
+      "recall@1": 86.0,
+      "recall@3": 92.49,
+      "recall@5": 92.7,
+      "recall@10": 93.51
+    },
+    "unanswerable": {
+      "recall@1": 78.3,
+      "recall@3": 86.59,
+      "recall@5": 87.18,
+      "recall@10": 87.57
+    }
+  }
+}
