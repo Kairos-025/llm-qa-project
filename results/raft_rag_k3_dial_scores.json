@@ -1,0 +1,17 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 73.1,
+  "f1": 75.63,
+  "lenient_accuracy": 75.4,
+  "has_ans_em": 65.92,
+  "has_ans_f1": 71.05,
+  "no_ans_accuracy": 80.08,
+  "bleu": 67.56,
+  "rouge_l": 71.07,
+  "method": "raft_rag_k3_dial",
+  "model": "microsoft/Phi-3-mini-4k-instruct + adapters/raft",
+  "threshold": 0.731059,
+  "threshold_chosen_on": "200 validation questions (data/ft_val.jsonl)"
+}
