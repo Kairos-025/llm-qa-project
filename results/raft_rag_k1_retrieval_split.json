@@ -1,0 +1,19 @@
+{
+  "method": "raft_rag_k1",
+  "k": 1,
+  "answerable_with_correct_passage_retrieved": {
+    "n": 335,
+    "exact_match": 75.52,
+    "f1": 80.78
+  },
+  "answerable_without_correct_passage": {
+    "n": 158,
+    "exact_match": 1.9,
+    "f1": 3.88
+  },
+  "error_sources_on_answerable": {
+    "retrieval_failures": 158,
+    "model_failures_despite_correct_passage": 82,
+    "correct": 253
+  }
+}
