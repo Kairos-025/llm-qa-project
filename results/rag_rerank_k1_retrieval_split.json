@@ -1,0 +1,19 @@
+{
+  "method": "rag_rerank_k1",
+  "k": 1,
+  "answerable_with_correct_passage_retrieved": {
+    "n": 424,
+    "exact_match": 64.86,
+    "f1": 78.71
+  },
+  "answerable_without_correct_passage": {
+    "n": 69,
+    "exact_match": 5.8,
+    "f1": 14.61
+  },
+  "error_sources_on_answerable": {
+    "retrieval_failures": 69,
+    "model_failures_despite_correct_passage": 149,
+    "correct": 275
+  }
+}

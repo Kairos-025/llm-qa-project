@@ -2,7 +2,7 @@
   "rerank_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
   "reranked": "the top 10 passages of the Phase 5 search (all-MiniLM-L6-v2 + FAISS) for each question",
   "pairs_scored": 10000,
-  "seconds": 19.3,
+  "seconds": 19.1,
   "recall_before": {
     "all": {
       "recall@1": 60.4,

@@ -990,3 +990,11 @@
 {"id": "572750e8dd62a815002e9af2", "prediction": "Answer: the desire to prevent things that are indisputably bad – bridge collapses or explosions", "retrieved": ["ctx_00586", "ctx_00361", "ctx_00366"]}
 {"id": "572750e8dd62a815002e9af3", "prediction": "Answer: things that are a matter of custom or expectation, such as isolating businesses to a business district and residences to a residential district", "retrieved": ["ctx_00586", "ctx_00361", "ctx_00344"]}
 {"id": "5ad14816645df0001a2d1543", "prediction": "Answer: unanswerable", "retrieved": ["ctx_00351", "ctx_00362", "ctx_00361"]}
+{"id": "5ad15a11645df0001a2d185a", "prediction": "Answer: unanswerable", "retrieved": ["ctx_00366", "ctx_00337", "ctx_00341"]}
+{"id": "5ad14e86645df0001a2d16e0", "prediction": "Answer: unanswerable", "retrieved": ["ctx_00356", "ctx_00364", "ctx_00346"]}
+{"id": "5ad13b23645df0001a2d12f8", "prediction": "Answer: unanswerable", "retrieved": ["ctx_00346", "ctx_00369", "ctx_00342"]}
+{"id": "5726c5a9f1498d1400e8eac6", "prediction": "Answer: £1", "retrieved": ["ctx_00369", "ctx_00362", "ctx_00366"]}
+{"id": "5ad15a11645df0001a2d1858", "prediction": "Answer: unanswerable", "retrieved": ["ctx_00366", "ctx_00369", "ctx_00360"]}
+{"id": "5726b718dd62a815002e8dbf", "prediction": "Answer: \"trading rules\" that are \"enacted by Member States\" which could hinder trade \"directly or indirectly, actually or potentially\" would be caught by article 34.", "retrieved": ["ctx_00360", "ctx_00361", "ctx_00362"]}
+{"id": "5726ba2c708984140094cf5b", "prediction": "Answer: Konsumentombudsmannen v De Agostini", "retrieved": ["ctx_00362", "ctx_00361", "ctx_00368"]}
+{"id": "5ad139b2645df0001a2d1296", "prediction": "Answer: unanswered", "retrieved": ["ctx_00360", "ctx_00368", "ctx_00361"]}
