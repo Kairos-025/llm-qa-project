@@ -1,0 +1,191 @@
+{
+  "run": "full",
+  "base_model": "microsoft/Phi-3-mini-4k-instruct",
+  "method": "QLoRA (4-bit NF4 base + LoRA adapter)",
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "qkv_proj",
+      "o_proj",
+      "gate_up_proj",
+      "down_proj"
+    ],
+    "bias": "none",
+    "task_type": "CAUSAL_LM"
+  },
+  "training": {
+    "train_examples": 4000,
+    "val_examples": 200,
+    "dropped_too_long": 0,
+    "epochs": 1,
+    "max_steps": null,
+    "optimizer_steps": 250,
+    "batch_size": 4,
+    "grad_accum": 4,
+    "effective_batch": 16,
+    "learning_rate": 0.0002,
+    "scheduler": "cosine",
+    "max_tokens": 1024,
+    "resumed_from_checkpoint": false,
+    "training_data": "data/ft_train.jsonl",
+    "unanswerable_share": 50.0,
+    "seed": 1
+  },
+  "trainable_params": 25165824,
+  "total_params": 3846245376,
+  "trainable_percent": 0.654,
+  "final_train_loss": 0.1408,
+  "final_val_loss": 0.082,
+  "train_minutes": 61.89,
+  "gpu": "Tesla T4",
+  "peak_gpu_memory_gb": 5.46,
+  "adapter_dir": "adapters/seed1",
+  "adapter_size_mb": 50.4,
+  "time_utc": "2026-11-16T11:24:47+00:00",
+  "loss_curve": [
+    {
+      "step": 10,
+      "loss": 0.4006
+    },
+    {
+      "step": 20,
+      "loss": 0.1733
+    },
+    {
+      "step": 30,
+      "loss": 0.1635
+    },
+    {
+      "step": 40,
+      "loss": 0.1272
+    },
+    {
+      "step": 50,
+      "loss": 0.1322
+    },
+    {
+      "step": 50,
+      "eval_loss": 0.1095
+    },
+    {
+      "step": 60,
+      "loss": 0.142
+    },
+    {
+      "step": 70,
+      "loss": 0.1702
+    },
+    {
+      "step": 80,
+      "loss": 0.1456
+    },
+    {
+      "step": 90,
+      "loss": 0.1547
+    },
+    {
+      "step": 100,
+      "loss": 0.1034
+    },
+    {
+      "step": 100,
+      "eval_loss": 0.1025
+    },
+    {
+      "step": 110,
+      "loss": 0.1346
+    },
+    {
+      "step": 120,
+      "loss": 0.1424
+    },
+    {
+      "step": 130,
+      "loss": 0.1028
+    },
+    {
+      "step": 140,
+      "loss": 0.1231
+    },
+    {
+      "step": 150,
+      "loss": 0.1429
+    },
+    {
+      "step": 150,
+      "eval_loss": 0.0891
+    },
+    {
+      "step": 160,
+      "loss": 0.1155
+    },
+    {
+      "step": 170,
+      "loss": 0.144
+    },
+    {
+      "step": 180,
+      "loss": 0.0909
+    },
+    {
+      "step": 190,
+      "loss": 0.1166
+    },
+    {
+      "step": 200,
+      "loss": 0.1373
+    },
+    {
+      "step": 200,
+      "eval_loss": 0.0845
+    },
+    {
+      "step": 210,
+      "loss": 0.0928
+    },
+    {
+      "step": 220,
+      "loss": 0.1144
+    },
+    {
+      "step": 230,
+      "loss": 0.091
+    },
+    {
+      "step": 240,
+      "loss": 0.1354
+    },
+    {
+      "step": 250,
+      "loss": 0.1237
+    },
+    {
+      "step": 250,
+      "eval_loss": 0.082
+    }
+  ],
+  "sanity_check": [
+    {
+      "question": "What does the Iditarod Trail Sled Dog Race commemorate in Alaskan history?",
+      "gold": "the famous 1925 serum run to Nome",
+      "prediction": "Answer: the famous 1925 serum run to Nome"
+    },
+    {
+      "question": "When was Shell listed on the LSE?",
+      "gold": "unanswerable",
+      "prediction": "Answer: unanswerable"
+    },
+    {
+      "question": "What North Ocean was broad in the Jurassic Period?",
+      "gold": "unanswerable",
+      "prediction": "Answer: unanswerable"
+    },
+    {
+      "question": "When was the Rebellion of the Seven States?",
+      "gold": "154 BC",
+      "prediction": "Answer: 154 BC"
+    }
+  ]
+}
