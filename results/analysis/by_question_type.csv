@@ -119,6 +119,16 @@ finetuned_rag_rerank_k3,where,41,20,64.44,61.9
 finetuned_rag_rerank_k3,why,14,5,59.2,88.89
 finetuned_rag_rerank_k3,how,27,13,72.26,85.71
 finetuned_rag_rerank_k3,other,15,10,45.33,100.0
+finetuned_seed1,how many,54,25,96.0,86.21
+finetuned_seed1,how much,16,7,68.57,88.89
+finetuned_seed1,what,644,309,79.82,91.94
+finetuned_seed1,which,55,32,69.87,100.0
+finetuned_seed1,who,66,33,78.79,93.94
+finetuned_seed1,when,68,39,92.23,82.76
+finetuned_seed1,where,41,20,79.17,100.0
+finetuned_seed1,why,14,5,78.18,77.78
+finetuned_seed1,how,27,13,87.65,100.0
+finetuned_seed1,other,15,10,60.0,100.0
 finetuned_size1000,how many,54,25,94.67,86.21
 finetuned_size1000,how much,16,7,68.57,100.0
 finetuned_size1000,what,644,309,72.63,89.55
