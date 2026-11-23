@@ -1,0 +1,19 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 72.9,
+  "f1": 75.15,
+  "lenient_accuracy": 74.6,
+  "has_ans_em": 52.94,
+  "has_ans_f1": 57.51,
+  "no_ans_accuracy": 92.31,
+  "bleu": 55.36,
+  "rouge_l": 57.57,
+  "method": "raft_p90_rag_k1",
+  "model": "microsoft/Phi-3-mini-4k-instruct + adapters/raft_p90",
+  "k": 1,
+  "generation_minutes": 5.77,
+  "gpu": "Tesla T4",
+  "max_new_tokens": 48
+}

@@ -1,0 +1,19 @@
+{
+  "method": "raft_p90_rag_rerank_k5",
+  "k": 5,
+  "answerable_with_correct_passage_retrieved": {
+    "n": 457,
+    "exact_match": 63.24,
+    "f1": 68.02
+  },
+  "answerable_without_correct_passage": {
+    "n": 36,
+    "exact_match": 2.78,
+    "f1": 6.48
+  },
+  "error_sources_on_answerable": {
+    "retrieval_failures": 36,
+    "model_failures_despite_correct_passage": 168,
+    "correct": 289
+  }
+}

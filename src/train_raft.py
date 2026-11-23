@@ -33,6 +33,11 @@ Usage:
     python -m src.eval_finetuned --adapter adapters/raft --name raft_rag_k3 --rag_k 3
     python -m src.eval_finetuned --adapter adapters/raft --name raft_rag_k5 --rag_k 5
 
+  Follow-up (is the over-caution caused by removing the correct passage too often?):
+    python -m src.train_raft prepare --p_oracle 0.9     # remove it from 10% instead of 20%
+    python -m src.train_raft train --name raft_p90      # saves to adapters/raft_p90
+    python -m src.eval_finetuned --adapter adapters/raft_p90 --name raft_p90_rag_k3 --rag_k 3
+
 Creates:
     data/raft_train.jsonl, data/raft_val.jsonl   training / validation examples (rebuilt each session)
     results/raft_data_stats.json                 what the training data looks like
@@ -97,12 +102,12 @@ def search(questions, corpus, depth, embedder=None):
     return idx.tolist()
 
 
-def make_example(ex, own, ranked, corpus, rng):
+def make_example(ex, own, ranked, corpus, rng, p_oracle=P_ORACLE):
     """One RAFT example: k passages (own passage included or not) and its target."""
     k = rng.choices(K_CHOICES, K_WEIGHTS)[0]
     distractors = [j for j in ranked if j != own
                    and len(corpus[j]["text"].split()) <= MAX_DISTRACTOR_WORDS]
-    with_own = rng.random() < P_ORACLE
+    with_own = rng.random() < p_oracle
     chosen = distractors[: k - 1] + [own] if with_own else distractors[:k]
     rng.shuffle(chosen)                         # the correct passage can be anywhere
     out = dict(ex)
@@ -129,7 +134,8 @@ def prepare(args, embedder=None):
     seconds = round(time.time() - start, 1)
 
     rng = random.Random(SEED)
-    built = [make_example(r, pos[r["context"]], ranked[i], corpus, rng) for i, r in enumerate(rows)]
+    p_oracle = getattr(args, "p_oracle", P_ORACLE)
+    built = [make_example(r, pos[r["context"]], ranked[i], corpus, rng, p_oracle) for i, r in enumerate(rows)]
     train, val = built[: len(ft_train)], built[len(ft_train):]
     own_found = sum(pos[r["context"]] in ranked[i][:5] for i, r in enumerate(rows))
     write_jsonl("data/raft_train.jsonl", train)
@@ -155,17 +161,19 @@ def prepare(args, embedder=None):
         "search_seconds": seconds,
         "seed": SEED,
         "k_choices": dict(zip(map(str, K_CHOICES), K_WEIGHTS)),
-        "p_oracle": P_ORACLE,
+        "p_oracle": p_oracle,
         "max_distractor_words": MAX_DISTRACTOR_WORDS,
         "prompt_format": "Phase 5 RAG prompt (src.rag.rag_prompt); target 'Answer: <answer or unanswerable>'",
         "train": stats(train),
         "validation": stats(val),
     }
     os.makedirs("results", exist_ok=True)
-    with open("results/raft_data_stats.json", "w", encoding="utf-8") as f:
+    stats_path = ("results/raft_data_stats.json" if p_oracle == P_ORACLE
+                  else f"results/raft_data_stats_p{round(100 * p_oracle)}.json")
+    with open(stats_path, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print(json.dumps(out, indent=2))
-    print("\nSaved data/raft_train.jsonl, data/raft_val.jsonl and results/raft_data_stats.json")
+    print(f"\nSaved data/raft_train.jsonl, data/raft_val.jsonl and {stats_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -343,7 +351,9 @@ def train(args):
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("prepare")
+    p = sub.add_parser("prepare")
+    p.add_argument("--p_oracle", type=float, default=P_ORACLE,
+                   help="share of examples that show the correct passage (follow-up run: 0.9)")
     t = sub.add_parser("train")
     t.add_argument("--model", default=DEFAULT_MODEL)
     t.add_argument("--tiny", action="store_true", help="quick test on 100 examples, prints a time estimate")

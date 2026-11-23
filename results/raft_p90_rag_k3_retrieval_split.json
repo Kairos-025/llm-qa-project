@@ -1,0 +1,19 @@
+{
+  "method": "raft_p90_rag_k3",
+  "k": 3,
+  "answerable_with_correct_passage_retrieved": {
+    "n": 415,
+    "exact_match": 74.46,
+    "f1": 78.38
+  },
+  "answerable_without_correct_passage": {
+    "n": 78,
+    "exact_match": 5.13,
+    "f1": 7.65
+  },
+  "error_sources_on_answerable": {
+    "retrieval_failures": 78,
+    "model_failures_despite_correct_passage": 106,
+    "correct": 309
+  }
+}

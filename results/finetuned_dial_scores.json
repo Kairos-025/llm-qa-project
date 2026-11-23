@@ -1,0 +1,17 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 82.0,
+  "f1": 84.5,
+  "lenient_accuracy": 84.4,
+  "has_ans_em": 69.98,
+  "has_ans_f1": 75.04,
+  "no_ans_accuracy": 93.69,
+  "bleu": 73.2,
+  "rouge_l": 75.01,
+  "method": "finetuned_dial",
+  "model": "microsoft/Phi-3-mini-4k-instruct + adapters/phi3-squad-lora",
+  "threshold": 0.268941,
+  "threshold_chosen_on": "200 validation questions (data/ft_val.jsonl)"
+}

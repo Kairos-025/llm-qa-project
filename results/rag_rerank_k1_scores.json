@@ -1,0 +1,20 @@
+{
+  "n_total": 1000,
+  "n_answerable": 493,
+  "n_unanswerable": 507,
+  "exact_match": 53.2,
+  "f1": 59.68,
+  "lenient_accuracy": 60.4,
+  "has_ans_em": 56.59,
+  "has_ans_f1": 69.74,
+  "no_ans_accuracy": 49.9,
+  "bleu": 56.38,
+  "rouge_l": 70.97,
+  "method": "rag_rerank_k1",
+  "model": "microsoft/Phi-3-mini-4k-instruct",
+  "k": 1,
+  "retrieval": "Phase 5 top 10, re-ranked with cross-encoder/ms-marco-MiniLM-L6-v2",
+  "generation_minutes": 4.5,
+  "gpu": "Tesla T4",
+  "max_new_tokens": 48
+}

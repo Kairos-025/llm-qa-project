@@ -1,0 +1,40 @@
+{
+  "method": "RAFT (Zhang et al., 2024): train on retrieved passages with distractors",
+  "questions": "the same 4,000 train / 200 validation questions as Phase 6 (data/ft_*.jsonl)",
+  "distractor_source": "top 20 search results over 19029 SQuAD train passages, sentence-transformers/all-MiniLM-L6-v2, exact cosine (FAISS IndexFlatIP)",
+  "own_passage_in_top5_search": 73.7,
+  "search_seconds": 55.3,
+  "seed": 42,
+  "k_choices": {
+    "1": 0.3,
+    "3": 0.4,
+    "5": 0.3
+  },
+  "p_oracle": 0.9,
+  "max_distractor_words": 300,
+  "prompt_format": "Phase 5 RAG prompt (src.rag.rag_prompt); target 'Answer: <answer or unanswerable>'",
+  "train": {
+    "n": 4000,
+    "k_counts": {
+      "1": 1219,
+      "3": 1567,
+      "5": 1214
+    },
+    "oracle_included_share": 90.2,
+    "target_unanswerable_share": 54.7,
+    "answerable_but_oracle_removed": 390,
+    "avg_words_shown": 354.6
+  },
+  "validation": {
+    "n": 200,
+    "k_counts": {
+      "1": 61,
+      "3": 70,
+      "5": 69
+    },
+    "oracle_included_share": 88.5,
+    "target_unanswerable_share": 56.0,
+    "answerable_but_oracle_removed": 23,
+    "avg_words_shown": 368.2
+  }
+}
